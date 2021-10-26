@@ -23,3 +23,5 @@ with open(mainfile) as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         assert len(row) == header_len
+
+# let's create the tables schemas
