@@ -18,6 +18,7 @@ with open(mainfile) as csvfile:
     header = csvfile.readline().split(sep=",")
     print(header)
     header_len = len(header)
+print(type(header))
 
 col_to_check_integrality = set(header[24:47])
 
@@ -68,3 +69,21 @@ console.print(table)
 
 # let's create the tables schemas
 pass
+
+headers = {}
+headers["tournament"] = header[0:5] + header[47:49]
+headers["player"] = [header[7]] + header[9:13]
+headers["match"] = [header[0]] + [header[7]] + [header[14]] + header[21:47]
+
+paths = {}
+paths["tournament"] = Path("data/m_tournament.csv")
+paths["player"] = Path("data/m_player.csv")
+paths["match"] = Path("data/m_match.csv")
+
+with open(mainfile) as source:
+    for key, path in paths.items():
+        with open(path, mode="w") as target:
+            target.write(f"{headers[key]}\n")
+            """
+            for row in csv.DictReader(source):
+                pass"""
