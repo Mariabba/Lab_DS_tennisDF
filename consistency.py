@@ -33,6 +33,8 @@ with open(mainfile) as csvfile:
         st["tot_rows"] += 1
         # let's check all rows are actually header_len (= 49) attributes long.
         assert len(row) == header_len
+        # we also check that `tourney_date` is in the format YYYYMMDD for all rows
+        assert len(str(row["tourney_date"])) == 8
         for key, val in row.items():
             # contiamo quanti values ci sono in tutto
             st["tot_values"] += 1
