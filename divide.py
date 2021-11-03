@@ -77,5 +77,12 @@ with open(file, mode="w") as target:
                             to_app = f"{to_app},{value}"
                 target.write(f"{to_app}\n")
 console.log(f"Wrote to {file} {len(ids)} unique rows")
+
 # testing
 assert len(ids) == len(read_csv(file))
+loser_ids = read_csv(mainfile, low_memory=False)["loser_id"]
+assert len(ids) == len(
+    read_csv(mainfile, low_memory=False)["winner_id"]
+    .append(loser_ids, ignore_index=True)
+    .unique()
+)

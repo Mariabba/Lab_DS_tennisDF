@@ -54,9 +54,9 @@ table.add_column("Shape", justify="left", style="cyan")
 table.add_column("Total values", justify="right", style="green")
 table.add_column("Missing values", justify="right", style="cyan")
 table.add_column("Missing values %", justify="right", style="green")
-table.add_column("Best of sets unique", justify="right", style="cyan")
+table.add_column("`best_of` unique", justify="right", style="cyan")
 table.add_row(
-    f"{shape[0]} rows\n{shape[1]} columns."
+    f"{shape[0]} rows\n{shape[1]} columns.",
     f"{st['tot_values']} (including the missing)",
     f"{st['missing']}",
     f"{round(st['missing']/st['tot_values']*100)}%",
