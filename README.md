@@ -36,4 +36,4 @@ Write a Python program that populates the database GroupIDHWMart with the
 various tables from the .csv les, establishing schema relations as necessary.
 
 
-![](data/Immagine.png)
+![](useful_files/Immagine.png)
