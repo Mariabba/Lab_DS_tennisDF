@@ -65,9 +65,9 @@ def extract_table(
 mainfile = Path("data/inputs/tennis.csv")
 len_mainfile = 186073
 paths = {}
-paths["tournament"] = Path("data/z_tournament.csv")
-paths["player"] = Path("data/z_player.csv")
-paths["match"] = Path("data/z_match.csv")
+paths["tournament"] = Path("data/tournaments.csv")
+paths["player"] = Path("data/work/players.csv")
+paths["match"] = Path("data/matches.csv")
 console = Console()
 
 # make Player table

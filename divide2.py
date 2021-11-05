@@ -7,12 +7,10 @@ from rich.progress import track
 from rich.table import Table
 
 len_playersfile = 10074
-players = Path("data/z_player.csv")
+players = Path("data/work/players.csv")
 males = Path("data/inputs/male_players.csv")
 females = Path("data/inputs/female_players.csv")
 console = Console()
-countries = Path("data/inputs/countries.csv")
-countries_target = Path("data/z_countries_with_lang.csv")
 
 
 def assign_gender(players: Path, males: Path, females: Path) -> tuple:
@@ -20,7 +18,9 @@ def assign_gender(players: Path, males: Path, females: Path) -> tuple:
     Takes 3 paths objects and returns a tuple of two int (int, int) representing how many
     males and how many females were found.
     """
-    target_file = Path("data/z_player_with_g.csv")
+    target_file = Path("data/players.csv")
+    with open("data/log.md", mode="a") as log:
+        log.write(f"{target_file} is with `gender`.\n")
     files = (males, females)
     sets = {}
 
@@ -65,6 +65,13 @@ assign_gender(players, males, females)
 
 # make Geography table
 additional = Path("data/inputs/countryinfo.tsv")
+countries = Path("data/inputs/countries.csv")
+countries_target = Path("data/countries.csv")
+
+with open("data/log.md", mode="a") as log:
+    log.write(
+        f"{countries_target} is with `language` (language codes) based on `country_name`.\n"
+    )
 
 languages_dict = {}
 with open(additional) as adds:
