@@ -17,9 +17,9 @@ def extract_header(mainfile: Path, table: str) -> list:
     if table == "tournament":
         return header[0:5] + header[47:49]
     if table == "player_winner":
-        return [header[7]] + header[9:13]
+        return [header[7]] + header[9:14] + [header[5]]
     if table == "player_loser":
-        return [header[14]] + header[16:20]
+        return [header[14]] + header[16:21] + [header[5]]
     if table == "match":
         return ["match_id"] + [header[0]] + header[6:8] + [header[14]] + header[21:47]
 
@@ -75,7 +75,7 @@ console = Console()
 file = paths["player"]
 header_winner = extract_header(mainfile, "player_winner")
 header_loser = extract_header(mainfile, "player_loser")
-header = ["player_id", "name", "hand", "ht", "country_id"]
+header = ["tourney_date", "player_id", "name", "hand", "ht", "country_id", "age"]
 
 console.log(f"Extracting {file}\nwith header: {header}…")
 ids = set()

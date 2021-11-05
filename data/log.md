@@ -1,2 +1,3 @@
-- `data/players.csv` is with `gender`.
+- `data/work/players_with_g.csv` is with `gender`.
+- `data/players.csv` is with `yob` (year of birth).
 - `data/countries.csv` is with `language` (language **codes**) based on `country_name`.

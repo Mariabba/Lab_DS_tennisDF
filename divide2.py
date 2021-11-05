@@ -1,4 +1,5 @@
 import csv
+import datetime
 from pathlib import Path
 
 from rich import print
@@ -62,9 +63,27 @@ def assign_gender(players: Path, males: Path, females: Path) -> None:
 def assign_yob(players: Path):
     target_file = Path("data/players.csv")
     with open("data/log.md", mode="a") as log:
-        log.write(f"- `{target_file}` is with `gender`.\n")
-    files = (males, females)
-    sets = {}
+        log.write(f"- `{target_file}` is with `yob` (year of birth).\n")
+    with open(players) as source:
+        reader = csv.DictReader(source)
+        columns = reader.fieldnames + ["yob"]
+        with open(target_file, mode="w") as target:
+            writer = csv.DictWriter(target, fieldnames=columns)
+            writer.writeheader()
+            for row in reader:
+                if row["age"] and row["tourney_date"]:
+                    my_date = row["tourney_date"]
+                    my_days = round(float(row["age"]) * 365)
+                    row["yob"] = (
+                        datetime.date(
+                            year=int(my_date[:4]),
+                            month=int(my_date[4:6]),
+                            day=int(my_date[6:]),
+                        )
+                        - datetime.timedelta(days=my_days)
+                    )
+                writer.writerow(row)
+    console.log(f"Wrote year of birth `yob` to {target_file}.")
 
 
 assign_gender(Path("data/work/players.csv"), males, females)
