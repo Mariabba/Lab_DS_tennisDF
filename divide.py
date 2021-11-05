@@ -28,7 +28,7 @@ def extract_header(mainfile: Path, table: str) -> list:
 def extract_table(
     mainfile: Path, file: Path, header: list, len_mainfile: int = 186073
 ) -> set:
-    console.log(f"Extracting {file}\nwith header: {header}")
+    console.log(f"Extracting {file}\nwith header: {header}…")
     ids = set()
     with open(file, mode="w") as target:
         target.write(f"{','.join(header)}\n")
@@ -57,7 +57,7 @@ def extract_table(
                     # add gender here
                     pass
                     target.write(f"{to_app[1:]}\n")  # [1:] to eliminate the first comma
-    console.log(f"Wrote to {file} {len(ids)} unique rows")
+    console.log(f"Wrote to {file} {len(ids)} unique rows.")
     return ids
 
 
@@ -76,7 +76,7 @@ header_winner = extract_header(mainfile, "player_winner")
 header_loser = extract_header(mainfile, "player_loser")
 header = ["player_id", "name", "hand", "ht", "country_id"]
 
-console.log(f"Extracting {file}\nwith header: {header}")
+console.log(f"Extracting {file}\nwith header: {header}…")
 ids = set()
 with open(file, mode="w") as target:
     target.write(f"{','.join(header)}\n")
@@ -119,9 +119,10 @@ with open(file, mode="w") as target:
                 # add gender here
                 pass
                 target.write(f"{to_app[1:]}\n")  # [1:] to eliminate the first comma
-console.log(f"Wrote to {file} {len(ids)} unique rows")
+console.log(f"Wrote to {file} {len(ids)} unique rows.")
 
 # start testing
+console.log(f"Testing {file}…")
 from pandas import read_csv
 
 # did we write the csvs correctly?
@@ -133,6 +134,7 @@ assert len(ids) == len(
     .append(loser_ids, ignore_index=True)
     .unique()
 )
+console.log(f"Tests done on {file}.")
 # end testing
 
 # make Tournament table
@@ -141,10 +143,12 @@ header = extract_header(mainfile, "tournament")
 ids = extract_table(mainfile, file, header, len_mainfile)
 
 # start testing
+console.log(f"Testing {file}…")
 # did we write the csvs correctly?
 assert len(ids) == len(read_csv(file))
 # did we get as many unique rows as source?
 assert len(ids) == len(read_csv(mainfile, low_memory=False)["tourney_id"].unique())
+console.log(f"Tests done on {file}.")
 # end testing
 
 

@@ -33,11 +33,11 @@ def assign_gender(players: Path, males: Path, females: Path) -> tuple:
                 name = f"{row['name']} {row['surname']}"
                 sets[gender_file.stem].add(name)
     console.log(f"Read gender from {files}.")
-    console.log(f"Writing `gender` into {target_file} of {len_playersfile} players.")
 
     female_count = 0
     missing_count = 0
     male_count = 0
+    console.log(f"Writing `gender` into {target_file} of {len_playersfile} players…")
     with open(target_file, mode="w") as target:
         with open(players) as source:
             target.write(f"{source.readline()[:-1]},gender\n")
