@@ -62,7 +62,7 @@ def extract_table(
 
 
 # let's create the tables schemas
-mainfile = Path("data/tennis.csv")
+mainfile = Path("data/inputs/tennis.csv")
 len_mainfile = 186073
 paths = {}
 paths["tournament"] = Path("data/z_tournament.csv")
@@ -78,7 +78,6 @@ header = ["player_id", "name", "hand", "ht", "country_id"]
 
 console.log(f"Extracting {file}\nwith header: {header}")
 ids = set()
-# for csv_key, path in paths.items():
 with open(file, mode="w") as target:
     target.write(f"{','.join(header)}\n")
     with open(mainfile) as source:

@@ -8,10 +8,10 @@ from rich.table import Table
 
 len_playersfile = 10074
 players = Path("data/z_player.csv")
-males = Path("data/male_players.csv")
-females = Path("data/female_players.csv")
+males = Path("data/inputs/male_players.csv")
+females = Path("data/inputs/female_players.csv")
 console = Console()
-countries = Path("data/countries.csv")
+countries = Path("data/inputs/countries.csv")
 countries_target = Path("data/z_countries_with_lang.csv")
 
 
@@ -64,7 +64,7 @@ def assign_gender(players: Path, males: Path, females: Path) -> tuple:
 assign_gender(players, males, females)
 
 # make Geography table
-additional = Path("data/countryinfo.tsv")
+additional = Path("data/inputs/countryinfo.tsv")
 
 languages_dict = {}
 with open(additional) as adds:
