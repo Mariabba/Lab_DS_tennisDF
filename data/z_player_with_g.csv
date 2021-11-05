@@ -1,75 +1,75 @@
-id, name, hand, ht, ioc,gender
-105453,Kei Nishikori,R,178.0,JPN,M
-106421,Daniil Medvedev,R,198.0,RUS,M
-104542,Jo-Wilfried Tsonga,R,188.0,FRA,
-104871,Jeremy Chardy,R,188.0,FRA,M
-200282,Alex De Minaur,R,183.0,AUS,M
-105683,Milos Raonic,R,196.0,CAN,M
+player_id,name,hand,ht,country_id,gender
+105453,Kei Nishikori,R,178,JPN,M
+106421,Daniil Medvedev,R,198,RUS,M
+104542,Jo-Wilfried Tsonga,R,188,FRA,
+104871,Jeremy Chardy,R,188,FRA,M
+200282,Alex De Minaur,R,183,AUS,M
+105683,Milos Raonic,R,196,CAN,M
 106034,Yasutaka Uchiyama,R,,JPN,M
-105777,Grigor Dimitrov,R,188.0,BUL,M
+105777,Grigor Dimitrov,R,188,BUL,M
 106121,Taro Daniel,R,,JPN,M
-111442,Jordan Thompson,R,183.0,AUS,M
-104918,Andy Murray,R,190.0,GBR,M
-200175,Miomir Kecmanovic,R,183.0,SRB,M
-106401,Nick Kyrgios,R,193.0,AUS,M
-106378,Kyle Edmund,R,188.0,GBR,M
-105357,John Millman,R,183.0,AUS,M
-106045,Denis Kudla,R,180.0,USA,M
+111442,Jordan Thompson,R,183,AUS,M
+104918,Andy Murray,R,190,GBR,M
+200175,Miomir Kecmanovic,R,183,SRB,M
+106401,Nick Kyrgios,R,193,AUS,M
+106378,Kyle Edmund,R,188,GBR,M
+105357,John Millman,R,183,AUS,M
+106045,Denis Kudla,R,180,USA,M
 106423,Thanasi Kokkinakis,R,,AUS,M
 106109,Alex Bolt,L,,AUS,M
-200615,Alexei Popyrin,R,196.0,AUS,M
-105902,James Duckworth,R,183.0,AUS,M
-104919,Leonardo Mayer,R,188.0,ARG,M
-105379,Aljaz Bedene,R,181.0,SLO,M
-105992,Ryan Harrison,R,183.0,USA,M
-105526,Jan Lennard Struff,R,193.0,GER,M
-200005,Ugo Humbert,L,188.0,FRA,M
-106415,Yoshihito Nishioka,L,170.0,JPN,M
-105815,Tennys Sandgren,R,188.0,USA,M
-126203,Taylor Fritz,R,193.0,USA,
+200615,Alexei Popyrin,R,196,AUS,M
+105902,James Duckworth,R,183,AUS,M
+104919,Leonardo Mayer,R,188,ARG,M
+105379,Aljaz Bedene,R,181,SLO,M
+105992,Ryan Harrison,R,183,USA,M
+105526,Jan Lennard Struff,R,193,GER,M
+200005,Ugo Humbert,L,188,FRA,M
+106415,Yoshihito Nishioka,L,170,JPN,M
+105815,Tennys Sandgren,R,188,USA,M
+126203,Taylor Fritz,R,193,USA,
 215018,Destanee Aiava,R,,AUS,F
-201540,Kristina Mladenovic,R,184.0,FRA,F
+201540,Kristina Mladenovic,R,184,FRA,F
 211279,Harriet Dart,R,,GBR,F
 211880,Priscilla Hon,R,,AUS,F
 201545,Anastasija Sevastova,R,,LAT,F
-201611,Daria Gavrilova,R,166.0,AUS,F
-201520,Petra Kvitova,L,183.0,CZE,F
-203389,Danielle Rose Collins,R,178.0,USA,F
-204426,Anett Kontaveit,R,174.0,EST,F
-201521,Carla Suarez Navarro,R,162.0,ESP,F
-201615,Lesia Tsurenko,R,174.0,UKR,F
+201611,Daria Gavrilova,R,166,AUS,F
+201520,Petra Kvitova,L,183,CZE,F
+203389,Danielle Rose Collins,R,178,USA,F
+204426,Anett Kontaveit,R,174,EST,F
+201521,Carla Suarez Navarro,R,162,ESP,F
+201615,Lesia Tsurenko,R,174,UKR,F
 202596,Mihaela Buzarnescu,L,,ROU,F
 214040,Kimberly Birrell,U,,AUS,F
-214082,Darya Kasatkina,R,170.0,RUS,F
-201662,Karolina Pliskova,R,184.0,CZE,F
-201709,Yulia Putintseva,R,163.0,KAZ,F
-213631,Marie Bouzkova,R,180.0,CZE,F
-201325,Samantha Stosur,R,172.0,AUS,F
+214082,Darya Kasatkina,R,170,RUS,F
+201662,Karolina Pliskova,R,184,CZE,F
+201709,Yulia Putintseva,R,163,KAZ,F
+213631,Marie Bouzkova,R,180,CZE,F
+201325,Samantha Stosur,R,172,AUS,F
 201548,Ajla Tomljanovic,R,,AUS,F
-211701,Katerina Siniakova,R,174.0,CZE,F
-202427,Johanna Konta,R,180.0,GBR,F
-201585,Sloane Stephens,R,170.0,USA,F
-202428,Kiki Bertens,R,182.0,NED,F
-210722,Elise Mertens,R,179.0,BEL,F
+211701,Katerina Siniakova,R,174,CZE,F
+202427,Johanna Konta,R,180,GBR,F
+201585,Sloane Stephens,R,170,USA,F
+202428,Kiki Bertens,R,182,NED,F
+210722,Elise Mertens,R,179,BEL,F
 202499,Donna Vekic,R,,CRO,F
-201517,Magdalena Rybarikova,R,180.0,SVK,F
+201517,Magdalena Rybarikova,R,180,SVK,F
 205925,Aliaksandra Sasnovich,R,,BLR,F
 215713,Anastasia Potapova,R,,RUS,F
-211768,Naomi Osaka,R,180.0,JPN,F
-202494,Elina Svitolina,R,174.0,UKR,F
+211768,Naomi Osaka,R,180,JPN,F
+202494,Elina Svitolina,R,174,UKR,F
 106216,Bjorn Fratangelo,R,,USA,M
 117360,Marc Polmans,R,,AUS,M
-124187,Reilly Opelka,R,211.0,USA,M
-105166,Peter Polansky,R,180.0,CAN,M
-106426,Cristian Garin,R,185.0,CHI,
-106331,Christopher O'Connell,R,183.0,AUS,
+124187,Reilly Opelka,R,211,USA,M
+105166,Peter Polansky,R,180,CAN,M
+106426,Cristian Garin,R,185,CHI,
+106331,Christopher O'Connell,R,183,AUS,
 105974,Maverick Banes,R,,AUS,M
 105441,John Patrick Smith,L,,AUS,M
 134329,Blake Ellis,U,,AUS,M
 111153,Christopher Eubanks,R,,USA,M
-105614,Bradley Klahn,L,190.0,USA,M
+105614,Bradley Klahn,L,190,USA,M
 216146,Marta Kostyuk,R,,UKR,F
-201586,Heather Watson,R,170.0,GBR,F
+201586,Heather Watson,R,170,GBR,F
 202424,Conny Perrin,R,,SUI,F
 203530,Viktorija Golubic,R,,SUI,F
 206362,Naiktha Bains,R,,AUS,F
@@ -78,264 +78,264 @@ id, name, hand, ht, ioc,gender
 203462,Kateryna Kozlova,R,,UKR,F
 213530,Allie Kiick,R,,USA,F
 214452,Caroline Dolehide,R,,USA,F
-201556,Lucie Hradecka,R,177.0,CZE,F
+201556,Lucie Hradecka,R,177,CZE,F
 215337,Olga Danilovic,L,,SRB,F
-201492,Andrea Petkovic,R,180.0,GER,F
+201492,Andrea Petkovic,R,180,GER,F
 214863,Sofya Zhuk,R,,RUS,F
 202484,Nicole Gibbs,R,,USA,F
 211941,Zoe Hives,U,,AUS,F
-201518,Yanina Wickmayer,R,182.0,BEL,F
-214096,Karolina Muchova,R,178.0,CZE,F
+201518,Yanina Wickmayer,R,182,BEL,F
+214096,Karolina Muchova,R,178,CZE,F
 211878,Lizette Cabrera,R,,AUS,F
-215035,Dayana Yastremska,R,175.0,UKR,F
-201478,Varvara Lepchenko,L,180.0,USA,F
-201605,Mandy Minella,R,180.0,LUX,F
-201597,Kurumi Nara,R,155.0,JPN,F
-201447,Vania King,R,165.0,USA,F
+215035,Dayana Yastremska,R,175,UKR,F
+201478,Varvara Lepchenko,L,180,USA,F
+201605,Mandy Minella,R,180,LUX,F
+201597,Kurumi Nara,R,155,JPN,F
+201447,Vania King,R,165,USA,F
 202600,Viktoriya Tomova,R,,BUL,F
-206108,Jennifer Brady,R,178.0,USA,F
-201539,Christina Mchale,R,170.0,USA,F
+206108,Jennifer Brady,R,178,USA,F
+201539,Christina Mchale,R,170,USA,F
 202434,Aleksandra Krunic,R,,SRB,F
-105138,Roberto Bautista Agut,R,183.0,ESP,M
-104607,Tomas Berdych,R,196.0,CZE,M
-104925,Novak Djokovic,R,188.0,SRB,M
-106065,Marco Cecchinato,R,185.0,ITA,M
-105932,Nikoloz Basilashvili,R,185.0,GEO,M
-104527,Stan Wawrinka,R,183.0,SUI,
-105583,Dusan Lajovic,R,180.0,SRB,M
-105732,Pierre Hugues Herbert,R,188.0,FRA,M
-105916,Marton Fucsovics,R,188.0,HUN,M
-126094,Andrey Rublev,R,188.0,RUS,M
+105138,Roberto Bautista Agut,R,183,ESP,M
+104607,Tomas Berdych,R,196,CZE,M
+104925,Novak Djokovic,R,188,SRB,M
+106065,Marco Cecchinato,R,185,ITA,M
+105932,Nikoloz Basilashvili,R,185,GEO,M
+104527,Stan Wawrinka,R,183,SUI,
+105583,Dusan Lajovic,R,180,SRB,M
+105732,Pierre Hugues Herbert,R,188,FRA,M
+105916,Marton Fucsovics,R,188,HUN,M
+126094,Andrey Rublev,R,188,RUS,M
 111797,Nicolas Jarry,R,,CHI,M
-104198,Guillermo Garcia Lopez,R,188.0,ESP,M
-105575,Ricardas Berankis,R,175.0,LTU,M
-105550,Guido Pella,L,185.0,ARG,M
-104269,Fernando Verdasco,L,188.0,ESP,M
+104198,Guillermo Garcia Lopez,R,188,ESP,M
+105575,Ricardas Berankis,R,175,LTU,M
+105550,Guido Pella,L,185,ARG,M
+104269,Fernando Verdasco,L,188,ESP,M
 109739,Maximilian Marterer,L,,GER,M
-106000,Damir Dzumhur,R,172.0,BIH,M
-105657,Marius Copil,R,193.0,ROU,M
-104312,Andreas Seppi,R,190.0,ITA,M
-105077,Albert Ramos,L,188.0,ESP,M
-111575,Karen Khachanov,R,198.0,RUS,M
-104898,Robin Haase,R,190.0,NED,M
+106000,Damir Dzumhur,R,172,BIH,M
+105657,Marius Copil,R,193,ROU,M
+104312,Andreas Seppi,R,190,ITA,M
+105077,Albert Ramos,L,188,ESP,M
+111575,Karen Khachanov,R,198,RUS,M
+104898,Robin Haase,R,190,NED,M
 122570,Mubarak Shannan Zayid,U,,QAT,M
-126610,Matteo Berrettini,R,196.0,ITA,M
-105676,David Goffin,R,180.0,BEL,M
-105173,Adrian Mannarino,L,183.0,FRA,M
+126610,Matteo Berrettini,R,196,ITA,M
+105676,David Goffin,R,180,BEL,M
+105173,Adrian Mannarino,L,183,FRA,M
 117356,Cem Ilkel,R,,TUR,M
-104660,Sergiy Stakhovsky,R,193.0,UKR,M
-103893,Paolo Lorenzi,R,183.0,ITA,M
-104259,Philipp Kohlschreiber,R,178.0,GER,M
-105376,Peter Gojowczyk,R,185.0,GER,M
-106233,Dominic Thiem,R,185.0,AUT,M
+104660,Sergiy Stakhovsky,R,193,UKR,M
+103893,Paolo Lorenzi,R,183,ITA,M
+104259,Philipp Kohlschreiber,R,178,GER,M
+105376,Peter Gojowczyk,R,185,GER,M
+106233,Dominic Thiem,R,185,AUT,M
 110602,Dennis Novak,R,,AUT,M
 106325,Jabor Al Mutawa,U,,QAT,M
-104571,Marcos Baghdatis,R,183.0,CYP,M
-104586,Lukas Rosol,R,196.0,CZE,M
-104868,James Ward,R,190.0,GBR,M
+104571,Marcos Baghdatis,R,183,CYP,M
+104586,Lukas Rosol,R,196,CZE,M
+104868,James Ward,R,190,GBR,M
 126237,Gian Marco Moroni,R,,ITA,M
 105806,Mirza Basic,R,,BIH,M
-104897,Matthias Bachinger,R,188.0,GER,M
+104897,Matthias Bachinger,R,188,GER,M
 105477,Marco Trungelliti,R,,ARG,M
 110476,Mousa Shanan Zayed,U,,QAT,M
 105063,Andrea Arnaboldi,L,,ITA,M
-104731,Kevin Anderson,R,203.0,RSA,M
-103333,Ivo Karlovic,R,208.0,CRO,M
-104468,Gilles Simon,R,183.0,FRA,M
-104327,Steve Darcis,R,178.0,BEL,M
-144719,Jaume Munar,R,183.0,ESP,M
-105332,Benoit Paire,R,196.0,FRA,M
-104291,Malek Jaziri,R,185.0,TUN,M
-105208,Ernests Gulbis,R,190.0,LAT,M
-111513,Laslo Djere,R,188.0,SRB,M
-104620,Simone Bolelli,R,183.0,ITA,M
-125802,Ilya Ivashka,R,193.0,BLR,M
-106210,Jiri Vesely,L,198.0,CZE,M
+104731,Kevin Anderson,R,203,RSA,M
+103333,Ivo Karlovic,R,208,CRO,M
+104468,Gilles Simon,R,183,FRA,M
+104327,Steve Darcis,R,178,BEL,M
+144719,Jaume Munar,R,183,ESP,M
+105332,Benoit Paire,R,196,FRA,M
+104291,Malek Jaziri,R,185,TUN,M
+105208,Ernests Gulbis,R,190,LAT,M
+111513,Laslo Djere,R,188,SRB,M
+104620,Simone Bolelli,R,183,ITA,M
+125802,Ilya Ivashka,R,193,BLR,M
+106210,Jiri Vesely,L,198,CZE,M
 111581,Michael Mmoh,R,,USA,M
 106368,Ramkumar Ramanathan,R,,IND,M
-105539,Evgeny Donskoy,R,185.0,RUS,M
+105539,Evgeny Donskoy,R,185,RUS,M
 111202,Hyeon Chung,R,,KOR,M
 111459,Arjun Kadhe,R,,IND,M
-104797,Denis Istomin,R,188.0,UZB,M
-105430,Radu Albot,R,175.0,MDA,M
-128034,Hubert Hurkacz,R,196.0,POL,M
+104797,Denis Istomin,R,188,UZB,M
+105430,Radu Albot,R,175,MDA,M
+128034,Hubert Hurkacz,R,196,POL,M
 126156,Antoine Hoang,R,,FRA,
-106329,Thiago Monteiro,L,183.0,BRA,M
-106148,Roberto Carballes Baena,R,183.0,ESP,M
+106329,Thiago Monteiro,L,183,BRA,M
+106148,Roberto Carballes Baena,R,183,ESP,M
 105432,Prajnesh Gunneswaran,L,,IND,M
-104719,Marcel Granollers,R,190.0,ESP,M
-104665,Pablo Andujar,R,180.0,ESP,M
-200000,Felix Auger Aliassime,R,193.0,CAN,M
-105155,Pedro Sousa,R,180.0,POR,M
-106078,Egor Gerasimov,R,196.0,BLR,M
-104593,Daniel Gimeno Traver,R,185.0,ESP,M
+104719,Marcel Granollers,R,190,ESP,M
+104665,Pablo Andujar,R,180,ESP,M
+200000,Felix Auger Aliassime,R,193,CAN,M
+105155,Pedro Sousa,R,180,POR,M
+106078,Egor Gerasimov,R,196,BLR,M
+104593,Daniel Gimeno Traver,R,185,ESP,M
 105031,Saketh Myneni,R,,IND,M
 105359,Jason Jung,R,,TPE,M
-105413,Andrej Martin,R,180.0,SVK,M
-104978,Daniel Brands,R,196.0,GER,M
+105413,Andrej Martin,R,180,SVK,M
+104978,Daniel Brands,R,196,GER,M
 111790,Brayden Schnur,R,,CAN,M
 124116,Sebastian Ofner,R,,AUT,M
 105074,Ruben Bemelmans,L,,BEL,M
 106420,Gianluigi Quinzi,L,,ITA,M
 124154,Sasi Kumar Mukund,R,,IND,M
 105656,Marcelo Arevalo,R,,ESA,M
-111815,Cameron Norrie,L,188.0,GBR,M
-105807,Pablo Carreno Busta,R,188.0,ESP,M
-104926,Fabio Fognini,R,178.0,ITA,M
-104545,John Isner,R,206.0,USA,M
-105311,Joao Sousa,R,185.0,POR,M
-103970,David Ferrer,R,175.0,ESP,M
-104907,Jose Rubin Statham,R,183.0,NZL,M
-133430,Denis Shapovalov,L,185.0,CAN,M
-105449,Steve Johnson,R,188.0,USA,M
+111815,Cameron Norrie,L,188,GBR,M
+105807,Pablo Carreno Busta,R,188,ESP,M
+104926,Fabio Fognini,R,178,ITA,M
+104545,John Isner,R,206,USA,M
+105311,Joao Sousa,R,185,POR,M
+103970,David Ferrer,R,175,ESP,M
+104907,Jose Rubin Statham,R,183,NZL,M
+133430,Denis Shapovalov,L,185,CAN,M
+105449,Steve Johnson,R,188,USA,M
 111456,Mackenzie McDonald,R,,USA,
-104655,Pablo Cuevas,R,180.0,URU,M
-104547,Horacio Zeballos,L,188.0,ARG,M
+104655,Pablo Cuevas,R,180,URU,M
+104547,Horacio Zeballos,L,188,ARG,M
 105047,Tim Puetz,R,,GER,M
-103565,Stephane Robert,R,185.0,FRA,M
+103565,Stephane Robert,R,185,FRA,M
 104667,Philipp Oswald,R,,AUT,M
 105341,Thomas Fabbiano,R,,ITA,M
 110686,Finn Tearney,R,,NZL,M
 109054,Daniel Masur,R,,GER,M
 105406,Roberto Marcora,R,,ITA,M
 208055,Ajeet Rai,R,,NZL,M
-105015,Franko Skugor,R,193.0,CRO,
-106043,Diego Schwartzman,R,170.0,ARG,
-126774,Stefanos Tsitsipas,R,193.0,GRE,M
+105015,Franko Skugor,R,193,CRO,
+106043,Diego Schwartzman,R,170,ARG,
+126774,Stefanos Tsitsipas,R,193,GRE,M
 105819,Guido Andreozzi,R,,ARG,M
-105373,Martin Klizan,L,190.0,SVK,M
-105023,Sam Querrey,R,198.0,USA,M
-105051,Matthew Ebden,R,188.0,AUS,M
-106298,Lucas Pouille,R,185.0,FRA,M
-126207,Frances Tiafoe,R,188.0,USA,
-202429,Camila Giorgi,R,168.0,ITA,F
-201444,Su Wei Hsieh,R,169.0,TPE,F
-214544,Aryna Sabalenka,R,182.0,BLR,F
+105373,Martin Klizan,L,190,SVK,M
+105023,Sam Querrey,R,198,USA,M
+105051,Matthew Ebden,R,188,AUS,M
+106298,Lucas Pouille,R,185,FRA,M
+126207,Frances Tiafoe,R,188,USA,
+202429,Camila Giorgi,R,168,ITA,F
+201444,Su Wei Hsieh,R,169,TPE,F
+214544,Aryna Sabalenka,R,182,BLR,F
 201490,Timea Bacsinszky,R,,SUI,F
-201495,Dominika Cibulkova,R,161.0,SVK,F
+201495,Dominika Cibulkova,R,161,SVK,F
 213583,Tatjana Maria,R,,GER,F
-202469,Garbine Muguruza,R,182.0,ESP,F
-206420,Ekaterina Alexandrova,R,175.0,RUS,F
-201620,Monica Puig,R,170.0,PUR,F
-202458,Ashleigh Barty,R,166.0,AUS,F
-211533,Jelena Ostapenko,R,177.0,LAT,F
-201493,Angelique Kerber,L,173.0,GER,F
-201594,Simona Halep,R,168.0,ROU,F
+202469,Garbine Muguruza,R,182,ESP,F
+206420,Ekaterina Alexandrova,R,175,RUS,F
+201620,Monica Puig,R,170,PUR,F
+202458,Ashleigh Barty,R,166,AUS,F
+211533,Jelena Ostapenko,R,177,LAT,F
+201493,Angelique Kerber,L,173,GER,F
+201594,Simona Halep,R,168,ROU,F
 106186,Jason Kubler,R,,AUS,M
-201527,Stefanie Voegele,R,170.0,SUI,F
+201527,Stefanie Voegele,R,170,SUI,F
 214956,Miriam Kolodziejova,R,,CZE,F
 205923,Abbie Myers,R,,AUS,F
-213666,Maddison Inglis,R,171.0,AUS,F
-201610,Zarina Diyas,R,172.0,KAZ,F
-201366,Barbora Zahlavova Strycova,R,164.0,CZE,F
+213666,Maddison Inglis,R,171,AUS,F
+201610,Zarina Diyas,R,172,KAZ,F
+201366,Barbora Zahlavova Strycova,R,164,CZE,F
 215811,Alexandra Bozovic,U,,AUS,F
 205815,Eri Hozumi,R,,JPN,F
-201318,Bethanie Mattek Sands,R,168.0,USA,F
-214461,Tamara Zidansek,R,168.0,SLO,F
-104745,Rafael Nadal,L,185.0,ESP,M
-103819,Roger Federer,R,185.0,SUI,M
-100644,Alexander Zverev,R,198.0,GER,M
-105227,Marin Cilic,R,198.0,CRO,M
-106432,Borna Coric,R,188.0,CRO,M
-105936,Filip Krajinovic,R,185.0,SRB,M
-104792,Gael Monfils,R,193.0,FRA,M
+201318,Bethanie Mattek Sands,R,168,USA,F
+214461,Tamara Zidansek,R,168,SLO,F
+104745,Rafael Nadal,L,185,ESP,M
+103819,Roger Federer,R,185,SUI,M
+100644,Alexander Zverev,R,198,GER,M
+105227,Marin Cilic,R,198,CRO,M
+106432,Borna Coric,R,188,CRO,M
+105936,Filip Krajinovic,R,185,SRB,M
+104792,Gael Monfils,R,193,FRA,M
 106283,Mitchell Krueger,R,,USA,M
-105554,Daniel Evans,R,175.0,GBR,M
+105554,Daniel Evans,R,175,GBR,M
 111794,Kamil Majchrzak,R,,POL,M
-104678,Viktor Troicki,R,193.0,SRB,M
-144750,Lloyd Harris,R,193.0,RSA,
+104678,Viktor Troicki,R,193,SRB,M
+144750,Lloyd Harris,R,193,RSA,
 200484,Rudolf Molleker,R,,GER,M
-105882,Stefano Travaglia,R,185.0,ITA,M
+105882,Stefano Travaglia,R,185,ITA,M
 104563,Luca Vanni,R,,ITA,M
 105967,Henri Laaksonen,R,,SUI,M
-105147,Tatsuma Ito,R,180.0,JPN,M
+105147,Tatsuma Ito,R,180,JPN,M
 105163,Gleb Sakharov,R,,FRA,M
 104810,Zhe Li,R,,CHN,M
-106058,Jack Sock,R,185.0,USA,M
-106071,Bernard Tomic,R,193.0,AUS,M
-104386,Janko Tipsarevic,R,180.0,SRB,M
-105062,Mikhail Kukushkin,R,183.0,KAZ,M
-104999,Mischa Zverev,L,190.0,GER,M
-105643,Federico Delbonis,L,190.0,ARG,M
-103852,Feliciano Lopez,L,188.0,ESP,M
-201466,Kaia Kanepi,R,181.0,EST,F
-213550,Sofia Kenin,R,170.0,USA,F
-206368,Veronika Kudermetova,R,175.0,RUS,F
-201427,Alize Cornet,R,173.0,FRA,F
-202418,Lara Arruabarrena,R,166.0,ESP,F
-200748,Venus Williams,R,185.0,USA,F
-216262,Clara Burel,R,176.0,FRA,F
-202446,Eugenie Bouchard,R,178.0,CAN,F
-201397,Shuai Peng,R,173.0,CHN,F
-200033,Serena Williams,R,175.0,USA,F
+106058,Jack Sock,R,185,USA,M
+106071,Bernard Tomic,R,193,AUS,M
+104386,Janko Tipsarevic,R,180,SRB,M
+105062,Mikhail Kukushkin,R,183,KAZ,M
+104999,Mischa Zverev,L,190,GER,M
+105643,Federico Delbonis,L,190,ARG,M
+103852,Feliciano Lopez,L,188,ESP,M
+201466,Kaia Kanepi,R,181,EST,F
+213550,Sofia Kenin,R,170,USA,F
+206368,Veronika Kudermetova,R,175,RUS,F
+201427,Alize Cornet,R,173,FRA,F
+202418,Lara Arruabarrena,R,166,ESP,F
+200748,Venus Williams,R,185,USA,F
+216262,Clara Burel,R,176,FRA,F
+202446,Eugenie Bouchard,R,178,CAN,F
+201397,Shuai Peng,R,173,CHN,F
+200033,Serena Williams,R,175,USA,F
 212001,Natalia Vikhlyantseva,R,,RUS,F
-202453,Saisai Zheng,R,170.0,CHN,F
+202453,Saisai Zheng,R,170,CHN,F
 203435,Dalila Jakupovic,R,,SLO,F
-216347,Iga Swiatek,R,176.0,POL,F
+216347,Iga Swiatek,R,176,POL,F
 202536,Ana Bogdan,R,,ROU,F
 201483,Madison Brengle,R,,USA,F
-201595,Misaki Doi,L,159.0,JPN,F
-202663,Magda Linette,R,171.0,POL,F
+201595,Misaki Doi,L,159,JPN,F
+202663,Magda Linette,R,171,POL,F
 201696,Laura Siegemund,R,,GER,F
-201458,Victoria Azarenka,R,180.0,BLR,F
-202492,Qiang Wang,R,172.0,CHN,F
-211539,Fiona Ferro,R,170.0,FRA,F
-215370,Bianca Andreescu,R,170.0,CAN,F
+201458,Victoria Azarenka,R,180,BLR,F
+202492,Qiang Wang,R,172,CHN,F
+211539,Fiona Ferro,R,170,FRA,F
+215370,Bianca Andreescu,R,170,CAN,F
 215992,Whitney Osuigwe,R,,USA,F
-201621,Mona Barthel,R,185.0,GER,F
+201621,Mona Barthel,R,185,GER,F
 203533,Anna Karolina Schmiedlova,R,,SVK,F
 202506,Margarita Gasparyan,R,,RUS,F
 202684,Lin Zhu,R,,CHN,F
-201426,Pauline Parmentier,R,175.0,FRA,F
-201619,Madison Keys,R,178.0,USA,F
-201533,Shuai Zhang,R,177.0,CHN,F
+201426,Pauline Parmentier,R,175,FRA,F
+201619,Madison Keys,R,178,USA,F
+201533,Shuai Zhang,R,177,CHN,F
 201697,Kristyna Pliskova,L,,CZE,F
 215020,Anna Blinkova,R,,RUS,F
 214149,Viktoria Kuzmova,R,,SVK,F
-201593,Irina Camelia Begu,R,181.0,ROU,F
-202505,Belinda Bencic,R,175.0,SUI,F
+201593,Irina Camelia Begu,R,181,ROU,F
+202505,Belinda Bencic,R,175,SUI,F
 216153,Amanda Anisimova,R,,USA,F
-201512,Monica Niculescu,R,168.0,ROU,F
-211107,Katie Boulter,R,180.0,GBR,F
-201505,Ekaterina Makarova,L,178.0,RUS,F
+201512,Monica Niculescu,R,168,ROU,F
+211107,Katie Boulter,R,180,GBR,F
+201505,Ekaterina Makarova,L,178,RUS,F
 214939,Anna Kalinskaya,R,,RUS,F
 202503,Luksika Kumkhum,R,,THA,F
 206374,Yafan Wang,R,,CHN,F
 206391,Ellen Perez,L,,AUS,F
 206292,Astra Sharma,R,,AUS,F
-206289,Maria Sakkari,R,172.0,GRE,F
+206289,Maria Sakkari,R,172,GRE,F
 201345,Maria Sharapova,R,,RUS,F
 202490,Rebecca Peterson,R,,SWE,F
-201514,Sorana Cirstea,R,176.0,ROU,F
-201596,Johanna Larsson,R,174.0,SWE,F
+201514,Sorana Cirstea,R,176,ROU,F
+201596,Johanna Larsson,R,174,SWE,F
 214304,Vera Lapko,R,,BLR,F
-201496,Caroline Wozniacki,R,177.0,DEN,F
-202421,Alison Van Uytvanck,R,173.0,BEL,F
+201496,Caroline Wozniacki,R,177,DEN,F
+202421,Alison Van Uytvanck,R,173,BEL,F
 203501,Taylor Townsend,L,,USA,F
-201693,Timea Babos,R,179.0,HUN,F
-202460,Ons Jabeur,R,167.0,TUN,F
-214954,Marketa Vondrousova,L,173.0,CZE,F
+201693,Timea Babos,R,179,HUN,F
+202460,Ons Jabeur,R,167,TUN,F
+214954,Marketa Vondrousova,L,173,CZE,F
 201516,Evgeniya Rodina,R,,RUS,F
-201549,Petra Martic,R,181.0,CRO,F
+201549,Petra Martic,R,181,CRO,F
 204427,Sara Sorribes Tormo,R,,ESP,F
-201465,Kirsten Flipkens,R,165.0,BEL,F
-201499,Anastasia Pavlyuchenkova,R,177.0,RUS,F
-201590,Alison Riske,R,173.0,USA,F
-201504,Julia Goerges,R,180.0,GER,F
+201465,Kirsten Flipkens,R,165,BEL,F
+201499,Anastasia Pavlyuchenkova,R,177,RUS,F
+201590,Alison Riske,R,173,USA,F
+201504,Julia Goerges,R,180,GER,F
 203500,Sachia Vickery,R,,USA,F
 204434,Ysaline Bonaventure,L,,BEL,F
-201614,Caroline Garcia,R,177.0,FRA,F
+201614,Caroline Garcia,R,177,FRA,F
 211316,Jessika Ponchet,U,,FRA,F
-211651,Paula Badosa,R,180.0,ESP,F
+211651,Paula Badosa,R,180,ESP,F
 206242,Beatriz Haddad Maia,L,,BRA,F
-201555,Polona Hercog,R,182.0,SLO,F
-132283,Lorenzo Sonego,R,191.0,ITA,M
+201555,Polona Hercog,R,182,SLO,F
+132283,Lorenzo Sonego,R,191,ITA,M
 126652,Jay Clarke,R,,GBR,M
-105216,Yuichi Sugita,R,173.0,JPN,M
+105216,Yuichi Sugita,R,173,JPN,M
 105841,Lorenzo Giustino,R,,ITA,M
 200095,Nicola Kuhn,R,,ESP,M
 105963,Arthur De Greef,R,,BEL,M
-144895,Corentin Moutet,L,178.0,FRA,M
+144895,Corentin Moutet,L,178,FRA,M
 124079,Pedro Martinez,R,,ESP,
 104873,Aleksandr Nedovyesov,R,,KAZ,M
 126845,Max Purcell,R,,AUS,M
@@ -343,72 +343,72 @@ id, name, hand, ht, ioc,gender
 109303,Stefano Napolitano,R,,ITA,M
 106390,Matteo Donati,R,,ITA,M
 134868,Tallon Griekspoor,R,,NED,M
-123755,Daniel Elahi Galan,R,191.0,COL,
-126205,Tommy Paul,R,185.0,USA,M
+123755,Daniel Elahi Galan,R,191,COL,
+126205,Tommy Paul,R,185,USA,M
 106232,Roberto Cid,R,,DOM,M
 200514,Jurij Rodionov,L,,AUT,M
-122330,Alexander Bublik,R,196.0,KAZ,M
-104297,Rogerio Dutra Silva,R,178.0,BRA,M
-134770,Casper Ruud,R,183.0,NOR,M
-104735,Tobias Kamke,R,180.0,GER,M
-105487,Facundo Bagnis,L,183.0,ARG,M
+122330,Alexander Bublik,R,196,KAZ,M
+104297,Rogerio Dutra Silva,R,178,BRA,M
+134770,Casper Ruud,R,183,NOR,M
+104735,Tobias Kamke,R,180,GER,M
+105487,Facundo Bagnis,L,183,ARG,M
 106249,Joao Domingues,R,,POR,M
 106005,Constant Lestienne,R,,FRA,M
 105634,Viktor Galovic,R,,ITA,M
 105782,Enrique Lopez Perez,R,,ESP,M
-105385,Donald Young,L,183.0,USA,M
+105385,Donald Young,L,183,USA,M
 133297,Yosuke Watanuki,R,,JPN,M
-126952,Soon Woo Kwon,R,180.0,KOR,M
-105065,Tim Smyczek,R,175.0,USA,M
-105041,Lukas Lacko,R,185.0,SVK,M
+126952,Soon Woo Kwon,R,180,KOR,M
+105065,Tim Smyczek,R,175,USA,M
+105041,Lukas Lacko,R,185,SVK,M
 106353,Pedja Krstin,R,,SRB,M
-110748,Nikola Milojevic,R,188.0,SRB,M
+110748,Nikola Milojevic,R,188,SRB,M
 123921,Calvin Hemery,R,,FRA,M
 200466,Alexander Crnokrak,R,,AUS,M
 111460,Quentin Halys,R,,FRA,M
 106293,Kimmer Coppejans,R,,BEL,M
-200221,Alejandro Davidovich Fokina,R,183.0,ESP,M
-104424,Go Soeda,R,178.0,JPN,M
-200624,Sebastian Korda,R,196.0,USA,M
+200221,Alejandro Davidovich Fokina,R,183,ESP,M
+104424,Go Soeda,R,178,JPN,M
+200624,Sebastian Korda,R,196,USA,M
 106228,Juan Ignacio Londero,R,,ARG,M
-103990,Tommy Robredo,R,180.0,ESP,M
+103990,Tommy Robredo,R,180,ESP,M
 106214,Oscar Otte,R,,GER,M
-106099,Salvatore Caruso,R,185.0,ITA,M
+106099,Salvatore Caruso,R,185,ITA,M
 106105,Guilherme Clezar,R,,BRA,M
 105300,Sergio Gutierrez Ferrol,R,,ESP,M
 124014,Ernesto Escobedo,R,,USA,M
 105641,Blaz Rola,L,,SLO,M
 106361,Adam Pavlasek,R,,CZE,M
-105633,Mohamed Safwat,R,183.0,EGY,M
+105633,Mohamed Safwat,R,183,EGY,M
 144645,Zdenek Kolar,R,,CZE,M
-136440,Dominik Koepfer,L,180.0,GER,M
-104460,Dustin Brown,R,196.0,GER,M
-104122,Carlos Berlocq,R,183.0,ARG,M
+136440,Dominik Koepfer,L,180,GER,M
+104460,Dustin Brown,R,196,GER,M
+104122,Carlos Berlocq,R,183,ARG,M
 105655,Hiroki Moriya,R,,JPN,M
 208014,Rinky Hijikata,U,,AUS,M
-105561,Alessandro Giannessi,L,183.0,ITA,M
-104932,Kenny De Schepper,L,203.0,FRA,M
-105906,Kevin Krawietz,R,190.0,GER,M
+105561,Alessandro Giannessi,L,183,ITA,M
+104932,Kenny De Schepper,L,203,FRA,M
+105906,Kevin Krawietz,R,190,GER,M
 105943,Federico Gaio,R,,ITA,M
 104629,Adrian Menendez Maceiras,R,,ESP,M
 106328,Christian Harrison,R,,USA,M
 105985,Darian King,R,,BAR,M
 106072,Alexey Vatutin,R,,RUS,M
 106110,Filip Horansky,R,,SVK,M
-103917,Nicolas Mahut,R,190.0,FRA,M
-105064,Thomaz Bellucci,L,188.0,BRA,M
+103917,Nicolas Mahut,R,190,FRA,M
+105064,Thomaz Bellucci,L,188,BRA,M
 111795,Filippo Baldi,R,,ITA,M
-120424,Yannick Maden,R,185.0,GER,M
+120424,Yannick Maden,R,185,GER,M
 121531,Mats Moraing,L,,GER,M
 106291,Luke Saville,R,,AUS,M
 111511,Noah Rubin,R,,USA,M
 117361,Akira Santillan,R,,AUS,M
 126125,Maxime Janvier,R,,FRA,M
 111574,Jc Aragone,R,,USA,M
-106296,Gregoire Barrere,R,183.0,FRA,M
+106296,Gregoire Barrere,R,183,FRA,M
 117353,Duck Hee Lee,R,,KOR,M
 126846,Aleksandar Vukic,R,,AUS,M
-201329,Vera Zvonareva,R,172.0,RUS,F
+201329,Vera Zvonareva,R,172,RUS,F
 202491,Varvara Flink,R,,RUS,F
 202437,Anastasia Grymalska,R,,ITA,F
 201542,Olivia Rogowska,R,,AUS,F
@@ -416,7 +416,7 @@ id, name, hand, ht, ioc,gender
 202701,Irina Khromacheva,L,,RUS,F
 202482,Barbara Haas,R,,AUT,F
 201664,Pemra Ozgen,R,,TUR,F
-201501,Olga Govortsova,R,182.0,BLR,F
+201501,Olga Govortsova,R,182,BLR,F
 201562,Silvia Soler Espinosa,R,,ESP,F
 215804,Kaylah Mcphee,U,,AUS,F
 210303,Kathinka Von Deichmann,R,,LIE,F
@@ -427,7 +427,7 @@ id, name, hand, ht, ioc,gender
 202440,Paula Ormaechea,R,,ARG,F
 204291,Na Lae Han,L,,KOR,F
 202467,Elitsa Kostova,R,,BUL,F
-215042,Katie Swan,R,170.0,GBR,F
+215042,Katie Swan,R,170,GBR,F
 204394,Valentini Grammatikopoulou,U,,GRE,F
 210705,Irina Maria Bara,R,,ROU,F
 202493,Ekaterine Gorgodze,L,,GEO,F
@@ -449,15 +449,15 @@ id, name, hand, ht, ioc,gender
 206124,Tereza Martincova,R,,CZE,F
 212034,Fang Ying Xun,U,,CHN,F
 216016,Xiyu Wang,L,,CHN,F
-214906,Claire Liu,R,170.0,USA,F
+214906,Claire Liu,R,170,USA,F
 204430,Antonia Lottner,R,,GER,F
-211702,Nao Hibino,R,163.0,JPN,F
-206408,Nadia Podoroska,U,170.0,ARG,F
+211702,Nao Hibino,R,163,JPN,F
+206408,Nadia Podoroska,U,170,ARG,F
 202628,Maryna Zanevska,R,,UKR,F
 206045,Quirine Lemoine,L,,NED,F
-201554,Vitalia Diatchenko,R,170.0,RUS,F
+201554,Vitalia Diatchenko,R,170,RUS,F
 211407,Dejana Radanovic,U,,SRB,F
-202450,Jana Cepelova,R,168.0,SVK,F
+202450,Jana Cepelova,R,168,SVK,F
 203281,Amandine Hesse,R,,FRA,F
 204246,Lesley Kerkhove,R,,NED,F
 206102,Ankita Raina,R,,IND,F
@@ -466,11 +466,11 @@ id, name, hand, ht, ioc,gender
 211736,Ivana Jorovic,R,,SRB,F
 201580,Xinyun Han,L,,CHN,F
 201534,Asia Muhammed,R,,USA,F
-201402,Sesil Karatantcheva,R,171.0,KAZ,F
+201402,Sesil Karatantcheva,R,171,KAZ,F
 211719,Shilin Xu,R,,CHN,F
 213779,Raluca Georgiana Serban,R,,ROU,F
 203564,Chloe Paquet,R,,FRA,F
-214981,Elena Rybakina,R,184.0,KAZ,F
+214981,Elena Rybakina,R,184,KAZ,F
 202579,Giulia Gatto Monticone,R,,ITA,F
 203354,Martina Trevisan,L,,ITA,F
 213941,Anastasia Zarytska,U,,UKR,F
@@ -479,25 +479,25 @@ id, name, hand, ht, ioc,gender
 215096,Jaimee Fourlis,R,,AUS,F
 202659,Tereza Mrdeza,R,,CRO,F
 206251,Kimberley Zimmermann,R,,BEL,F
-206252,Barbora Krejcikova,R,178.0,CZE,F
+206252,Barbora Krejcikova,R,178,CZE,F
 214684,Katherine Sebov,U,,CAN,F
 202705,Veronica Cepede Royg,R,,PAR,F
 202480,Richel Hogenkamp,R,,NED,F
-201551,Arantxa Rus,L,180.0,NED,F
+201551,Arantxa Rus,L,180,NED,F
 206390,Isabelle Wallace,L,,AUS,F
-201513,Sabine Lisicki,R,178.0,GER,F
-201648,Naomi Broady,R,189.0,GBR,F
+201513,Sabine Lisicki,R,178,GER,F
+201648,Naomi Broady,R,189,GBR,F
 202916,Georgina Garcia Perez,U,,ESP,F
-214541,Fanny Stollar,R,172.0,HUN,F
+214541,Fanny Stollar,R,172,HUN,F
 202508,Yuxuan Zhang,R,,CHN,F
 203575,Danka Kovinic,R,,MNE,F
 203578,Fangzhou Liu,R,,CHN,F
-202457,Bibiane Schoofs,R,170.0,NED,F
+202457,Bibiane Schoofs,R,170,NED,F
 215314,En Shuo Liang,U,,TPE,F
 202504,Ying Ying Duan,R,,CHN,F
 214694,Karman Thandi,U,,IND,F
 202489,Carina Witthoeft,R,,GER,F
-201616,Lauren Davis,R,157.0,USA,F
+201616,Lauren Davis,R,157,USA,F
 215219,Kaja Juvan,R,,SLO,F
 106398,Pedro Cachin,R,,ARG,M
 205734,Thiago Seyboth Wild,R,,BRA,M
@@ -507,7 +507,7 @@ id, name, hand, ht, ioc,gender
 105911,Andrea Collarini,L,,ARG,M
 207680,Facundo Diaz Acosta,L,,ARG,M
 106032,Facundo Arguello,R,,ARG,M
-105559,Jonathan Eysseric,L,180.0,FRA,M
+105559,Jonathan Eysseric,L,180,FRA,M
 206758,Antoine Cornut Chauvinc,U,,FRA,M
 126127,Benjamin Bonzi,R,,FRA,M
 200247,Alexandar Lazarov,R,,BUL,M
@@ -525,7 +525,7 @@ id, name, hand, ht, ioc,gender
 125847,Jelle Sels,U,,NED,M
 105691,Scott Griekspoor,R,,NED,M
 207764,Ryan Nijboer,U,,NED,M
-105223,Juan Martin del Potro,R,198.0,ARG,
+105223,Juan Martin del Potro,R,198,ARG,
 111577,Jared Donaldson,R,,USA,M
 208186,Preston Brown,U,,USA,M
 124186,Alexandre Muller,R,,FRA,M
@@ -550,31 +550,31 @@ id, name, hand, ht, ioc,gender
 105747,Karim Mohamed Maamoun,R,,EGY,M
 106203,Pedro Sakamoto,R,,BRA,M
 110778,Joao Menezes,R,,BRA,
-105154,Joao Souza,R,193.0,BRA,M
+105154,Joao Souza,R,193,BRA,M
 200553,Alen Avidzba,R,,RUS,M
-106218,Marcos Giron,R,180.0,USA,M
+106218,Marcos Giron,R,180,USA,M
 216083,Caty Mcnally,R,,USA,F
-202468,Jessica Pegula,R,170.0,USA,F
+202468,Jessica Pegula,R,170,USA,F
 111765,Evan Song,U,,USA,M
 106075,Jozef Kovalik,R,,SVK,M
 200670,J.J. Wolf,R,,USA,
-105132,Jurgen Zopp,R,190.0,EST,M
+105132,Jurgen Zopp,R,190,EST,M
 215371,Francesca Di Lorenzo,L,,USA,F
 216373,Zoe Kruger,U,,RSA,F
-201506,Sara Errani,R,164.0,ITA,F
+201506,Sara Errani,R,164,ITA,F
 214728,Ashley Kratzer,L,,USA,F
 202498,Julia Glushko,R,,ISR,F
 202358,Chun Hsin Tseng,R,,TPE,M
-144707,Mikael Ymer,R,183.0,SWE,M
-216133,Xin Yu Wang,R,182.0,CHN,F
-221103,Cori Gauff,R,175.0,USA,F
+144707,Mikael Ymer,R,183,SWE,M
+216133,Xin Yu Wang,R,182,CHN,F
+221103,Cori Gauff,R,175,USA,F
 211390,Mari Osaka,U,,JPN,F
 204431,Anna Lena Friedsam,R,,GER,F
 208527,Zane Khan,U,,USA,M
 221012,Qinwen Zheng,R,,CHN,F
-105053,Santiago Giraldo,R,188.0,COL,M
-105649,Cedrik Marcel Stebe,L,183.0,GER,M
-104467,Lamine Ouahab,R,185.0,ALG,M
+105053,Santiago Giraldo,R,188,COL,M
+105649,Cedrik Marcel Stebe,L,183,GER,M
+104467,Lamine Ouahab,R,185,ALG,M
 200611,Elliot Benchetrit,R,,FRA,M
 106348,Evgeny Karlovskiy,R,,RUS,M
 125842,Adam Moundir,R,,SUI,M
@@ -583,22 +583,22 @@ id, name, hand, ht, ioc,gender
 105714,Hugo Nys,R,,MON,M
 106033,Romain Arneodo,R,,FRA,M
 105851,Florent Diep,U,,FRA,M
-207989,Carlos Alcaraz Garfia,R,185.0,ESP,M
-105226,Attila Balazs,R,180.0,HUN,M
-206173,Jannik Sinner,R,188.0,ITA,M
+207989,Carlos Alcaraz Garfia,R,185,ESP,M
+105226,Attila Balazs,R,180,HUN,M
+206173,Jannik Sinner,R,188,ITA,M
 200218,Mate Valkusz,R,,HUN,M
 200436,Zsombor Piros,R,,HUN,M
-105671,Gastao Elias,R,178.0,POR,M
+105671,Gastao Elias,R,178,POR,M
 126623,Alexander Erler,U,,AUT,M
-105870,Yannick Hanfmann,R,193.0,GER,M
-104755,Richard Gasquet,R,185.0,FRA,M
-201320,Svetlana Kuznetsova,R,174.0,RUS,F
+105870,Yannick Hanfmann,R,193,GER,M
+104755,Richard Gasquet,R,185,FRA,M
+201320,Svetlana Kuznetsova,R,174,RUS,F
 208094,Jorge Plans,U,,ESP,M
 109640,Andrea Basso,L,,ITA,M
 220714,Elisabetta Cocciaretto,R,,ITA,F
 202235,Jacopo Berrettini,U,,ITA,M
 133045,Riccardo Balzerani,R,,ITA,M
-207518,Lorenzo Musetti,R,185.0,ITA,M
+207518,Lorenzo Musetti,R,185,ITA,M
 211216,Cristiana Ferrando,R,,ITA,F
 214593,Lucrezia Stefanini,U,,ITA,F
 211333,Georgia Brescia,R,,ITA,F
@@ -611,20 +611,20 @@ id, name, hand, ht, ioc,gender
 105731,Steven Diez,R,,CAN,M
 106408,Mario Vilella Martinez,R,,ESP,M
 126409,Hugo Grenier,R,,FRA,M
-201588,Anna Tatishvili,R,171.0,GEO,F
+201588,Anna Tatishvili,R,171,GEO,F
 221911,Selena Janicijevic,U,,FRA,F
 211552,Harmony Tan,R,,FRA,F
-201603,Shelby Rogers,R,175.0,USA,F
+201603,Shelby Rogers,R,175,USA,F
 220348,Diane Parry,R,,FRA,F
 211019,Audrey Albie,R,,FRA,F
 201568,Kristina Kucova,R,,SVK,F
 106288,Mathias Bourgue,R,,FRA,M
 104970,Matteo Viola,R,,ITA,M
-105613,Norbert Gombos,R,193.0,SVK,M
+105613,Norbert Gombos,R,193,SVK,M
 111505,Enzo Couacaud,R,,FRA,M
-105011,Illya Marchenko,R,185.0,UKR,M
+105011,Illya Marchenko,R,185,UKR,M
 111512,Johan Sebastien Tatlot,U,,FRA,M
-105217,Thiemo De Bakker,R,193.0,NED,M
+105217,Thiemo De Bakker,R,193,NED,M
 105590,Uladzimir Ignatik,R,,BLR,M
 105589,Gerald Melzer,L,,AUT,M
 200384,Hugo Gaston,L,,FRA,M
@@ -635,8 +635,8 @@ id, name, hand, ht, ioc,gender
 131905,Manuel Guinard,U,,FRA,M
 126120,Nino Serdarusic,U,,CRO,M
 144656,Corentin Denolly,L,,FRA,M
-104804,Amir Weintraub,R,188.0,ISR,M
-126149,Gianluca Mager,R,185.0,ITA,M
+104804,Amir Weintraub,R,188,ISR,M
+126149,Gianluca Mager,R,185,ITA,M
 202430,Alize Lim,R,,FRA,F
 203576,Kai Lin Zhang,R,,CHN,F
 206178,Susanne Celik,R,,SWE,F
@@ -654,7 +654,7 @@ id, name, hand, ht, ioc,gender
 211685,Rebecca Sramkova,R,,SVK,F
 215807,Manon Leonard,R,,FRA,F
 214219,Tessah Andrianjafitrimo,R,,FRA,F
-200325,Emil Ruusuvuori,R,188.0,FIN,M
+200325,Emil Ruusuvuori,R,188,FIN,M
 203379,Marina Melnikova,R,,RUS,F
 213646,Dalma Galfi,U,,HUN,F
 202922,Michaela Honcova,R,,SVK,F
@@ -667,7 +667,7 @@ id, name, hand, ht, ioc,gender
 207733,Jack Draper,L,,GBR,M
 123795,Altug Celikbilek,U,,TUR,M
 144985,Ergi Kirkin,R,,TUR,M
-105060,Aldin Setkic,R,193.0,BIH,M
+105060,Aldin Setkic,R,193,BIH,M
 123819,Goncalo Oliveira,L,,POR,M
 105529,Carlos Gomez Herrera,R,,ESP,M
 144642,Marcelo Tomas Barrios Vera,R,,CHI,M
@@ -675,23 +675,23 @@ id, name, hand, ht, ioc,gender
 207129,Yanki Erel,L,,TUR,M
 206703,Paul Jubb,R,,GBR,M
 111515,Thai Son Kwiatkowski,R,,USA,M
-201524,Urszula Radwanska,R,177.0,POL,F
+201524,Urszula Radwanska,R,177,POL,F
 206230,Alicia Barnett,U,,GBR,F
 212043,Freya Christie,U,,GBR,F
-105577,Vasek Pospisil,R,193.0,CAN,M
+105577,Vasek Pospisil,R,193,CAN,M
 211817,Elena Gabriela Ruse,U,,ROU,F
 106302,Andrew Harris,R,,AUS,M
 126106,Ryan Peniston,U,,GBR,M
 126193,Mark Whitehouse,U,,GBR,M
-104534,Dudi Sela,R,175.0,ISR,M
-104882,Blaz Kavcic,R,188.0,SLO,M
+104534,Dudi Sela,R,175,ISR,M
+104882,Blaz Kavcic,R,188,SLO,M
 123828,Jan Choinski,R,,GER,M
 111775,Evan Hoyt,R,,GBR,M
 106281,Liam Broady,L,,GBR,M
 202420,Aidan Mchugh,U,,GBR,M
 215812,Shuyue Ma,R,,CHN,F
 221054,Emma Raducanu,R,,GBR,F
-202456,Alexandra Cadantu,R,170.0,ROU,F
+202456,Alexandra Cadantu,R,170,ROU,F
 202688,Isabella Shinikova,R,,BUL,F
 215983,Ann Li,R,,USA,F
 213710,Cristina Bucsa,U,,MDA,F
@@ -702,16 +702,16 @@ id, name, hand, ht, ioc,gender
 214388,Anna Bondar,R,,HUN,F
 213734,Mariam Bolkvadze,L,,GEO,F
 211432,Eden Silva,R,,GBR,F
-201666,Cagla Buyukakcay,R,172.0,TUR,F
+201666,Cagla Buyukakcay,R,172,TUR,F
 202443,Valeria Savinykh,R,,RUS,F
 211887,Maia Lumsden,R,,GBR,F
 105436,Markus Eriksson,R,,SWE,M
 208925,John Hallquist Lithen,L,,SWE,M
-105827,Laurynas Grigelis,R,183.0,LTU,M
+105827,Laurynas Grigelis,R,183,LTU,M
 104963,Yannick Mertens,R,,BEL,M
 144797,Carl Soderlund,R,,SWE,M
 202400,Alastair Gray,R,,GBR,M
-202195,Maxime Cressy,R,198.0,USA,M
+202195,Maxime Cressy,R,198,USA,M
 207202,Karl Poling,U,,USA,M
 105091,Peter Torebko,R,,GER,M
 200266,Javier Barranco Cosano,U,,ESP,M
@@ -723,7 +723,7 @@ id, name, hand, ht, ioc,gender
 106247,Nik Razborsek,L,,SLO,M
 110536,Kevin King,U,,USA,M
 200336,Trent Bryde,R,,USA,M
-105757,Sandro Ehrat,R,180.0,SUI,M
+105757,Sandro Ehrat,R,180,SUI,M
 105928,Luca Margaroli,R,,SUI,M
 132575,Raphael Baltensperger,R,,SUI,M
 105271,Gonzalo Escobar,L,,ECU,M
@@ -733,7 +733,7 @@ id, name, hand, ht, ioc,gender
 111576,Sumit Nagal,R,,IND,M
 122351,Johannes Haerteis,U,,GER,M
 207990,Moritz Thiem,R,,AUT,M
-103938,Igor Zelenay,R,198.0,SVK,M
+103938,Igor Zelenay,R,198,SVK,M
 105850,Cheng Peng Hsieh,R,,TPE,M
 207491,Sandro Kopp,U,,AUT,M
 105905,Danilo Petrovic,R,,SRB,M
@@ -742,7 +742,7 @@ id, name, hand, ht, ioc,gender
 110757,Jacob Grills,U,,AUS,M
 221024,Hailey Baptiste,R,,USA,F
 219875,Varvara Gracheva,R,,RUS,F
-103859,James Cerretani,L,185.0,USA,M
+103859,James Cerretani,L,185,USA,M
 208649,Andrew Fenty,R,,USA,M
 200008,Alexis Galarneau,R,,CAN,M
 132088,Nicholas Alexander Reyes,R,,USA,M
@@ -756,13 +756,13 @@ id, name, hand, ht, ioc,gender
 214849,Maegan Manasse,U,,USA,F
 106290,Filip Peliwo,R,,CAN,M
 200219,John Mcnally,U,,USA,M
-201535,Coco Vandeweghe,R,185.0,USA,F
+201535,Coco Vandeweghe,R,185,USA,F
 106031,Raymond Sarmiento,R,,USA,M
 105654,Daniel Nguyen,U,,USA,M
 127339,Borna Gojo,R,,CRO,M
 207220,Taha Baadi,U,,CAN,M
 117365,Petros Chrysochos,R,,CYP,M
-103781,Jurgen Melzer,L,183.0,AUT,M
+103781,Jurgen Melzer,L,183,AUT,M
 126177,Strong Kirchheimer,U,,USA,M
 208260,Zachary Svajda,R,,USA,M
 202385,Jenson Brooksby,R,,USA,M
@@ -779,7 +779,7 @@ id, name, hand, ht, ioc,gender
 211796,Francoise Abanda,R,,CAN,F
 222034,Reese Brantmeier,R,,USA,F
 214081,Katharina Hobgarski,R,,GER,F
-211713,Jaqueline Adina Cristian,R,180.0,ROU,F
+211713,Jaqueline Adina Cristian,R,180,ROU,F
 210337,Natalija Kostic,R,,SRB,F
 211411,Nina Stojanovic,R,,SRB,F
 213672,Usue Maitane Arconada,R,,USA,F
@@ -788,24 +788,24 @@ id, name, hand, ht, ioc,gender
 144946,Rayane Roumane,R,,FRA,M
 144984,Artem Dubrivnyy,R,,RUS,M
 208004,Harold Mayot,R,,FRA,M
-105874,Albano Olivetti,R,203.0,FRA,M
+105874,Albano Olivetti,R,203,FRA,M
 111193,Alexander Vasilenko,R,,RUS,M
 126185,Evgenii Tiurnev,R,,RUS,
 126128,Roman Safiullin,R,,RUS,M
-104505,Konstantin Kravchuk,R,190.0,RUS,M
+104505,Konstantin Kravchuk,R,190,RUS,M
 126214,Alejandro Tabilo,L,,CHI,M
-106234,Aslan Karatsev,R,185.0,RUS,M
+106234,Aslan Karatsev,R,185,RUS,M
 105339,Yan Bai,R,,CHN,M
 200666,Jie Cui,U,,CHN,M
 106321,Xin Gao,U,,CHN,M
 117358,Harry Bourchier,R,,AUS,M
 105842,Di Wu,R,,CHN,M
-111190,Zhizhen Zhang,R,193.0,CHN,M
+111190,Zhizhen Zhang,R,193,CHN,M
 206888,Zhao Zhao,R,,CHN,M
 122606,Yecong He,U,,CHN,M
 132495,Runhao Hua,R,,CHN,M
 105172,Miliaan Niesten,U,,NED,M
-104433,Frank Dancevic,R,185.0,CAN,M
+104433,Frank Dancevic,R,185,CAN,M
 214386,Xinyu Gao,U,,CHN,F
 206294,Yue Yuan,U,,CHN,F
 111806,Fajing Sun,U,,CHN,M
@@ -813,7 +813,7 @@ id, name, hand, ht, ioc,gender
 208214,Arnaud Bovy,L,,BEL,M
 208230,Alibek Kachmazov,R,,RUS,M
 202681,Gabriela Dabrowski,R,,CAN,F
-215872,Kamilla Rakhimova,R,2.0,RUS,F
+215872,Kamilla Rakhimova,R,2,RUS,F
 214181,Anastasia Gasanova,U,,RUS,F
 221236,Polina Kudermetova,U,,RUS,F
 221407,Oksana Selekhmeteva,L,,RUS,F
@@ -890,10 +890,10 @@ id, name, hand, ht, ioc,gender
 121896,Gabor Borsos,U,,HUN,M
 200343,David Szintai,R,,HUN,M
 200059,Yibing Wu,R,,CHN,M
-105238,Alexandr Dolgopolov,R,180.0,UKR,M
-104180,Gilles Muller,L,193.0,LUX,M
+105238,Alexandr Dolgopolov,R,180,UKR,M
+104180,Gilles Muller,L,193,LUX,M
 214263,Catherine Cartan Bellis,R,,USA,F
-201435,Kateryna Bondarenko,R,175.0,UKR,F
+201435,Kateryna Bondarenko,R,175,UKR,F
 211951,Ana Konjuh,R,,CRO,F
 200002,Mirjana Lucic,R,,CRO,F
 105032,Sam Groth,R,,AUS,
@@ -904,14 +904,14 @@ id, name, hand, ht, ioc,gender
 214239,Sara Tomic,R,,AUS,F
 215037,Kayla Day,L,,USA,F
 201604,Irina Falconi,R,,USA,F
-104890,Andreas Haider Maurer,R,190.0,AUT,M
-103607,Victor Estrella,R,173.0,DOM,M
-104252,Florian Mayer,R,190.0,GER,M
+104890,Andreas Haider Maurer,R,190,AUT,M
+103607,Victor Estrella,R,173,DOM,M
+104252,Florian Mayer,R,190,GER,M
 106324,Vaclav Safranek,R,,CZE,M
 106044,Nicolas Kicker,R,,ARG,M
 106120,Ricardo Ojeda Lara,R,,ESP,M
-106026,Yuki Bhambri,R,183.0,IND,M
-104986,Vishnu Vardhan,R,188.0,IND,M
+106026,Yuki Bhambri,R,183,IND,M
+104986,Vishnu Vardhan,R,188,IND,M
 104690,Divij Sharan,L,,IND,M
 110725,Shahbaaz Khan,R,,IND,M
 200015,Jayesh Pungliya,U,,IND,M
@@ -919,18 +919,18 @@ id, name, hand, ht, ioc,gender
 105030,Michael Venus,R,,NZL,M
 132482,Liam Caruana,R,,USA,M
 207386,Finn Reynolds,L,,NZL,M
-104308,Michal Przysiezny,R,185.0,POL,M
+104308,Michal Przysiezny,R,185,POL,M
 105909,Sam Barry,R,,IRL,M
-105454,Brydan Klein,R,183.0,AUS,M
-201425,Lucie Safarova,L,177.0,CZE,F
-201455,Elena Vesnina,R,176.0,RUS,F
-201474,Agnieszka Radwanska,R,170.0,POL,F
+105454,Brydan Klein,R,183,AUS,M
+201425,Lucie Safarova,L,177,CZE,F
+201455,Elena Vesnina,R,176,RUS,F
+201474,Agnieszka Radwanska,R,170,POL,F
 105881,Matthew Barton,R,,AUS,M
-104559,Teymuraz Gabashvili,R,188.0,RUS,M
+104559,Teymuraz Gabashvili,R,188,RUS,M
 111443,Vladimir Polyakov,R,,RUS,M
-103977,Nicholas Monroe,R,178.0,USA,M
+103977,Nicholas Monroe,R,178,USA,M
 104802,Fabrice Martin,R,,FRA,M
-201370,Anastasia Rodionova,R,167.0,AUS,F
+201370,Anastasia Rodionova,R,167,AUS,F
 204412,Belinda Woolcock,R,,AUS,F
 201703,Yi Fan Xu,L,,CHN,F
 211881,Olivia Tjandramulia,R,,AUS,F
@@ -938,31 +938,31 @@ id, name, hand, ht, ioc,gender
 206107,Zhaoxuan Yang,R,,CHN,F
 202841,Alicja Rosolska,R,,POL,F
 201401,Abigail Spears,R,,USA,F
-104022,Mikhail Youzhny,R,183.0,RUS,M
-103898,Julien Benneteau,R,185.0,FRA,M
-201212,Francesca Schiavone,R,166.0,ITA,F
+104022,Mikhail Youzhny,R,183,RUS,M
+103898,Julien Benneteau,R,185,FRA,M
+201212,Francesca Schiavone,R,166,ITA,F
 201531,Mariana Duque Marino,R,,COL,F
 202685,Misa Eguchi,R,,JPN,F
 111451,Bradley Mousley,U,,AUS,M
 105512,Alexander Sarkissian,R,,USA,M
-104594,Marinko Matosevic,R,194.0,AUS,M
-105960,Evan King,L,185.0,USA,M
+104594,Marinko Matosevic,R,194,AUS,M
+105960,Evan King,L,185,USA,M
 105595,Dayne Kelly,U,,AUS,M
 122078,Dmitry Popko,R,,KAZ,M
-104672,Vincent Millot,L,173.0,FRA,M
+104672,Vincent Millot,L,173,FRA,M
 106225,Andrew Whittington,R,,AUS,M
 122368,Joao Monteiro,U,,POR,M
 117357,Omar Jasika,L,,AUS,M
 211328,Deborah Chiesa,R,,ITA,F
-201311,Roberta Vinci,R,163.0,ITA,F
+201311,Roberta Vinci,R,163,ITA,F
 211635,Louisa Chirico,R,,USA,F
 201567,Alexandra Dulgheru,R,,ROU,F
-200067,Patty Schnyder,L,168.0,SUI,F
+200067,Patty Schnyder,L,168,SUI,F
 203475,Carol Zhao,R,,CAN,F
 206077,Miharu Imanishi,U,,JPN,F
 203552,Risa Ozaki,R,,JPN,F
 201612,Junri Namigata,R,,JPN,F
-201640,Maria Teresa Torro Flor,R,173.0,ESP,F
+201640,Maria Teresa Torro Flor,R,173,ESP,F
 206037,Daniela Seguel,U,,CHI,F
 203567,Ipek Soylu,R,,TUR,F
 204294,Su Jeong Jang,R,,KOR,F
@@ -975,7 +975,7 @@ id, name, hand, ht, ioc,gender
 105578,Cristian Rodriguez,R,,COL,M
 207971,Xavier Lawrence,,,BAR,M
 106252,Joao Pedro Sorgi,R,,BRA,M
-103529,Aisam Ul Haq Qureshi,R,183.0,PAK,M
+103529,Aisam Ul Haq Qureshi,R,183,PAK,M
 103499,Aqeel Khan,R,,PAK,M
 111805,Seong Chan Hong,R,,KOR,M
 120792,M Abid Ali Khan Akbar,U,,PAK,M
@@ -1003,13 +1003,13 @@ id, name, hand, ht, ioc,gender
 105606,Mohsen Hossein Zade,U,,IRI,M
 134217,Skyler Butts,U,,HKG,M
 200401,Amir Hossein Badi,R,,IRI,M
-104233,Frederik Nielsen,R,190.0,DEN,M
+104233,Frederik Nielsen,R,190,DEN,M
 126530,Peter Bothwell,R,,IRL,M
 126526,Soren Hess Olesen,R,,DEN,M
 106396,Cheng Yu Yu,R,,TPE,M
 134120,Kuan Yi Lee,R,,TPE,M
 206000,Michel Saade,U,,LIB,M
-104251,Ti Chen,R,183.0,TPE,M
+104251,Ti Chen,R,183,TPE,M
 134114,Jad Ballout,U,,TPE,M
 207176,Muhammad Althaf Dhaifullah,R,,INA,M
 200045,Anthony Susanto,R,,INA,M
@@ -1030,9 +1030,9 @@ id, name, hand, ht, ioc,gender
 106175,Ricardo Rodriguez,R,,VEN,M
 105499,Christopher Diaz Figueroa,R,,GUA,M
 105467,Jordi Munoz Abreu,U,,VEN,M
-103401,Jan Hernych,R,190.0,CZE,M
+103401,Jan Hernych,R,190,CZE,M
 103327,Alessandro Motti,L,,ITA,M
-105180,Daniel Dutra Da Silva,L,175.0,BRA,M
+105180,Daniel Dutra Da Silva,L,175,BRA,M
 103926,Daniel Munoz de la Nava,L,,ESP,
 200574,Alexander Donski,R,,CAN,M
 105586,Alexandar Lazov,U,,BUL,
@@ -1043,14 +1043,14 @@ id, name, hand, ht, ioc,gender
 206309,Boris Kozlov,U,,USA,M
 105894,Javier Marti,R,,ESP,M
 105700,Jose Pereira,R,,BRA,M
-103060,Alejandro Hernandez,R,180.0,MEX,M
+103060,Alejandro Hernandez,R,180,MEX,M
 200214,Alan Fernando Rubio Fierros,U,,MEX,M
 211765,Emina Bektas,U,,USA,F
 201367,Arantxa Parra Santonja,R,,ESP,F
 202614,Jacqueline Cako,R,,USA,F
 203549,Olga Ianchuk,U,,UKR,F
-104330,Rajeev Ram,R,193.0,USA,M
-104471,Ivan Dodig,R,183.0,CRO,M
+104330,Rajeev Ram,R,193,USA,M
+104471,Ivan Dodig,R,183,CRO,M
 104729,Ivan Nedelko,R,,RUS,M
 123809,Ivan Gakhov,L,,RUS,M
 126715,Fernando Yamacita,U,,BRA,M
@@ -1066,7 +1066,7 @@ id, name, hand, ht, ioc,gender
 124022,Chun Hun Wong,R,,HKG,M
 207415,Daniel Michalski,U,,POL,M
 207400,Mark Chigaazira,R,,ZIM,M
-104494,Adrian Ungur,R,178.0,ROU,M
+104494,Adrian Ungur,R,178,ROU,M
 207479,Soufiane El Mesbahi,R,,MAR,M
 202210,Edris Fetisleam,U,,ROU,M
 206642,Yassir Kilani,R,,MAR,M
@@ -1079,9 +1079,9 @@ id, name, hand, ht, ioc,gender
 105438,Inigo Cervantes Huegun,R,,ESP,M
 106393,Frederico Ferreira Silva,L,,POR,M
 132310,Tiago Cacao,R,,POR,M
-104523,Frederico Gil,R,178.0,POR,M
+104523,Frederico Gil,R,178,POR,M
 144909,Francisco Cabral,U,,POR,M
-104947,Marsel Ilhan,R,190.0,TUR,M
+104947,Marsel Ilhan,R,190,TUR,M
 207368,Mert Alkaya,U,,TUR,M
 125821,Miguel Semmler,R,,ESP,M
 200374,Nicolas Alvarez Varona,U,,ESP,M
@@ -1090,7 +1090,7 @@ id, name, hand, ht, ioc,gender
 202662,Camilla Rosatello,R,,ITA,F
 126504,Andrea Pellegrino,R,,ITA,M
 202580,Federica Di Sarra,R,,ITA,F
-105514,Jeremy Jahn,R,180.0,GER,M
+105514,Jeremy Jahn,R,180,GER,M
 134472,Antoine Bellier,U,,SUI,M
 105515,Jordi Samper Montana,U,,ESP,M
 105678,Axel Michon,L,,FRA,M
@@ -1108,12 +1108,12 @@ id, name, hand, ht, ioc,gender
 206184,Kelly Versteeg,U,,NED,F
 202611,Oksana Kalashnikova,L,,GEO,F
 201670,Amra Sadikovic,R,,SUI,F
-104332,Philipp Petzschner,R,185.0,GER,M
-104095,David Guez,R,185.0,FRA,M
+104332,Philipp Petzschner,R,185,GER,M
+104095,David Guez,R,185,FRA,M
 105100,Edward Corrie,U,,GBR,M
 134405,Koray Kirci,U,,TUR,M
 105821,Riccardo Bellotti,R,,ITA,M
-201599,Andrea Hlavackova,R,174.0,CZE,F
+201599,Andrea Hlavackova,R,174,CZE,F
 123807,Marek Jaloviec,L,,CZE,M
 200164,Jonathan Gray,U,,GBR,M
 105692,Alessandro Bega,R,,ITA,M
@@ -1125,16 +1125,16 @@ id, name, hand, ht, ioc,gender
 105528,Alexander Ward,U,,GBR,M
 221142,Holly Fischer,U,,GBR,F
 213620,Jessica Pieri,U,,ITA,F
-201587,Bojana Jovanovski,R,175.0,SRB,F
+201587,Bojana Jovanovski,R,175,SRB,F
 206349,Mayo Hibi,R,,JPN,F
 202478,Tara Moore,R,,GBR,F
-104597,Nicolas Almagro,R,183.0,ESP,M
+104597,Nicolas Almagro,R,183,ESP,M
 105572,Austin Krajicek,L,,USA,M
 144652,William Blumberg,U,,USA,M
 202130,Emil Reinberg,R,,USA,M
 208143,Garrett Johns,U,,USA,M
 106177,Oriol Roca Batalla,R,,ESP,M
-105161,Yann Marti,R,173.0,SUI,M
+105161,Yann Marti,R,173,SUI,M
 105120,Andres Molteni,R,,ARG,M
 202359,Marvin Moeller,U,,GER,M
 207408,Niklas Guttau,U,,GER,M
@@ -1187,7 +1187,7 @@ id, name, hand, ht, ioc,gender
 206277,Marine Partaud,R,,FRA,F
 203553,Riko Sawayanagi,R,,JPN,F
 202454,Erika Sema,U,,JPN,F
-201578,Kai Chen Chang,R,167.0,TPE,F
+201578,Kai Chen Chang,R,167,TPE,F
 213821,Wushuang Zheng,U,,CHN,F
 216062,Meiling Wang,U,,CHN,F
 204223,Peangtarn Plipuech,U,,THA,F
@@ -1218,7 +1218,7 @@ id, name, hand, ht, ioc,gender
 213521,Megan Mccray,U,,USA,F
 211172,Lena Lutzeier,R,,GER,F
 215163,Zeel Desai,R,,IND,F
-201573,Laura Robson,L,180.0,GBR,F
+201573,Laura Robson,L,180,GBR,F
 206105,Rutuja Bhosale,R,,IND,F
 211668,Riya Bhatia,R,,IND,F
 201652,Ksenia Palkina,U,,KGZ,F
@@ -1305,7 +1305,7 @@ id, name, hand, ht, ioc,gender
 211846,Kyoka Okamura,R,,JPN,F
 202495,Jennifer Elie,R,,USA,F
 202639,Akiko Omae,R,,JPN,F
-201486,Aleksandra Wozniak,R,175.0,CAN,F
+201486,Aleksandra Wozniak,R,175,CAN,F
 202695,Aleksandrina Naydenova,R,,BUL,F
 202636,Zuzana Zlochova,R,,SVK,F
 200083,Alexandra Stevenson,R,,USA,F
@@ -1406,7 +1406,7 @@ id, name, hand, ht, ioc,gender
 202640,Irina Ramialison,R,,FRA,F
 211179,Amanda Rodgers,L,,USA,F
 210801,Catherine Chantraine,U,,BEL,F
-215259,Leonie Kung,R,176.0,SUI,F
+215259,Leonie Kung,R,176,SUI,F
 220561,Monica Robinson,U,,USA,F
 213600,Emily Arbuthnott,U,,GBR,F
 211021,Lea Tholey,L,,FRA,F
@@ -1694,7 +1694,7 @@ id, name, hand, ht, ioc,gender
 213861,Ronit Yurovsky,U,,USA,F
 214726,Isabelle Boulais,U,,CAN,F
 202447,Alexandra Mueller,R,,USA,F
-201547,Michelle Larcher De Brito,R,165.0,POR,F
+201547,Michelle Larcher De Brito,R,165,POR,F
 211242,Catherine Leduc,U,,CAN,F
 213796,Petra Januskova,R,,CAN,F
 214779,Sara Daavettila,U,,USA,F
@@ -1706,7 +1706,7 @@ id, name, hand, ht, ioc,gender
 201550,Tamaryn Hendler,R,,BEL,F
 214875,Kennedy Shaffer,U,,USA,F
 201086,Greta Arn,R,,HUN,F
-200764,Elena Bovina,R,189.0,RUS,F
+200764,Elena Bovina,R,189,RUS,F
 213772,Amy Zhu,R,,USA,F
 216357,Layne Sleeth,U,,CAN,F
 215062,Carson Branstine,R,,USA,F
@@ -1831,7 +1831,7 @@ id, name, hand, ht, ioc,gender
 220821,Erika Sofia Gonzalez,R,,COL,F
 205462,Melisa Morales,R,,GUA,F
 202464,Yuliana Lizarazo,R,,COL,F
-215785,Maria Camila Osorio Serrano,R,162.0,COL,F
+215785,Maria Camila Osorio Serrano,R,162,COL,F
 216392,Nicole Bueno Sandoval,U,,COL,F
 216393,Mariana Vargas Carrascal,R,,COL,F
 201441,Emma Laine,L,,FIN,F
@@ -2085,7 +2085,7 @@ id, name, hand, ht, ioc,gender
 211654,Ana Bianca Mihaila,U,,ROU,F
 216025,Ella Husrefovic,U,,AUS,F
 211541,Jacqueline Cabaj Awad,U,,SWE,F
-210886,Mayar Sherif,R,180.0,EGY,F
+210886,Mayar Sherif,R,180,EGY,F
 213822,Verena Hofer,U,,ITA,F
 211751,Alexandra Walters,R,,AUS,F
 204356,Emily Fanning,U,,NZL,F
@@ -2145,7 +2145,7 @@ id, name, hand, ht, ioc,gender
 220471,Dominique Chante Mclean,R,,GBR,F
 214330,Zi Yi Wang,U,,CHN,F
 220260,Anastasiya Khrustaleva,U,,RUS,F
-215898,Jule Niemeier,R,178.0,GER,F
+215898,Jule Niemeier,R,178,GER,F
 204415,Alexandra Riley,U,,USA,F
 214014,Adriana Sosnovschi,R,,MDA,F
 215459,Emily Seibold,R,,GER,F
@@ -2228,7 +2228,7 @@ id, name, hand, ht, ioc,gender
 213553,Camille Sireix,U,,FRA,F
 211961,Emmanuelle Salas,U,,FRA,F
 202387,Vlada Ekshibarova,R,,UZB,F
-200043,Virginie Razzano,R,173.0,FRA,F
+200043,Virginie Razzano,R,173,FRA,F
 211329,Tena Lukas,U,,CRO,F
 203317,Amandine Cazeaux,L,,FRA,F
 215354,Lucia De La Puerta Uribe,R,,ESP,F
@@ -2255,7 +2255,7 @@ id, name, hand, ht, ioc,gender
 214236,Angela Fita Boluda,U,,ESP,F
 215398,Lucia Cortez Llorca,U,,ESP,F
 211346,Jil Nora Engelmann,R,,GER,F
-201412,Anastasia Yakimova,R,165.0,BLR,F
+201412,Anastasia Yakimova,R,165,BLR,F
 215128,Alexandra Alegre Ferre,U,,ESP,F
 220060,Andrea Sauco Roque,U,,ESP,F
 213934,Nora Niedmers,U,,GER,F
@@ -2344,7 +2344,7 @@ id, name, hand, ht, ioc,gender
 213668,Alexandra Morozova,R,,USA,F
 215376,Melissa Kopinski,U,,USA,F
 215921,Salma Ewing,R,,USA,F
-215305,Desirae Krawczyk,L,170.0,USA,F
+215305,Desirae Krawczyk,L,170,USA,F
 220267,Taylor Bridges,R,,USA,F
 202445,Valeria Solovieva,R,,RUS,F
 213555,Theo Gravouil,U,,FRA,F
@@ -2363,7 +2363,7 @@ id, name, hand, ht, ioc,gender
 215601,Franziska Kommer,U,,GER,F
 214318,Eleonore Barrere,L,,FRA,F
 220349,Ines Nicault,U,,FRA,F
-201481,Tamira Paszek,R,165.0,AUT,F
+201481,Tamira Paszek,R,165,AUT,F
 215478,Claire Verwerda,U,,NED,F
 211159,Nikki Luttikhuis,R,,NED,F
 211535,Camille Cheli,R,,FRA,F
@@ -2385,7 +2385,7 @@ id, name, hand, ht, ioc,gender
 214320,Valentine Bacher,U,,FRA,F
 215098,Emma Hurst,U,,GBR,F
 202599,Alice Moroni,R,,ITA,F
-202470,Annika Beck,R,170.0,GER,F
+202470,Annika Beck,R,170,GER,F
 202627,Fiona Gervais,U,,FRA,F
 210672,Polina Leykina,R,,RUS,F
 211484,Lou Adler,U,,FRA,F
@@ -2400,7 +2400,7 @@ id, name, hand, ht, ioc,gender
 211543,Jennifer Zerbone,L,,FRA,F
 216081,Maja Chwalinska,U,,POL,F
 203518,Paula Kania,R,,POL,F
-201523,Marina Erakovic,R,174.0,NZL,F
+201523,Marina Erakovic,R,174,NZL,F
 201699,Martina Caregaro,R,,ITA,F
 213908,Yuriko Miyazaki,R,,JPN,F
 220760,Lillian Mould,U,,GBR,F
@@ -2597,7 +2597,7 @@ id, name, hand, ht, ioc,gender
 219852,Stephanie Belovukovic,U,,AUS,F
 215526,Adi Spiegelman,U,,ISR,F
 205123,Alice Balducci,R,,ITA,F
-201290,Daniela Hantuchova,R,181.0,SVK,F
+201290,Daniela Hantuchova,R,181,SVK,F
 202671,Cristina Andreea Mitu,R,,ROU,F
 220070,Chiara Fermi,U,,ITA,F
 220306,Alessandra Mazzola,U,,ITA,F
@@ -2625,7 +2625,7 @@ id, name, hand, ht, ioc,gender
 215369,Blanca Puig Caballero,U,,ESP,F
 215900,Anna Maria Kalavska,U,,CZE,F
 220312,Taylor Johnson,L,,USA,F
-201448,Galina Voskoboeva,R,183.0,KAZ,F
+201448,Galina Voskoboeva,R,183,KAZ,F
 220427,Nina Nikprelevic,U,,USA,F
 203456,Jelena Simic,U,,BIH,F
 220496,Enola Chiesa,U,,ITA,F
@@ -2637,7 +2637,7 @@ id, name, hand, ht, ioc,gender
 213959,Natasha Piludu,R,,ITA,F
 213849,Nicole Fossa Huergo,U,,ITA,F
 211738,Pia Cuk,R,,SLO,F
-201305,Eleni Daniilidou,R,182.0,GRE,F
+201305,Eleni Daniilidou,R,182,GRE,F
 202487,Nastassja Burnett,R,,ITA,F
 219685,Angela Rinaldi,R,,CRO,F
 220517,Ana Stefanovic,U,,FRA,F
@@ -2703,7 +2703,7 @@ id, name, hand, ht, ioc,gender
 205789,Na Ri Kim,U,,KOR,F
 219893,Ari Matsumoto,R,,JPN,F
 203580,Miki Ukai,U,,JPN,F
-200617,Kimiko Date Krumm,R,163.0,JPN,F
+200617,Kimiko Date Krumm,R,163,JPN,F
 216044,Yuki Naito,R,,JPN,F
 220399,Suzuka Takoi,U,,JPN,F
 219880,Yuki Ukai,U,,JPN,F
@@ -3060,7 +3060,7 @@ id, name, hand, ht, ioc,gender
 220150,Ida Ferding,U,,SWE,F
 220762,Julia Lovqvist,R,,SWE,F
 220763,Sara Salemyr,U,,SWE,F
-220704,Clara Tauson,R,182.0,DEN,F
+220704,Clara Tauson,R,182,DEN,F
 220755,Karolina Tilander,R,,SWE,F
 204381,Louise Brunskog,U,,SWE,F
 214921,Adna Sofradzija,U,,SWE,F
@@ -3074,7 +3074,7 @@ id, name, hand, ht, ioc,gender
 220176,Natcharee Teerachodjiranon,U,,THA,F
 210892,Apichaya Runglerdkriangkrai,R,,THA,F
 214708,Georgiana Ruhrig,R,,AUS,F
-201515,Alisa Kleybanova,R,181.0,RUS,F
+201515,Alisa Kleybanova,R,181,RUS,F
 220093,Natthapat Piwbangruk,R,,THA,F
 220676,Kelly Poggensee Wei,U,,USA,F
 220598,Aunchisa Chanta,U,,THA,F
@@ -3165,7 +3165,7 @@ id, name, hand, ht, ioc,gender
 215164,Lizaveta Hancharova,U,,BLR,F
 214182,Veronica Miroshnichenko,L,,RUS,F
 214508,Nurseda Akovalier,U,,TUR,F
-201416,Alona Bondarenko,R,168.0,UKR,F
+201416,Alona Bondarenko,R,168,UKR,F
 216250,Bronte Murgett,U,,GBR,F
 216283,Lotte Van Leeuwen,R,,NED,F
 215010,Yijia Shao,U,,CHN,F
@@ -3399,17 +3399,17 @@ id, name, hand, ht, ioc,gender
 220811,Linda Cagnazzo,U,,ITA,F
 215878,Aurora Zantedeschi,R,,ITA,F
 216037,Zaklin Bokan,U,,SLO,F
-201414,Michaella Krajicek,R,177.0,NED,F
-201503,Ayumi Morita,R,163.0,JPN,F
-201287,Maria Jose Martinez Sanchez,L,176.0,ESP,F
+201414,Michaella Krajicek,R,177,NED,F
+201503,Ayumi Morita,R,163,JPN,F
+201287,Maria Jose Martinez Sanchez,L,176,ESP,F
 211851,Emma Christine Higuchi,U,,USA,F
 202376,Raquel Kops Jones,R,,USA,F
 202570,Hao Ching Chan,R,,TPE,F
 201482,Andreja Klepac,R,,SLO,F
-201456,Olga Savchuk,R,175.0,UKR,F
-201450,Tsvetana Pironkova,R,180.0,BUL,F
-201468,Yaroslava Shvedova,R,180.0,KAZ,F
-201347,Jelena Jankovic,R,177.0,SRB,F
+201456,Olga Savchuk,R,175,UKR,F
+201450,Tsvetana Pironkova,R,180,BUL,F
+201468,Yaroslava Shvedova,R,180,KAZ,F
+201347,Jelena Jankovic,R,177,SRB,F
 220099,Nasiba Espolova,U,,UZB,F
 215748,Alyssa Mayo,R,,USA,F
 204310,Camilia Benabdeljalil,U,,MAR,F
@@ -3422,52 +3422,52 @@ id, name, hand, ht, ioc,gender
 206106,Prarthana G Thombare,U,,IND,F
 215942,Ema Mulalic,U,,BIH,F
 201339,Renata Voracova,R,,CZE,F
-104216,Maximo Gonzalez,R,175.0,ARG,M
-103105,Ruben Ramirez Hidalgo,R,183.0,ESP,M
+104216,Maximo Gonzalez,R,175,ARG,M
+103105,Ruben Ramirez Hidalgo,R,183,ESP,M
 123896,Matija Pecotic,U,,CRO,M
 106006,Agustin Velotti,R,,ARG,M
-104997,Igor Sijsling,R,190.0,NED,M
-103843,Marco Chiudinelli,R,185.0,SUI,M
-103794,Benjamin Becker,R,178.0,GER,M
+104997,Igor Sijsling,R,190,NED,M
+103843,Marco Chiudinelli,R,185,SUI,M
+103794,Benjamin Becker,R,178,GER,M
 111506,Maxime Hamou,R,,FRA,M
-104813,Grega Zemlja,R,183.0,SLO,M
+104813,Grega Zemlja,R,183,SLO,M
 104945,James Mcgee,R,,IRL,M
 105596,Jan Satral,R,,CZE,M
 105726,Yannik Reuter,R,,BEL,M
-103908,Paul Henri Mathieu,R,185.0,FRA,M
+103908,Paul Henri Mathieu,R,185,FRA,M
 105175,Kristijan Mesaros,R,,CRO,M
-105723,Andrey Kuznetsov,R,185.0,RUS,M
+105723,Andrey Kuznetsov,R,185,RUS,M
 106362,Laurent Lokoli,R,,FRA,M
-105668,Jerzy Janowicz,R,203.0,POL,M
-104229,Yen Hsun Lu,R,180.0,TPE,M
+105668,Jerzy Janowicz,R,203,POL,M
+104229,Yen Hsun Lu,R,180,TPE,M
 116985,Petr Michnev,R,,CZE,M
 105650,Marcus Willis,L,,GBR,M
 106425,Blake Mott,U,,AUS,M
-105638,Daniel Cox,R,170.0,GBR,M
+105638,Daniel Cox,R,170,GBR,M
 105510,Neil Pauffley,R,,GBR,M
 144874,Ryan James Storrie,R,,GBR,M
-104098,Dmitry Tursunov,R,185.0,RUS,M
-103163,Tommy Haas,R,188.0,GER,M
+104098,Dmitry Tursunov,R,185,RUS,M
+103163,Tommy Haas,R,188,GER,M
 214309,Kelly Chen,U,,USA,F
 105871,Sekou Bangoura,R,,USA,M
-201584,Ksenia Pervak,L,170.0,KAZ,F
-103285,Radek Stepanek,R,185.0,CZE,M
+201584,Ksenia Pervak,L,170,KAZ,F
+103285,Radek Stepanek,R,185,CZE,M
 105965,Gavin Van Peperzeel,R,,AUS,M
-104007,Andre Ghem,R,193.0,BRA,M
+104007,Andre Ghem,R,193,BRA,M
 104771,Yuuya Kibi,U,,JPN,M
-104548,Brian Baker,R,190.0,USA,M
-104979,Andrey Golubev,R,185.0,KAZ,M
+104548,Brian Baker,R,190,USA,M
+104979,Andrey Golubev,R,185,KAZ,M
 106311,Marko Tepavac,R,,SRB,M
 206921,Scott Jones,R,,AUS,M
-104628,Alexander Kudryavtsev,R,183.0,RUS,M
-201498,Karin Knapp,R,180.0,ITA,F
+104628,Alexander Kudryavtsev,R,183,RUS,M
+201498,Karin Knapp,R,180,ITA,F
 204359,Giovanna Manifacio,R,,MEX,F
 215040,Emma Reyes Baca,U,,MEX,F
 124011,Kevin Jack Carpenter,U,,MEX,M
-104338,Juan Monaco,R,185.0,ARG,M
+104338,Juan Monaco,R,185,ARG,M
 200532,Vasil Kirkov,U,,USA,M
 104235,Matwe Middelkoop,R,,NED,M
-104707,Denis Matsukevitch,R,190.0,RUS,M
+104707,Denis Matsukevitch,R,190,RUS,M
 105421,Michal Konecny,L,,CZE,M
 106382,Luke Bambridge,R,,GBR,M
 204393,Skylar Alexandra Morton,U,,USA,F
@@ -3476,23 +3476,23 @@ id, name, hand, ht, ioc,gender
 106360,Connor Farren,R,,USA,M
 106335,Alexios Halebian,L,,USA,M
 110539,Wil Spencer,U,,USA,M
-102864,Frank Moser,R,193.0,GER,M
+102864,Frank Moser,R,193,GER,M
 204342,Nan Nan Zhang,R,,CHN,F
 216588,Kaoru Okamoto,U,,JPN,F
 205616,Xin Wen,R,,CHN,F
 202634,Chen Liang,R,,CHN,F
-201428,Mathilde Johansson,R,173.0,FRA,F
+201428,Mathilde Johansson,R,173,FRA,F
 213013,Anais Van Cauter,U,,FRA,F
 201561,Claire Feuerstein,L,,FRA,F
-201452,Lourdes Dominguez Lino,R,163.0,ESP,F
+201452,Lourdes Dominguez Lino,R,163,ESP,F
 202449,Victoria Larriere,R,,FRA,F
 204391,Sofia Kvatsabaia,U,,GEO,F
 202619,Ema Burgic,R,,BIH,F
 202626,Stephanie Vogt,R,,LIE,F
 214124,Anastasia Bukhanko,U,,RUS,F
 203538,Polina Vinogradova,R,,RUS,F
-201570,Vesna Dolonc,R,170.0,SRB,F
-201377,Yuliya Beygelzimer,R,174.0,UKR,F
+201570,Vesna Dolonc,R,170,SRB,F
+201377,Yuliya Beygelzimer,R,174,UKR,F
 203279,Nadja Gilchrist,R,,USA,F
 211143,Julie Tringa,U,,FRA,F
 211489,Maria Agustina De Carli,R,,ARG,F
@@ -3861,7 +3861,7 @@ id, name, hand, ht, ioc,gender
 201560,Kinnie Laisne,R,,FRA,F
 203443,Sofie Oyen,R,,BEL,F
 203364,Tatiana Bua,L,,ARG,F
-200773,Stephanie Foretz Gacon,R,166.0,FRA,F
+200773,Stephanie Foretz Gacon,R,166,FRA,F
 211020,Solene Guyomard,U,,FRA,F
 215830,Kristina Baran,U,,FRA,F
 214850,Fanny Caramaro,R,,FRA,F
@@ -3922,7 +3922,7 @@ id, name, hand, ht, ioc,gender
 206320,Vita Taher,R,,INA,F
 215492,Lisa Marie Rioux,U,,JPN,F
 215490,Lili Fekete,U,,HUN,F
-201400,Nicole Vaidisova,R,181.0,CZE,F
+201400,Nicole Vaidisova,R,181,CZE,F
 215918,Nora Szoke,U,,HUN,F
 215213,Waka Kirihata,U,,JPN,F
 212022,Rifanty Kahfiani,R,,INA,F
@@ -4340,11 +4340,11 @@ id, name, hand, ht, ioc,gender
 215256,Vladislava Kutuzova,R,,UKR,F
 204395,Brooke Austin,R,,USA,F
 215794,Hurricane Tyra Black,R,,USA,F
-201457,Jarmila Gajdosova,R,174.0,AUS,F
+201457,Jarmila Gajdosova,R,174,AUS,F
 211853,Maria Shishkina,R,,KAZ,F
 211852,Johnnise Renaud,U,,USA,F
 201815,Petra Rampre,R,,SLO,F
-201528,Melanie Oudin,R,168.0,USA,F
+201528,Melanie Oudin,R,168,USA,F
 216318,Jana Mccord,U,,USA,F
 215311,Sarah Dvorak,U,,USA,F
 206096,Viktoriya Lushkova,R,,UKR,F
@@ -4352,7 +4352,7 @@ id, name, hand, ht, ioc,gender
 214287,Jeannez Daniel,U,,USA,F
 216568,Allison Bojczuk,U,,USA,F
 223126,Ekaterina Makarova,U,,RUS,F
-201508,Petra Cetkovska,R,172.0,CZE,F
+201508,Petra Cetkovska,R,172,CZE,F
 216246,Esther Thebault,U,,FRA,F
 216339,Karla De La Luz Montalvo,U,,MEX,F
 215823,Sophia Edwards,U,,USA,F
@@ -4373,71 +4373,71 @@ id, name, hand, ht, ioc,gender
 216584,Mireille Moreau,U,,CAN,F
 216581,Melissa Lord,U,,USA,F
 214560,Caroline Lampl,U,,USA,F
-201421,Ana Ivanovic,R,183.0,SRB,F
+201421,Ana Ivanovic,R,183,SRB,F
 216582,Tiffany Lagarde,U,,CAN,F
-201344,Klara Koukalova,R,166.0,CZE,F
+201344,Klara Koukalova,R,166,CZE,F
 214348,Olla Mourad,U,,QAT,F
-201371,Vera Dushevina,R,180.0,RUS,F
+201371,Vera Dushevina,R,180,RUS,F
 213633,Zaineb El Houari,R,,MAR,F
 216580,Salma Charif,U,,MAR,F
 216585,Hanna Levina,R,,INA,F
-201424,Shahar Peer,R,170.0,ISR,F
+201424,Shahar Peer,R,170,ISR,F
 216475,Nurin Nabilah Roslan,U,,MAS,F
 215014,Rosie Cheng,R,,NZL,F
 216579,Weronika Falkowska,R,,POL,F
 216586,Hei Ching Claudia Ng,R,,HKG,F
-201438,Ekaterina Bychkova,R,171.0,RUS,F
+201438,Ekaterina Bychkova,R,171,RUS,F
 215317,Wei Tang,U,,TPE,F
-201494,Raluca Olaru,R,173.0,ROU,F
+201494,Raluca Olaru,R,173,ROU,F
 106172,Maxime Chazal,U,,FRA,M
 106093,Benjamin Mitchell,R,,AUS,M
 105472,Nils Langer,R,,GER,M
-103582,Michael Berrer,L,193.0,GER,M
-104714,Julian Reister,R,188.0,GER,M
-104268,Alejandro Falla,L,185.0,COL,M
+103582,Michael Berrer,L,193,GER,M
+104714,Julian Reister,R,188,GER,M
+104268,Alejandro Falla,L,185,COL,M
 105679,Eduardo Struvay,R,,COL,M
 104852,Yannick Jankovits,R,,FRA,M
-104736,Farrukh Dustov,R,196.0,UZB,M
-103835,Filippo Volandri,R,183.0,ITA,M
+104736,Farrukh Dustov,R,196,UZB,M
+103835,Filippo Volandri,R,183,ITA,M
 104920,Denys Molchanov,R,,UKR,M
 105070,Hans Podlipnik Castillo,R,,CHI,M
 105098,Alexandre Sidorenko,R,,FRA,M
 105872,Christian Lindell,R,,SWE,M
-105137,Pere Riba,R,183.0,ESP,M
-103656,Albert Montanes,R,175.0,ESP,M
+105137,Pere Riba,R,183,ESP,M
+103656,Albert Montanes,R,175,ESP,M
 106322,David Perez Sanz,U,,ESP,M
 106164,Tomas Lipovsek Puches,U,,ARG,M
 104846,Marek Michalicka,R,,CZE,M
 110749,Joe Salisbury,U,,GBR,M
 105651,Daniel Smethurst,U,,GBR,M
-104273,Edouard Roger Vasselin,R,188.0,FRA,M
+104273,Edouard Roger Vasselin,R,188,FRA,M
 105014,Antal Van Der Duim,R,,NED,M
-104500,Somdev Devvarman,R,180.0,IND,M
+104500,Somdev Devvarman,R,180,IND,M
 105542,Bastian Trinker,R,,AUT,M
 104944,Niels Desein,R,,BEL,M
 104851,Gianluca Naso,R,,ITA,M
-103902,Jan Mertl,R,190.0,CZE,M
+103902,Jan Mertl,R,190,CZE,M
 105325,Germain Gigounon,R,,BEL,M
 117352,Oliver Anderson,U,,AUS,M
 121395,Connor Smith,U,,USA,M
 105426,Michael Linzer,R,,AUT,M
-103720,Lleyton Hewitt,R,180.0,AUS,M
+103720,Lleyton Hewitt,R,180,AUS,M
 200528,Mayez Jupiter Elrich,R,,AUS,M
 105591,Matt Reid,R,,AUS,M
-103997,Lukasz Kubot,R,190.0,POL,M
+103997,Lukasz Kubot,R,190,POL,M
 121705,Blade Fong,U,,AUS,M
 216578,Pamela Lopez Cervantes,U,,MEX,F
 126439,Andres Zepeda,U,,MEX,M
 120798,Hans Hach Verdugo,U,,MEX,M
-104864,Alex Kuznetsov,R,183.0,USA,M
+104864,Alex Kuznetsov,R,183,USA,M
 131934,Andrea Vavassori,U,,ITA,M
 105895,Omar Giacalone,R,,ITA,M
 126533,Alvaro Lopez San Martin,R,,ESP,M
 105443,Georgi Rumenov Payakov,U,,ESP,M
 111156,Nathan Pasha,U,,USA,M
-103780,Eric Butorac,L,190.0,USA,M
+103780,Eric Butorac,L,190,USA,M
 206863,Nikita Girey Demir,U,,USA,M
-103822,Scott Lipsky,R,185.0,USA,M
+103822,Scott Lipsky,R,185,USA,M
 206862,Leon Vessels,U,,USA,M
 105674,Carlos Eduardo Severino,U,,BRA,M
 126197,Orlando Luz,R,,BRA,M
@@ -4468,9 +4468,9 @@ id, name, hand, ht, ioc,gender
 202065,Petros Tsitsipas,U,,GRE,M
 105780,Victor Nunez,R,,CHI,M
 134068,Vadym Ursu,R,,UKR,M
-105262,Fernando Romboli,R,180.0,BRA,M
-200079,Kim Clijsters,R,175.0,BEL,F
-209857,Leandro Riedi,R,191.0,SUI,M
+105262,Fernando Romboli,R,180,BRA,M
+200079,Kim Clijsters,R,175,BEL,F
+209857,Leandro Riedi,R,191,SUI,M
 206748,Giulio Zeppieri,L,,ITA,M
 209263,Matteo Gigante,L,,ITA,M
 209260,Luciano Darderi,R,,ITA,M
@@ -4490,7 +4490,7 @@ id, name, hand, ht, ioc,gender
 207608,Timofey Skatov,R,,RUS,M
 106187,Denis Yevseyev,U,,KAZ,M
 126964,Vitaliy Sachko,R,,UKR,M
-103946,Bruno Soares,R,180.0,BRA,M
+103946,Bruno Soares,R,180,BRA,M
 126536,David Pichler,R,,AUT,M
 209867,Daniil Ostapenkov,R,,BLR,M
 133979,Hasan Ibrahim,R,,GER,M
@@ -4549,34 +4549,34 @@ id, name, hand, ht, ioc,gender
 207815,Guido Ivan Justo,U,,ARG,M
 208278,Shintaro Mochizuki,R,,JPN,M
 200415,Robert Galloway,R,,USA,M
-202248,Alex Lawson,L,191.0,USA,M
-103523,Rohan Bopanna,R,190.0,IND,M
+202248,Alex Lawson,L,191,USA,M
+103523,Rohan Bopanna,R,190,IND,M
 207180,Shaheed Alam,R,,SGP,M
 122207,Roy Hobbs,U,,SIN,M
 209414,Luca Van Assche,R,,FRA,M
 202104,Sebastian Baez,R,,ARG,M
-104249,Marcelo Melo,R,203.0,BRA,M
+104249,Marcelo Melo,R,203,BRA,M
 208411,Daniel Antonio Nunez,U,,CHI,M
 106059,Michel Vernier,R,,CHI,M
 133872,Enrico Dalla Valle,U,,ITA,M
 126273,Jordi Arconada,R,,ARG,M
 103914,Omar Awadhy,R,,UAE,M
 138304,Abdulrahman Al Janahi,R,,UAE,M
-208931,Toby Alex Kodat,R,178.0,USA,M
+208931,Toby Alex Kodat,R,178,USA,M
 209992,Juncheng Shang,U,,CHN,M
-209863,Leo Borg,R,183.0,SWE,M
+209863,Leo Borg,R,183,SWE,M
 202197,Carlos Gimeno Valero,U,,ESP,M
 209098,Hamad Medjedovic,R,,SRB,M
 132686,Nuno Borges,R,,POR,M
 208819,Max Hans Rehberg,U,,GER,M
 134840,Raul Brancaccio,U,,ITA,M
 208502,Dominic Stephan Stricker,U,,SUI,M
-209918,Hanwen Li,R,180.0,CHN,M
+209918,Hanwen Li,R,180,CHN,M
 209916,Marko Topo,U,,SRB,M
 200240,Vit Kopriva,U,,CZE,M
 208859,Francesco Passaro,R,,ITA,M
 209355,Timo Legout,R,,FRA,M
-209950,Arthur Fils,R,185.0,FRA,M
+209950,Arthur Fils,R,185,FRA,M
 221746,Oceane Babel,U,,FRA,F
 221018,Julie Belgraver,U,,FRA,F
 222391,Lois Boisson,R,,FRA,F
@@ -4596,7 +4596,7 @@ id, name, hand, ht, ioc,gender
 111569,Gage Brymer,U,,USA,M
 207213,Duje Ajdukovic,R,,CRO,M
 209079,Samir Banerjee,R,,USA,M
-209903,Lukas Neumayer,R,183.0,AUT,M
+209903,Lukas Neumayer,R,183,AUT,M
 124013,Eduardo Nava,R,,USA,M
 103876,Tomasz Bednarek,R,,POL,M
 206917,Tim Hofmann,R,,GER,M
@@ -4614,10 +4614,10 @@ id, name, hand, ht, ioc,gender
 129354,Masakatsu Noguchi,U,,JPN,M
 105452,Francesco Vilardo,R,,ITA,M
 200648,Masaya Kobayashi,U,,JPN,M
-103175,Toshihide Matsui,R,180.0,JPN,M
+103175,Toshihide Matsui,R,180,JPN,M
 128138,Konosuke Kiryu,U,,JPN,M
 121004,Shunrou Takeshima,U,,JPN,M
-102863,Takao Suzuki,R,175.0,JPN,M
+102863,Takao Suzuki,R,175,JPN,M
 105391,Hiromasa Oku,U,,JPN,M
 206822,Yuga Tashiro,U,,JPN,M
 121621,Ken Onoda,U,,JPN,M
@@ -4638,29 +4638,29 @@ id, name, hand, ht, ioc,gender
 105026,Takuto Niki,U,,JPN,M
 122248,Peter Kobelt,U,,USA,M
 126335,Sora Fukuda,L,,JPN,M
-104499,Jimmy Wang,R,178.0,TPE,M
+104499,Jimmy Wang,R,178,TPE,M
 111462,Ken Onishi,U,,JPN,M
 105072,Sanam Singh,R,,IND,M
 105787,Hiroyasu Ehara,R,,JPN,M
 122495,Shintaro Imai,U,,JPN,M
-104262,Flavio Cipolla,R,173.0,ITA,M
-104676,Andreas Beck,L,190.0,GER,M
+104262,Flavio Cipolla,R,173,ITA,M
+104676,Andreas Beck,L,190,GER,M
 105059,Kento Takeuchi,L,,JPN,M
 120401,Tucker Vorster,U,,RSA,M
 106243,Mate Delic,R,,CRO,M
 106181,Felipe Mantilla,R,,COL,M
 206825,Rodrigo Manzo Monsech,R,,MEX,M
-104738,Caio Zampieri,R,183.0,BRA,M
-101339,Agustin Moreno,R,180.0,MEX,M
+104738,Caio Zampieri,R,183,BRA,M
+101339,Agustin Moreno,R,180,MEX,M
 122402,Mauricio Resendiz Dominguez,U,,MEX,M
-105917,Gianni Mina,R,185.0,FRA,M
+105917,Gianni Mina,R,185,FRA,M
 126870,David Koch Carrillo,U,,MEX,M
 106377,Robin Stanek,L,,CZE,M
 206824,Jose Pablo Andres Gomez,U,,MEX,M
 122632,Ivar Jose Aramburu Contreras,R,,MEX,M
 105944,Juan Sebastian Gomez,R,,COL,M
-104117,Giovanni Lapentti,R,193.0,ECU,M
-104905,Nicolas Barrientos,R,175.0,COL,M
+104117,Giovanni Lapentti,R,193,ECU,M
+104905,Nicolas Barrientos,R,175,COL,M
 105791,Mauricio Astorga,L,,MEX,M
 110618,Elmar Ejupovic,R,,BIH,M
 106273,Ronald Slobodchikov,R,,RUS,M
@@ -4714,17 +4714,17 @@ id, name, hand, ht, ioc,gender
 105288,Guillermo Rivera Aranguiz,R,,CHI,M
 110774,Marcelo Zormann Da Silva,R,,BRA,M
 106211,Bruno Santanna,R,,BRA,M
-104550,Ricardo Hocevar,R,180.0,BRA,M
+104550,Ricardo Hocevar,R,180,BRA,M
 144848,Sergio Luis Hernandez Ramirez,R,,COL,M
 126882,Gregorio Cordonnier,U,,ARG,M
 109334,Bastian Malla,U,,CHI,M
 106207,Mate Pavic,L,,CRO,M
 108701,Juan Sebastian Cabal,R,,COL,M
-105286,Greg Jones,R,190.0,AUS,M
+105286,Greg Jones,R,190,AUS,M
 122164,Chung Hyo Woo,U,,KOR,M
 104677,Artem Sitak,R,,NZL,M
-104600,Treat Conrad Huey,L,178.0,PHI,M
-104857,Robert Farah,R,193.0,COL,M
+104600,Treat Conrad Huey,L,178,PHI,M
+104857,Robert Farah,R,193,COL,M
 111807,Simeon Rossier,L,,SUI,M
 105697,Marco Bortolotti,R,,ITA,M
 105401,Matteo Trevisan,R,,ITA,M
@@ -4742,7 +4742,7 @@ id, name, hand, ht, ioc,gender
 124085,Taha Tifnouti,L,,MAR,M
 104839,Yassine Idmbarek,U,,MAR,M
 105160,Guillermo Duran,R,,ARG,M
-105149,Reda El Amrani,R,185.0,MAR,M
+105149,Reda El Amrani,R,185,MAR,M
 200225,Nathaniel Lammons,U,,USA,M
 125801,Luis Valero,U,,COL,M
 138821,Timo Stodder,U,,GER,M
@@ -4764,13 +4764,13 @@ id, name, hand, ht, ioc,gender
 206821,Robin Bailly,U,,FRA,M
 105892,Alexandr Igoshin,U,,RUS,M
 132457,Jarryd Woog,U,,USA,M
-104619,Jesse Huta Galung,R,188.0,NED,M
-104112,Benjamin Balleret,R,185.0,MON,M
+104619,Jesse Huta Galung,R,188,NED,M
+104112,Benjamin Balleret,R,185,MON,M
 105889,Nico Matic,R,,GER,M
 122645,Demian Raab,U,,GER,M
 202152,Christian Lakoseljac,U,,CAN,M
 106061,Pavel Krainik,R,,CAN,M
-105229,Philip Bester,R,188.0,CAN,M
+105229,Philip Bester,R,188,CAN,M
 105560,Kelsey Stevenson,R,,CAN,M
 105113,Patrik Rosenholm,R,,SWE,M
 206861,Roko Savin,R,,CRO,M
@@ -4786,14 +4786,14 @@ id, name, hand, ht, ioc,gender
 200108,Matej Vocel,U,,CZE,M
 134029,Michal Marko,R,,SVK,M
 126878,David Poljak,U,,CZE,M
-103863,Mikhail Elgin,R,183.0,RUS,M
+103863,Mikhail Elgin,R,183,RUS,M
 200403,Patrik Nema,R,,SVK,M
 202315,Tomas Liska,R,,SVK,M
-104783,Mikhail Ledovskikh,R,188.0,RUS,M
+104783,Mikhail Ledovskikh,R,188,RUS,M
 105645,Alexander Lobkov,R,,RUS,M
 132299,Saidalo Saidkarimov,U,,UZB,M
 200147,Shohruh Abdumalikov,R,,UZB,M
-104644,Riccardo Ghedin,R,188.0,ITA,M
+104644,Riccardo Ghedin,R,188,ITA,M
 206838,Fayzullokhon Mavlyudov,R,,UZB,M
 109737,Markos Kalovelonis,R,,GRE,M
 104927,Sardor Pulatov,R,,UZB,M
@@ -4824,7 +4824,7 @@ id, name, hand, ht, ioc,gender
 106149,Maciej Smola,R,,POL,M
 202102,Filip Ambrozy,R,,POL,M
 105323,Wesley Koolhof,R,,NED,M
-105066,Grzegorz Panfil,L,183.0,POL,M
+105066,Grzegorz Panfil,L,183,POL,M
 105856,Adam Majchrowicz,U,,POL,M
 105503,George Von Massow,R,,GER,M
 109318,Pawel Cias,R,,POL,M
@@ -4871,7 +4871,7 @@ id, name, hand, ht, ioc,gender
 110468,Romain Barbosa,R,,POR,M
 126234,Frantisek Polanka,R,,CZE,M
 202227,Petr Nouza,U,,CZE,M
-104160,Lukas Dlouhy,R,185.0,CZE,M
+104160,Lukas Dlouhy,R,185,CZE,M
 206449,Ondrej Styler,R,,CZE,M
 200541,Filip Duda,U,,CZE,M
 105557,Gibril Diarra,U,,AUT,M
@@ -4909,7 +4909,7 @@ id, name, hand, ht, ioc,gender
 127038,Robert Willekes Macdonald,R,,NED,M
 122667,Cedric Willems,R,,NED,M
 206868,Laurens Deelstra,U,,AHO,M
-104371,Ivo Minar,R,183.0,CZE,M
+104371,Ivo Minar,R,183,CZE,M
 105711,Dino Marcan,R,,CRO,M
 121822,Bobbie De Goeijen,U,,NED,M
 105986,Colin Van Beem,U,,NED,M
@@ -4943,7 +4943,7 @@ id, name, hand, ht, ioc,gender
 127097,Leandro Serrano Sanz,U,,ESP,M
 106197,Samuel Ribeiro Navarrete,U,,ESP,M
 125835,Diogo Lourenco,R,,POR,M
-106117,Carlos Boluda Purkiss,R,165.0,ESP,M
+106117,Carlos Boluda Purkiss,R,165,ESP,M
 110754,David Vega Hernandez,R,,ESP,M
 126591,Jan Zielinski,R,,POL,M
 105860,Tak Khunn Wang,R,,FRA,M
@@ -4981,7 +4981,7 @@ id, name, hand, ht, ioc,gender
 126465,Andre Biro,R,,HUN,M
 127177,Goran Radanovic,U,,BIH,M
 127179,Ivan Randjelovic,U,,BIH,M
-105331,Petru Alexandru Luncanu,L,185.0,ROU,M
+105331,Petru Alexandru Luncanu,L,185,ROU,M
 132958,George Botezan,R,,ROU,M
 105969,James Marsalek,U,,GBR,M
 127376,Hyeong Don Kim,U,,KOR,M
@@ -4997,13 +4997,13 @@ id, name, hand, ht, ioc,gender
 105984,Seong Gook Oh,R,,KOR,M
 106089,Sang Woo Noh,U,,KOR,M
 105790,Yong Kyu Lim,U,,KOR,M
-104753,Woong Sun Jun,R,190.0,KOR,M
+104753,Woong Sun Jun,R,190,KOR,M
 106184,Hong Chung,L,,KOR,M
 126953,Chan Yeong Oh,U,,KOR,M
 206867,Tommaso Compagnucci,U,,ITA,M
 128008,Edoardo Lamberti,R,,ITA,M
 126464,Giorgio Ricca,U,,ITA,M
-104070,Jesse Witten,R,178.0,USA,M
+104070,Jesse Witten,R,178,USA,M
 126886,Daniele Spinnato,U,,ITA,M
 190030,Enrico Becuzzi,R,,ITA,M
 128021,Paride Mangiaterra,U,,ITA,M
@@ -5048,14 +5048,14 @@ id, name, hand, ht, ioc,gender
 206879,Omar Fiorenzato,U,,ITA,M
 105494,Adelchi Virgili,U,,ITA,M
 206878,Giovanni David,U,,ITA,M
-105661,Ilija Vucic,R,145.0,SRB,M
+105661,Ilija Vucic,R,145,SRB,M
 105523,Claudio Fortuna,L,,ITA,M
 105225,Nicola Ghedin,R,,ITA,M
 105274,Patricio Heras,R,,ARG,M
 206837,Andrea Del Prete,U,,ITA,M
 126449,Marco Mosciatti,U,,ITA,M
 126201,Francesco Bessire,R,,ITA,M
-105130,Vladimir Uzhylovsky,R,183.0,UKR,M
+105130,Vladimir Uzhylovsky,R,183,UKR,M
 206836,Gianmarco De Santis,,,ITA,M
 127089,Lorenzo Abbruciati,U,,ITA,M
 126141,Filippo Giorgetti,R,,ITA,M
@@ -5078,12 +5078,12 @@ id, name, hand, ht, ioc,gender
 200232,Chung Han Tsai,U,,TPE,M
 126556,Wei De Lin,U,,TPE,M
 105448,Hsien Yin Peng,U,,TPE,M
-103920,Sanchai Ratiwatana,R,175.0,THA,M
+103920,Sanchai Ratiwatana,R,175,THA,M
 126189,Hao Yang Hu,U,,TPE,M
 122262,Wen Chun Liang,U,,TPE,M
 127191,Yu Chang Wang,U,,TPE,M
 104647,Bumpei Sato,R,,JPN,M
-103921,Sonchat Ratiwatana,R,175.0,THA,M
+103921,Sonchat Ratiwatana,R,175,THA,M
 126321,Yu  Hsiang Chiu,U,,TPE,M
 105142,Arata Onozawa,U,,JPN,M
 105946,Liang Chi Huang,R,,TPE,M
@@ -5126,7 +5126,7 @@ id, name, hand, ht, ioc,gender
 120903,Kaysar Bekimov,U,,KAZ,M
 123888,Mihail Khaldeev,R,,RUS,M
 123736,Sagadat Ayap,U,,KAZ,M
-103612,Alexey Kedryuk,R,193.0,KAZ,M
+103612,Alexey Kedryuk,R,193,KAZ,M
 105470,Tim Van Terheijden,L,,NED,M
 206886,Amadatus Admiraal,U,,NED,M
 206885,Jasper Van Vliet,R,,NED,M
@@ -5151,12 +5151,12 @@ id, name, hand, ht, ioc,gender
 108780,Lofo Ramiaramanana,L,,MAD,M
 109536,Mark Oljaca,U,,USA,M
 105178,Alexis Musialek,U,,FRA,M
-104579,Romain Jouan,R,183.0,FRA,M
+104579,Romain Jouan,R,183,FRA,M
 123812,Jose Fco Vidal Azorin,U,,ESP,M
 106169,Vladyslav Manafov,U,,UKR,M
 122589,Sefa Suluoglu,U,,TUR,M
 206180,Oezen Usakli,U,,TUR,M
-105109,Marc Sieber,L,178.0,GER,M
+105109,Marc Sieber,L,178,GER,M
 106416,Muhammet Haylaz,U,,TUR,M
 105551,Anil Yuksel,L,,TUR,M
 132361,Alessandro Cortegiani,R,,ITA,M
@@ -5171,7 +5171,7 @@ id, name, hand, ht, ioc,gender
 106317,Felipe Escobar,U,,COL,M
 106380,Gonzalo Villanueva,R,,ARG,M
 105826,Alejandro Gomez Gb42,U,,COL,M
-104113,Carlos Salamanca,L,196.0,COL,M
+104113,Carlos Salamanca,L,196,COL,M
 144761,Pavel Petrov,U,,KAZ,M
 104551,Gero Kretschmer,R,,GER,M
 200594,Kristian Lozan,U,,RUS,M
@@ -5192,7 +5192,7 @@ id, name, hand, ht, ioc,gender
 122519,Punn Bodhidatta,R,,THA,M
 106136,Warit Sornbutnark,U,,THA,M
 133667,Congsup Congcar,U,,THA,M
-105579,Kittipong Wachiramanowong,R,183.0,THA,M
+105579,Kittipong Wachiramanowong,R,183,THA,M
 111180,Nattan Benjasupawan,U,,THA,M
 110571,Phassawit Burapharitta,U,,THA,M
 121520,Ettore Zito,R,,ITA,M
@@ -5267,7 +5267,7 @@ id, name, hand, ht, ioc,gender
 105861,Caio Silva,U,,BRA,M
 123884,Osni Junior,U,,BRA,M
 138467,Marvin Bernardo Becker Spiering,U,,BRA,M
-105868,Wilson Leite,R,178.0,BRA,M
+105868,Wilson Leite,R,178,BRA,M
 104836,Tiago Lopes,R,,BRA,M
 206903,Gabriel Vallim,L,,BRA,M
 109738,Marcelo Tebet Filho,R,,BRA,M
@@ -5285,10 +5285,10 @@ id, name, hand, ht, ioc,gender
 106427,Zhuoyang Qiu,U,,CHN,M
 200709,Nate Eazor,U,,USA,M
 132703,Tomas Charlos,U,,GER,M
-102987,Andre Sa,R,185.0,BRA,M
+102987,Andre Sa,R,185,BRA,M
 122640,Vincent Thierry Schneider,R,,GER,M
 127187,Chien Hsun Lo,U,,TPE,M
-105001,Mao Xin Gong,R,178.0,CHN,M
+105001,Mao Xin Gong,R,178,CHN,M
 200318,Yu Hsiou Hsu,U,,TPE,M
 122079,Allan Gomes Oliveira,R,,BRA,M
 105979,Augusto Laranja,R,,BRA,M
@@ -5483,7 +5483,7 @@ id, name, hand, ht, ioc,gender
 202328,Dhruv Sunish,R,,IND,M
 144927,Siddharth Vishwakarma,U,,IND,M
 206930,Luca Mainetti,U,,ITA,M
-104911,Mateusz Kowalczyk,R,193.0,POL,M
+104911,Mateusz Kowalczyk,R,193,POL,M
 206929,Marco Facconi,U,,ITA,M
 106008,Florian Fallert,R,,GER,M
 136461,Sam Edward Longhurst,U,,AUS,M
@@ -5493,7 +5493,7 @@ id, name, hand, ht, ioc,gender
 126498,Damian Farinola,U,,AUS,M
 144978,Armando Gandini,R,,DOM,M
 206295,Omar Ferreras,U,,DOM,M
-103812,Victor Hanescu,R,198.0,ROU,M
+103812,Victor Hanescu,R,198,ROU,M
 144892,Emilio Andrea Segarelli,L,,USA,M
 120922,Maciej Rajski,U,,POL,M
 108956,Jesus Francisco Felix,U,,DOM,M
@@ -5505,7 +5505,7 @@ id, name, hand, ht, ioc,gender
 200027,Blazo N Djurovic,U,,AUS,M
 200029,Matthew Leffler,U,,AUS,M
 138685,Marko Jovanovic,R,,AUS,M
-103077,Konstantinos Economidis,R,188.0,GRE,M
+103077,Konstantinos Economidis,R,188,GRE,M
 123987,Mario Matejcek,U,,AUS,M
 126592,Kamil Gajewski,R,,POL,M
 109632,Matt Seeberger,R,,USA,M
@@ -5535,7 +5535,7 @@ id, name, hand, ht, ioc,gender
 202155,Yeongseok Jeong,R,,KOR,M
 106206,Jea Moon Lee,R,,KOR,M
 125851,Ho Gi Kang,U,,KOR,M
-104349,Rui Machado,R,178.0,POR,M
+104349,Rui Machado,R,178,POR,M
 132326,Matthew Chadwick,R,,GBR,M
 126130,Joshua Sapwell,R,,GBR,M
 105903,Keelan Oakley,R,,GBR,M
@@ -5596,7 +5596,7 @@ id, name, hand, ht, ioc,gender
 134205,Alec Adamson,U,,USA,M
 133690,Farzin Danny Amiri,U,,USA,M
 202333,Keegan Smith,U,,USA,M
-200707,Max Colorado ,R,183.0,USA,M
+200707,Max Colorado ,R,183,USA,M
 105329,Thibault Venturino,U,,FRA,M
 133680,Huixin Wang,U,,CHN,M
 106274,Zhaoyi Cao,R,,CHN,M
@@ -5605,7 +5605,7 @@ id, name, hand, ht, ioc,gender
 144747,Courtney John Lock,R,,ZIM,M
 144930,Richard Solberg,R,,SWE,M
 132663,Patrick Kawka,R,,USA,M
-103417,Brian Battistone,R,190.0,USA,M
+103417,Brian Battistone,R,190,USA,M
 126917,Ruben Alberts,U,,RSA,M
 200475,Jakob Amilon,U,,SWE,M
 126787,Eduardo Lacalle,U,,CHI,M
@@ -5686,7 +5686,7 @@ id, name, hand, ht, ioc,gender
 206814,Joao Gabriel Velloso,U,,BRA,M
 206874,Juan Ignacio Batalla Diez,L,,MEX,M
 117822,Fernando Cabrera,R,,MEX,M
-102963,Robert Lindstedt,R,190.0,SWE,M
+102963,Robert Lindstedt,R,190,SWE,M
 202054,Filip Malbasic,U,,SWE,M
 200419,Jonas Eriksson Ziverts,R,,SWE,M
 111201,Christoffer Solberg,U,,SWE,M
@@ -5709,7 +5709,7 @@ id, name, hand, ht, ioc,gender
 134524,Daniel Svensson,R,,SWE,M
 133403,Shane Nicholls,R,,CAN,M
 121699,Zhao Cai,R,,CHN,M
-103762,John Paul Fruttero,R,185.0,USA,M
+103762,John Paul Fruttero,R,185,USA,M
 122122,Changwei Peng,U,,CHN,M
 122529,Su Hao Zhong,R,,CHN,M
 105670,Karunuday Singh,R,,IND,M
@@ -5761,7 +5761,7 @@ id, name, hand, ht, ioc,gender
 110750,Eric Johnson,R,,USA,M
 122156,Jakub Hadrava,R,,CZE,M
 200040,Keanu Ellen,U,,USA,M
-105071,Jean Yves Aubone,R,180.0,USA,M
+105071,Jean Yves Aubone,R,180,USA,M
 102706,Wei Yu Su,R,,TPE,M
 122483,Thibaud Berland,U,,FRA,M
 106253,Jaume Martinez Vich,U,,ESP,M
@@ -5803,7 +5803,7 @@ id, name, hand, ht, ioc,gender
 200621,Bruno Britez,,,PAR,M
 137948,Charles Force,U,,USA,M
 119819,Krisjanis Stabins,U,,LAT,M
-103690,Marcin Matkowski,R,188.0,POL,M
+103690,Marcin Matkowski,R,188,POL,M
 138259,Charly Zick,U,,GER,M
 111509,Spencer Papa,R,,USA,M
 111809,Henry Craig,R,,USA,M
@@ -5822,7 +5822,7 @@ id, name, hand, ht, ioc,gender
 127507,Azizbek Lukmanov,U,,UZB,M
 126200,Piotr Grynkowski,U,,POL,M
 103924,Marc Fornell Mestres,R,,ESP,M
-103543,David Marrero,R,185.0,ESP,M
+103543,David Marrero,R,185,ESP,M
 106154,Duje Kekez,R,,CRO,M
 109346,Brian Brogan,U,,USA,M
 108094,Rick Kepler,R,,USA,M
@@ -5850,7 +5850,7 @@ id, name, hand, ht, ioc,gender
 105381,Thales Turini,U,,BRA,M
 200482,Rana Roop Singh Bhullar,R,,NOR,M
 106255,Shane Vinsant,R,,USA,M
-105095,Evgeny Korolev,R,185.0,KAZ,M
+105095,Evgeny Korolev,R,185,KAZ,M
 126565,Andrew Korinek,U,,USA,M
 200283,Zakhar Trapeznikov,U,,RUS,M
 121669,Sergio Martos Gornes,U,,ESP,M
@@ -5870,7 +5870,7 @@ id, name, hand, ht, ioc,gender
 207376,Jakub Grzegorczyk,U,,POL,M
 122672,Juan Ignacio Ameal,U,,ARG,M
 121093,Maciej Lorenz,U,,POL,M
-104136,Santiago Gonzalez,R,190.0,MEX,M
+104136,Santiago Gonzalez,R,190,MEX,M
 105662,Tomislav Jotovski,R,,MKD,M
 138688,Milan Drinic,R,,SRB,M
 122353,Christian Hirschmueller,R,,GER,M
@@ -5950,7 +5950,7 @@ id, name, hand, ht, ioc,gender
 126324,Jianhui Li,U,,CHN,M
 206501,Eric Morris,R,,USA,M
 104900,Raony Carvalho,R,,BRA,M
-104398,Andre Begemann,R,188.0,GER,M
+104398,Andre Begemann,R,188,GER,M
 202356,Tsung Hao Huang,U,,TPE,M
 103574,Teodor Dacian Craciun,R,,ROU,M
 133945,Calin Manda,U,,ROU,M
@@ -5989,7 +5989,7 @@ id, name, hand, ht, ioc,gender
 104390,Jonathan Hilaire,R,,FRA,M
 105603,Francois Arthur Vibert,U,,FRA,M
 144788,Louis Tessa,U,,FRA,M
-105118,Dorian Descloix,R,193.0,FRA,M
+105118,Dorian Descloix,R,193,FRA,M
 124099,Mohamed Nazim Makhlouf,R,,ALG,M
 122612,Sung Jun Park,U,,KOR,M
 133516,Sung Hun Kim,U,,KOR,M
@@ -6024,12 +6024,12 @@ id, name, hand, ht, ioc,gender
 201994,Carlos  Cuevas,U,,CHI,M
 144884,Cesar Antonio Gomez Diaz,R,,MEX,M
 207156,David Argasinski,U,,POL,M
-105440,Arsenije Zlatanovic,R,193.0,SRB,M
+105440,Arsenije Zlatanovic,R,193,SRB,M
 104165,Joel Kielbowicz,U,,USA,M
 202289,Pawin Jirapoomdaje,U,,THA,M
 124040,Colin Sinclair,U,,AUS,M
 205934,Kittirat Kerdlaphee,U,,THA,M
-207243,Punnakrit Kritakara,R,175.0,THA,M
+207243,Punnakrit Kritakara,R,175,THA,M
 206671,Nutdanai Sincharoenwattana,U,,THA,M
 205935,Phongsapak Kerdlaphee,R,,THA,M
 122393,Adrian Obert,R,,GER,M
@@ -6054,7 +6054,7 @@ id, name, hand, ht, ioc,gender
 126732,Eric Ahren Moonga,R,,SWE,M
 202170,Malik Bhatnagar,R,,CAN,M
 206331,Sebastien Collard,U,,CAN,M
-103594,Oliver Marach,R,185.0,AUT,M
+103594,Oliver Marach,R,185,AUT,M
 106155,Denys Mylokostov,L,,UKR,M
 206681,Fabian Marozsan,R,,HUN,M
 134780,Peter Balla,U,,HUN,M
@@ -6159,7 +6159,7 @@ id, name, hand, ht, ioc,gender
 221803,Carol Young Suh Lee,U,,POC,F
 201380,Claudine Schaul,R,,LUX,F
 201348,Casey Dellacqua,L,,AUS,F
-103857,Igor Kunitsyn,R,180.0,RUS,M
+103857,Igor Kunitsyn,R,180,RUS,M
 206039,Marie Elise Casares,R,,ECU,F
 216476,Rafaella Baquerizo,U,,ECU,F
 212285,Mariella Calderon,U,,CRC,F
@@ -6256,7 +6256,7 @@ id, name, hand, ht, ioc,gender
 208458,Bekzat Usipbekov,U,,KAZ,M
 209859,Rostislav Galfinger,U,,KAZ,M
 134052,Anatoliy Petrenko,R,,UKR,M
-102800,Nenad Zimonjic,R,190.0,SRB,M
+102800,Nenad Zimonjic,R,190,SRB,M
 207809,Khololwam Montsi,R,,RSA,M
 132023,Jean Thirouin,U,,USA,M
 208402,Gerhardt Marius Becker,L,,RSA,M
@@ -6280,7 +6280,7 @@ id, name, hand, ht, ioc,gender
 206471,Matei Adrian Georgescu,U,,ROU,M
 200329,Remy Bertola,R,,SUI,M
 209343,Gabriele Felline,U,,ITA,M
-208286,Matteo Arnaldi,R,183.0,GBR,M
+208286,Matteo Arnaldi,R,183,GBR,M
 207546,Pol Martin Tiffon,U,,ESP,M
 209128,Diego Augusto Barreto Sanchez,U,,ESP,M
 207490,Carlos Lopez Montagud,U,,ESP,M
@@ -6320,7 +6320,7 @@ id, name, hand, ht, ioc,gender
 208126,John Echeverria,U,,ESP,M
 206625,Daniil Golubev,U,,RUS,M
 105159,Vaja Uzakov,R,,UZB,M
-209936,Lorenzo Claverie,R,196.0,ITA,M
+209936,Lorenzo Claverie,R,196,ITA,M
 208421,Lilian Marmousez,U,,FRA,M
 200643,Jurgen Briand,R,,FRA,M
 207200,Cyril Vandermeersch,U,,FRA,M
@@ -6402,7 +6402,7 @@ id, name, hand, ht, ioc,gender
 206797,Jiri Jenicek,R,,CZE,M
 209910,Szymon Kielan,U,,POL,M
 210155,Jasza Szajrych,U,,POL,M
-201364,Tatiana Golovin,R,175.0,FRA,F
+201364,Tatiana Golovin,R,175,FRA,F
 221404,Emily Meyer,U,,AUT,F
 220502,Ariana Arseneault,U,,CAN,F
 221501,Antonia Samudio,R,,COL,F
@@ -6661,7 +6661,7 @@ id, name, hand, ht, ioc,gender
 138576,Robert Kjellberg,R,,SWE,M
 208085,Nick Cmager,R,,SLO,M
 207307,Anze Arh,U,,SLO,M
-104583,Filip Polasek,R,196.0,SVK,M
+104583,Filip Polasek,R,196,SVK,M
 208159,Martin Bugaj,U,,CZE,M
 144907,Adrian Oetzbach,U,,GER,M
 127159,Roman Warias,U,,GER,M
@@ -6728,7 +6728,7 @@ id, name, hand, ht, ioc,gender
 207160,Jake Hersey,U,,GBR,M
 207159,Pablo Schelcher Muro,U,,ESP,M
 126119,Goran Markovic,R,,SRB,M
-103657,Ivo Klec,R,183.0,SVK,M
+103657,Ivo Klec,R,183,SVK,M
 145014,Thomas Laurent,R,,FRA,M
 122520,Paul Cayre,U,,FRA,M
 126723,Denys Klok,U,,UKR,M
@@ -7941,7 +7941,7 @@ id, name, hand, ht, ioc,gender
 220934,Juliette Mazzoni,U,,FRA,F
 221581,Natea Bizet,U,,FRA,F
 210249,Anna Kechko,R,,RUS,F
-201431,Aravane Rezai,R,165.0,FRA,F
+201431,Aravane Rezai,R,165,FRA,F
 215528,Anna Maria Jovanovic,R,,FRA,F
 221552,Naia Mercadier,U,,FRA,F
 222355,Rose Alix Vidal,U,,FRA,F
@@ -8944,13 +8944,13 @@ id, name, hand, ht, ioc,gender
 111186,Syed Mohd Agil Syed Naguib,R,,MAS,M
 144896,Hao Sheng Koay,U,,MAS,M
 105177,Aditya Hari Sasongko,U,,INA,M
-103813,Jarkko Nieminen,L,185.0,FIN,M
-104495,Florin Mergea,R,180.0,ROU,M
+103813,Jarkko Nieminen,L,185,FIN,M
+104495,Florin Mergea,R,180,ROU,M
 104763,Rafael Arevalo,R,,ESA,M
 111781,Janis Podzus,L,,LAT,M
 126143,Andreas Bjerrehus,U,,DEN,M
 202219,Tomas Vaise,U,,LTU,M
-104043,Marc Lopez,R,175.0,ESP,M
+104043,Marc Lopez,R,175,ESP,M
 132040,Philip Wilbert Major,L,,BAH,M
 106180,Spencer Newman,R,,USA,M
 132028,Justin Lunn,U,,BAH,M
@@ -8968,7 +8968,7 @@ id, name, hand, ht, ioc,gender
 144949,Menelaos Efstathiou,R,,CYP,M
 123315,Nicholas Campbell,R,,AUS,M
 124023,Hei Yin Andrew Li,R,,HKG,M
-104816,Karan Rastogi,R,178.0,IND,M
+104816,Karan Rastogi,R,178,IND,M
 207277,Illia Biloborodko,,,UKR,M
 122047,Luciano Ramazzini,R,,GUA,M
 105703,Jesus Bandres,U,,VEN,M

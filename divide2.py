@@ -46,10 +46,10 @@ def assign_gender(players: Path, males: Path, females: Path) -> tuple:
                 to_app = ""
                 for key, value in row.items():
                     to_app = f"{to_app},{value}"
-                if row[" name"] in sets[males.stem]:
+                if row["name"] in sets[males.stem]:
                     to_app = f"{to_app},M"
                     male_count += 1
-                elif row[" name"] in sets[females.stem]:
+                elif row["name"] in sets[females.stem]:
                     to_app = f"{to_app},F"
                     female_count += 1
                 else:
