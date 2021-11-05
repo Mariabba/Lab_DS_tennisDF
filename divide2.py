@@ -20,7 +20,7 @@ def assign_gender(players: Path, males: Path, females: Path) -> tuple:
     """
     target_file = Path("data/players.csv")
     with open("data/log.md", mode="a") as log:
-        log.write(f"{target_file} is with `gender`.\n")
+        log.write(f"- `{target_file}` is with `gender`.\n")
     files = (males, females)
     sets = {}
 
@@ -70,7 +70,7 @@ countries_target = Path("data/countries.csv")
 
 with open("data/log.md", mode="a") as log:
     log.write(
-        f"{countries_target} is with `language` (language codes) based on `country_name`.\n"
+        f"- `{countries_target}` is with `language` (language **codes**) based on `country_name`.\n"
     )
 
 languages_dict = {}
