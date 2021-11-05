@@ -5,7 +5,7 @@ from rich import print
 from rich.console import Console
 from rich.table import Table
 
-mainfile = Path("data/tennis.csv")
+mainfile = Path("data/inputs/tennis.csv")
 
 with open(mainfile) as csvfile:
     reader = csv.DictReader(csvfile)

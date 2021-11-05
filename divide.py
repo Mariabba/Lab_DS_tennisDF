@@ -15,14 +15,13 @@ def extract_header(mainfile: Path, table: str) -> list:
     with open(mainfile) as csvfile:
         header = csvfile.readline()[:-1].split(sep=",")
     if table == "tournament":
-        result_header = header[0:5] + header[47:49]
+        return header[0:5] + header[47:49]
     if table == "player_winner":
-        result_header = [header[7]] + header[9:13]
+        return [header[7]] + header[9:13]
     if table == "player_loser":
-        result_header = [header[14]] + header[16:20]
+        return [header[14]] + header[16:20]
     if table == "match":
-        result_header = [header[0]] + [header[7]] + [header[14]] + header[21:47]
-    return result_header
+        return ["match_id"] + [header[0]] + header[6:8] + [header[14]] + header[21:47]
 
 
 def extract_table(
@@ -33,17 +32,19 @@ def extract_table(
     with open(file, mode="w") as target:
         target.write(f"{','.join(header)}\n")
         with open(mainfile) as source:
+            id = -1
             for row in track(csv.DictReader(source), total=len_mainfile):
                 # only add if unique
+                to_app = ""
                 if "tournament" in file.stem:
                     id = row["tourney_id"]
                 elif "match" in file.stem:
-                    id = row["tourney_id"] + row["tourney_level"] + row["match_num"]
+                    id += 1
+                    to_app = f"{to_app},{id}"
                 else:
                     raise Exception("oops")
                 if id not in ids:  # id is NOT already written in csv
                     ids.add(id)
-                    to_app = ""
                     for row_key, value in row.items():
                         # add only the columns that are required in table
                         if row_key in header:
@@ -156,5 +157,4 @@ console.log(f"Tests done on {file}.")
 file = paths["match"]
 header = extract_header(mainfile, "match")
 ids = extract_table(mainfile, file, header, len_mainfile)
-
 # I did not put testing here

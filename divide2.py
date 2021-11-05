@@ -7,18 +7,16 @@ from rich.progress import track
 from rich.table import Table
 
 len_playersfile = 10074
-players = Path("data/work/players.csv")
 males = Path("data/inputs/male_players.csv")
 females = Path("data/inputs/female_players.csv")
 console = Console()
 
 
-def assign_gender(players: Path, males: Path, females: Path) -> tuple:
+def assign_gender(players: Path, males: Path, females: Path) -> None:
     """
-    Takes 3 paths objects and returns a tuple of two int (int, int) representing how many
-    males and how many females were found.
+    Takes 3 paths objects and adds the `gender` column to the `players` csv file.
     """
-    target_file = Path("data/players.csv")
+    target_file = Path("data/work/players_with_g.csv")
     with open("data/log.md", mode="a") as log:
         log.write(f"- `{target_file}` is with `gender`.\n")
     files = (males, females)
@@ -61,7 +59,17 @@ def assign_gender(players: Path, males: Path, females: Path) -> tuple:
     )
 
 
-assign_gender(players, males, females)
+def assign_yob(players: Path):
+    target_file = Path("data/players.csv")
+    with open("data/log.md", mode="a") as log:
+        log.write(f"- `{target_file}` is with `gender`.\n")
+    files = (males, females)
+    sets = {}
+
+
+assign_gender(Path("data/work/players.csv"), males, females)
+assign_yob(Path("data/work/players_with_g.csv"))
+
 
 # make Geography table
 additional = Path("data/inputs/countryinfo.tsv")
