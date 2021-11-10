@@ -22,51 +22,9 @@ def missing_values_table(df):
 # Analisi Data.csv
 df_data = pd.read_csv("data/dates.csv")
 print(df_data.info())
+print(df_data.head())
 
 msn.matrix(df_data)
 plt.show()
 print(missing_values_table(df_data))
 
-# Analisi Geography.csv
-
-df_geo = pd.read_csv("data/countries.csv")
-print(df_geo.info())
-
-msn.matrix(df_geo)
-plt.show()
-print(missing_values_table(df_geo),"\n")
-
-null_data = df_geo[df_geo.isnull().any(axis=1)]
-print("Righe di geo con missing value \n ", null_data,"\n")
-
-#print(df_geo.isnull().sum().sort_values(ascending = False))
-
-print("")
-print("")
-#Analisi Plyers
-df_pla = pd.read_csv("data/players.csv")
-print(df_pla.info())
-print(missing_values_table(df_pla),"\n")
-
-null_player = df_pla[df_pla.isnull().any(axis=1)]
-print("Righe di players con missing value \n ", null_player,"\n")
-
-"""
-
-##Analisi tournament
-df_trn = pd.read_csv("data/tournaments.csv")
-print(df_trn.info())
-print(missing_values_table(df_trn),"\n")
-
-#Analisi Match
-df_mtc = pd.read_csv("data/matches.csv")
-print(df_mtc.info())
-print(missing_values_table(df_mtc),"\n")
-
-
-print(df[' name'].unique())
-print(df[' name'].value_counts())
-
-print(df[' hand'].unique())
-print(df[' hand'].value_counts())
-"""
