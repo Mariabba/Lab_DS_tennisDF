@@ -63,10 +63,12 @@ def assign_gender(players: Path, males: Path, females: Path) -> None:
 def assign_yob(players: Path):
     target_file = Path("data/players.csv")
     with open("data/log.md", mode="a") as log:
-        log.write(f"- `{target_file}` is with `yob` (year of birth).\n")
+        log.write(
+            f"- `{target_file}` is with `yob` (year of birth) and without `age`.\n"
+        )
     with open(players) as source:
         reader = csv.DictReader(source)
-        columns = reader.fieldnames + ["yob"]
+        columns = [c for c in reader.fieldnames if c != "age"] + ["yob"]
         with open(target_file, mode="w") as target:
             writer = csv.DictWriter(target, fieldnames=columns)
             writer.writeheader()
@@ -82,8 +84,9 @@ def assign_yob(players: Path):
                         )
                         - datetime.timedelta(days=my_days)
                     )
+                del row["age"]
                 writer.writerow(row)
-    console.log(f"Wrote year of birth `yob` to {target_file}.")
+    console.log(f"Wrote year of birth `yob` to {target_file} and deleted `age`.")
 
 
 assign_gender(Path("data/work/players.csv"), males, females)
@@ -157,7 +160,7 @@ with open(date_target, mode="w") as target:
                 else:
                     raise Exception
                 writer.writerow(to_write)
-console.log(f"Wrote dates in {date_target} of {len(dates_set)}.")
+console.log(f"Wrote {len(dates_set)} dates in {date_target}.")
 with open("data/log.md", mode="a") as log:
     log.write(
         f"- `{date_target}` has {columns}. 'date_id' == 'tourney_date' in Tournaments.\n"
