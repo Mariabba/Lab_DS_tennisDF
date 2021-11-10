@@ -120,3 +120,45 @@ with open(countries_target, mode="w") as target:
                 row["language"] = None
             writer.writerow(row)
 console.log(f"Wrote something to {countries_target}.")
+
+# making Date and linking it with Tournaments
+date_target = Path("data/dates.csv")
+tournaments = Path("data/tournaments.csv")
+dates_set = set()
+console.log(f"Creating dates in {date_target} from {tournaments}.")
+with open(date_target, mode="w") as target:
+    with open(tournaments) as source:
+        reader = csv.DictReader(source)
+        columns = ["date_id", "day", "month", "quarter", "year"]
+        writer = csv.DictWriter(target, fieldnames=columns)
+        writer.writeheader()
+        for row in reader:
+            my_date = row["tourney_date"]
+            if my_date not in dates_set:
+                dates_set.add(my_date)
+                to_write = {}
+                to_write["date_id"] = my_date
+                my_f_date = datetime.date(
+                    year=int(my_date[:4]),
+                    month=int(my_date[4:6]),
+                    day=int(my_date[6:]),
+                )
+                to_write["day"] = my_f_date.day
+                to_write["month"] = my_f_date.month
+                to_write["year"] = my_f_date.year
+                if my_f_date.month in [1, 2, 3]:
+                    to_write["quarter"] = 1
+                elif my_f_date.month in [4, 5, 6]:
+                    to_write["quarter"] = 2
+                elif my_f_date.month in [7, 8, 9]:
+                    to_write["quarter"] = 3
+                elif my_f_date.month in [10, 11, 12]:
+                    to_write["quarter"] = 4
+                else:
+                    raise Exception
+                writer.writerow(to_write)
+console.log(f"Wrote dates in {date_target} of {len(dates_set)}.")
+with open("data/log.md", mode="a") as log:
+    log.write(
+        f"- `{date_target}` has {columns}. 'date_id' == 'tourney_date' in Tournaments.\n"
+    )

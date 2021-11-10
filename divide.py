@@ -15,7 +15,7 @@ def extract_header(mainfile: Path, table: str) -> list:
     with open(mainfile) as csvfile:
         header = csvfile.readline()[:-1].split(sep=",")
     if table == "tournament":
-        return header[0:5] + header[47:49]
+        return header[0:6] + header[47:49]
     if table == "player_winner":
         return [header[7]] + header[9:14] + [header[5]]
     if table == "player_loser":
