@@ -2,6 +2,7 @@ import pandas as pd
 import missingno as msn
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 def missing_values_table(df):
     mis_val = df.isnull().sum()
@@ -22,12 +23,19 @@ df_geo = pd.read_csv("data/countries.csv")
 print(df_geo.info())
 
 msn.matrix(df_geo)
-plt.show()
+#plt.show()
+
 print(missing_values_table(df_geo),"\n")
 
 null_data = df_geo[df_geo.isnull().any(axis=1)]
 print("Righe di geo con missing value \n ", null_data,"\n")
 
 
-#print(df_geo.isnull().sum().sort_values(ascending = False))
+#df_geo = df_geo.astype({"country_code": str})
+
+#df_geo_new = df_geo.astype(str)
+
+df_geo = df_geo.astype({'continent': str})
+#df_geo["continet"] = df_geo["continent"].apply(lambda x: str(x))
+print(df_geo.info())
 
