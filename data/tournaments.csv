@@ -1,4 +1,4 @@
-tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,tourney_spectators,tourney_revenue
+tourney_id,tourney_name,surface,draw_size,tourney_level,date_id,tourney_spectators,tourney_revenue
 2019-M020,Brisbane,Hard,32,A,20181231,3928,742618.69
 2019-0451,Doha,Hard,32,A,20181231,2923,550943.19
 2019-0891,Pune,Hard,32,A,20181231,4062,1005592.39

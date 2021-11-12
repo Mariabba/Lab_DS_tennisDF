@@ -30,7 +30,12 @@ def extract_table(
     console.log(f"Extracting {file}\nwith header: {header}…")
     ids = set()
     with open(file, mode="w") as target:
-        target.write(f"{','.join(header)}\n")
+        if "tournament" in file.stem:
+            # changing column name "tourney_date" to "date_id"
+            my_header = header[0:5] + ["date_id"] + header[6:]
+            target.write(f"{','.join(my_header)}\n")
+        else:
+            target.write(f"{','.join(header)}\n")
         with open(mainfile) as source:
             id = -1
             for row in track(csv.DictReader(source), total=len_mainfile):
