@@ -162,6 +162,4 @@ with open(date_target, mode="w") as target:
                 writer.writerow(to_write)
 console.log(f"Wrote {len(dates_set)} dates in {date_target}.")
 with open("data/log.md", mode="a") as log:
-    log.write(
-        f"- `{date_target}` has {columns}. 'date_id' == 'tourney_date' in Tournaments.\n"
-    )
+    log.write(f"- `{date_target}` has {columns}.\n")

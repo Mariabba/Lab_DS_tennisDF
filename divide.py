@@ -34,6 +34,9 @@ def extract_table(
             # changing column name "tourney_date" to "date_id"
             my_header = header[0:5] + ["date_id"] + header[6:]
             target.write(f"{','.join(my_header)}\n")
+            with open("data/log.md", mode="a") as log:
+                log.write(f"- `{file}` has {my_header}.\n")
+
         else:
             target.write(f"{','.join(header)}\n")
         with open(mainfile) as source:
