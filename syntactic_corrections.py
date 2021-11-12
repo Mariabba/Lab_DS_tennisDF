@@ -1,7 +1,7 @@
 import pandas as pd
 import pycountry as pc
 import pycountry_convert as pcc
-from dataprep.clean import clean_country
+#from dataprep.clean import clean_country
 
 
 # Correggo gli errori sintattici di countries
@@ -12,9 +12,9 @@ df_1 = pd.read_csv("data/inputs/countryinfo.tsv",sep = "\t")
 
 print(df['country_name'].unique())
 
-clean_country(df, "country_name")
-clean_country(df_1,"Country")
-"""
+#clean_country(df, "country_name")
+#clean_country(df_1,"Country")
+
 # metto i nomi in una lista upper case così posso fare la comparazione
 input_c_name_list = list(df['country_name'])
 input_c_name_list = [element.upper() for element in input_c_name_list]
@@ -58,8 +58,5 @@ country_name_check(input_c_name_list)
 print ("\nLista country errate nel tsv:")
 country_name_check(inpu2)
 
-
-C= pcc.country_alpha2_to_country_name("Russia",cn_name_format = 'default')
-PRINT(C)
-
-"""
+cn_name = pcc.convert_country_name_to_country_alpha2(input_c_name_list )
+pprint(cn_name)
