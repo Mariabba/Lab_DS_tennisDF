@@ -35,5 +35,5 @@ print("Righe di geo con missing value \n ", null_data,"\n")
 df_geo = df_geo.convert_dtypes()
 print(df_geo.info())
 
-#Correggo le 
+
 
