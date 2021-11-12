@@ -24,3 +24,9 @@ print(missing_values_table(df_pla),"\n")
 
 null_player = df_pla[df_pla.isnull().any(axis=1)]
 print("Righe di players con missing value \n ", null_player,"\n")
+
+
+#elimino ht
+print("Elimino ht")
+df_pla = df_pla.drop(['ht'], axis = 1)
+print(df_pla.info())

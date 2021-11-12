@@ -31,11 +31,9 @@ null_data = df_geo[df_geo.isnull().any(axis=1)]
 print("Righe di geo con missing value \n ", null_data,"\n")
 
 
-#df_geo = df_geo.astype({"country_code": str})
-
-#df_geo_new = df_geo.astype(str)
-
-df_geo = df_geo.astype({'continent': str})
-#df_geo["continet"] = df_geo["continent"].apply(lambda x: str(x))
+#Converto il tipo delle  colonne in stringhe
+df_geo = df_geo.convert_dtypes()
 print(df_geo.info())
+
+#Correggo le 
 
