@@ -2,10 +2,8 @@ import csv
 import datetime
 from pathlib import Path
 
-from rich import print
 from rich.console import Console
 from rich.progress import track
-from rich.table import Table
 
 len_playersfile = 10074
 males = Path("data/inputs/male_players.csv")
@@ -94,8 +92,8 @@ assign_yob(Path("data/work/players_with_g.csv"))
 
 
 # make Geography table
-additional = Path("data/inputs/countryinfo.tsv")
-countries = Path("data/inputs/countries.csv")
+additional = Path("data/work/countryinfo_corrected.tsv")
+countries = Path("data/work/countries_corrected.csv")
 countries_target = Path("data/countries.csv")
 
 with open("data/log.md", mode="a") as log:
