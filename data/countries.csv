@@ -1,125 +1,125 @@
-,country_code,country_name,continent,language
-0,JPN,Japan,Asia,ja
-1,RUS,Russia,Europe,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog"
-2,FRA,France,Europe,"fr-FR,frp,br,co,ca,eu,oc"
-3,AUS,Australia,Oceania,en-AU
-4,CAN,Canada,America,"en-CA,fr-CA,iu"
-5,BUL,Bulgaria,Europe,"bg,tr-BG"
-6,GBR,United Kingdom,Europe,"en-GB,cy-GB,gd"
-7,SRB,Serbia,Europe,"sr,hu,bs,rom"
-8,USA,United States,America,"en-US,es-US,haw,fr"
-9,ESP,Spain,Europe,"es-ES,ca,gl,eu,oc"
-10,CZE,Czech Republic,Europe,"cs,sk"
-11,ITA,Italy,Europe,"it-IT,de-IT,fr-IT,sc,ca,co,sl"
-12,GEO,Georgia,Europe,"ka,ru,hy,az"
-13,SUI,Switzerland,Europe,"de-CH,fr-CH,it-CH,rm"
-14,HUN,Hungary,Europe,hu-HU
-15,CHI,Chile,America,es-CL
-16,LTU,Lithuania,Europe,"lt,ru,pl"
-17,ARG,Argentina,America,"es-AR,en,it,de,fr,gn"
-18,GER,Germany,Europe,de
-19,RSA,South Africa,Africa,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr"
-20,CRO,Croatia,Europe,"hr-HR,sr"
-21,BEL,Belgium,Europe,"nl-BE,fr-BE,de-BE"
-22,TUN,Tunisia,Africa,"ar-TN,fr"
-23,LAT,Latvia,Europe,"lv,ru,lt"
-24,BLR,Belarus,Europe,"be,ru"
-25,IND,India,Asia,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc"
-26,POR,Portugal,Europe,"pt-PT,mwl"
-27,NZL,New Zealand,Oceania,"en-NZ,mi"
-28,GRE,Greece,Europe,"el-GR,en,fr"
-29,SVK,Slovakia,Europe,"sk,hu"
-30,AUT,Austria,Europe,"de-AT,hr,hu,sl"
-31,KOR,South Korea,Asia,"ko-KR,en"
-32,ROU,Romania,Europe,"ro,hu,rom"
-33,MDA,Moldova,Europe,"ro,ru,gag,tr"
-34,URU,Uruguay,America,es-UY
-35,NED,Netherlands,Europe,"nl-NL,fy-NL"
-36,SLO,Slovenia,Europe,"sl,sh"
-37,CYP,Cyprus,Europe,"el-CY,tr-CY,en"
-38,KAZ,Kazakhstan,Asia,"kk,ru"
-39,TPE,Taiwan,Asia,"zh-TW,zh,nan,hak"
-40,UZB,Uzbekistan,Asia,"uz,ru,tg"
-41,BIH,Bosnia and Herzegovina,Europe,"bs,hr-BA,sr-BA"
-42,UKR,Ukraine,Europe,"uk,ru-UA,rom,pl,hu"
-43,POL,Poland,Europe,pl
-44,NOR,Norway,Europe,"no,nb,nn,se,fi"
-45,BOL,Bolivia,America,"es-BO,qu,ay"
-46,BRA,Brazil,America,"pt-BR,es,en,fr"
-47,COL,Colombia,America,es-CO
-48,SWE,Sweden,Europe,"sv-SE,se,sma,fi-SE"
-49,TUR,Turkey,Europe,"tr-TR,ku,diq,az,av"
-50,CHN,China,Asia,"zh-CN,yue,wuu,dta,ug,za"
-51,BAR,Barbados,America,en-BB
-52,DOM,Dominican Republic,America,es-DO
-53,ECU,Ecuador,America,es-EC
-54,FIN,Finland,Europe,"fi-FI,sv-FI,smn"
-55,GUA,Guatemala,America,es-GT
-56,MEX,Mexico,America,es-MX
-57,PER,Peru,America,"es-PE,qu,ay"
-58,ESA,El Salvador,America,es-SV
-59,INA,Indonesia,Asia,"id,en,nl,jv"
-60,THA,Thailand,Asia,"th,en"
-61,PHI,Philippines,Asia,"tl,en-PH,fil"
-62,DEN,Denmark,Europe,"da-DK,en,fo,de-DK"
-63,EGY,Egypt,Africa,"ar-EG,en,fr"
-64,ALG,Algeria,Africa,ar-DZ
-65,ZIM,Zimbabwe,Africa,"en-ZW,sn,nr,nd"
-66,LUX,Luxembourg,Europe,"lb,de-LU,fr-LU"
-67,PAK,Pakistan,Asia,"ur-PK,en-PK,pa,sd,ps,brh"
-68,ISR,Israel,Asia,"he,ar-IL,en-IL,"
-69,EST,Estonia,Europe,"et,ru"
-70,MAR,Morocco,Africa,"ar-MA,fr"
-71,HKG,Hong Kong,Asia,"zh-HK,yue,zh,en"
-72,IRL,Ireland,Europe,"en-IE,ga-IE"
-73,LIB,Libya,Africa,"ar-LY,it,en"
-74,SRI,Sri Lanka,Asia,"si,ta,en"
-75,VEN,Venezuela,America,es-VE
-76,MNE,Montenegro,Europe,"sr,hu,bs,sq,hr,rom"
-77,PAR,Paraguay,America,"es-PY,gn"
-78,PNG,Papua New Guinea,Oceania,"en-PG,ho,meu,tpi"
-79,SIN,Singapore,Asia,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
-80,LIE,Liechtenstein,Europe,de-LI
-81,GRN,Grenada,Europe,en-GD
-82,BAH,Bahamas,America,en-BS
-83,CUB,Cuba,America,es-CU
-84,TRI,Trinidad and Tobago,America,"en-TT,hns,fr,es,zh"
-85,OMA,Oman,Africa,"ar-OM,en,bal,ur"
-86,MLT,Malta,Europe,"mt,en-MT"
-87,MKD,Macedonia,Europe,"mk,sq,tr,rmm,sr"
-88,KGZ,Kyrgyzstan,Asia,"ky,uz,ru"
-89,MAS,Malaysia,Asia,"ms-MY,en,zh,ta,te,ml,pa,th"
-90,BDI,Burundi,Africa,"fr-BI,rn"
-91,MRI,Mauritius,Africa,"en-MU,bho,fr"
-92,PUR,Puerto Rico,America,"en-PR,es-PR"
-93,SAM,Samoa,Oceania,"sm,en-WS"
-94,KEN,Kenya,Africa,"en-KE,sw-KE"
-95,ARM,Armenia,Asia,hy
-96,NAM,Namibia,Africa,"en-NA,af,de,hz,naq"
-97,REU,Reunion,Africa,fr-RE
-98,UNK,Kosovo,Europe,"sq,sr"
-99,MON,Monaco,Europe,"fr-MC,en,it"
-100,HAI,Haiti,America,"ht,fr-HT"
-101,VIE,Vietnam,Europe,"vi,en,fr,zh,km"
-102,HON,Honduras,America,es-HN
-103,PAN,Panama,America,"es-PA,en"
-104,CRC,Costa Rica,America,"es-CR,en"
-105,SGP,Singapore,Asia,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
-106,TJK,Tajikistan,Asia,"tg,ru"
-107,POC,nan,Unknown,
-108,IRI,Iran,Asia,"fa-IR,ku"
-109,PHL,Philippines,Asia,"tl,en-PH,fil"
-110,MGL,Mongolia,Asia,"mn,ru"
-111,GUM,Guam,Oceania,"en-GU,ch-GU"
-112,GAB,Gabon,Africa,fr-GA
-113,NGR,Nigeria,Africa,"en-NG,ha,yo,ig,ff"
-114,GUD,Guadeloupe,America,fr-GP
-115,CAM,Cambodia,Asia,"km,fr,en"
-116,CMR,Cameroon,Africa,"en-CM,fr-CM"
-117,KUW,Kuwait,Asia,"ar-KW,en"
-118,MAD,Madagascar,Africa,"fr-MG,mg"
-119,AND,Andorra,Europe,ca
-120,DEU,Germany,Europe,de
-121,NLD,Netherlands,Europe,"nl-NL,fy-NL"
-122,NGA,Nigeria,Africa,"en-NG,ha,yo,ig,ff"
-123,GRC,Greece,Europe,"el-GR,en,fr"
+country_code,country_name,continent,language
+JPN,Japan,Asia,ja
+RUS,Russia,Europe,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog"
+FRA,France,Europe,"fr-FR,frp,br,co,ca,eu,oc"
+AUS,Australia,Oceania,en-AU
+CAN,Canada,America,"en-CA,fr-CA,iu"
+BUL,Bulgaria,Europe,"bg,tr-BG"
+GBR,United Kingdom,Europe,"en-GB,cy-GB,gd"
+SRB,Serbia,Europe,"sr,hu,bs,rom"
+USA,United States,America,"en-US,es-US,haw,fr"
+ESP,Spain,Europe,"es-ES,ca,gl,eu,oc"
+CZE,Czech Republic,Europe,"cs,sk"
+ITA,Italy,Europe,"it-IT,de-IT,fr-IT,sc,ca,co,sl"
+GEO,Georgia,Europe,"ka,ru,hy,az"
+SUI,Switzerland,Europe,"de-CH,fr-CH,it-CH,rm"
+HUN,Hungary,Europe,hu-HU
+CHI,Chile,America,es-CL
+LTU,Lithuania,Europe,"lt,ru,pl"
+ARG,Argentina,America,"es-AR,en,it,de,fr,gn"
+GER,Germany,Europe,de
+RSA,South Africa,Africa,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr"
+CRO,Croatia,Europe,"hr-HR,sr"
+BEL,Belgium,Europe,"nl-BE,fr-BE,de-BE"
+TUN,Tunisia,Africa,"ar-TN,fr"
+LAT,Latvia,Europe,"lv,ru,lt"
+BLR,Belarus,Europe,"be,ru"
+IND,India,Asia,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc"
+POR,Portugal,Europe,"pt-PT,mwl"
+NZL,New Zealand,Oceania,"en-NZ,mi"
+GRE,Greece,Europe,"el-GR,en,fr"
+SVK,Slovakia,Europe,"sk,hu"
+AUT,Austria,Europe,"de-AT,hr,hu,sl"
+KOR,South Korea,Asia,"ko-KR,en"
+ROU,Romania,Europe,"ro,hu,rom"
+MDA,Moldova,Europe,"ro,ru,gag,tr"
+URU,Uruguay,America,es-UY
+NED,Netherlands,Europe,"nl-NL,fy-NL"
+SLO,Slovenia,Europe,"sl,sh"
+CYP,Cyprus,Europe,"el-CY,tr-CY,en"
+KAZ,Kazakhstan,Asia,"kk,ru"
+TPE,Taiwan,Asia,"zh-TW,zh,nan,hak"
+UZB,Uzbekistan,Asia,"uz,ru,tg"
+BIH,Bosnia and Herzegovina,Europe,"bs,hr-BA,sr-BA"
+UKR,Ukraine,Europe,"uk,ru-UA,rom,pl,hu"
+POL,Poland,Europe,pl
+NOR,Norway,Europe,"no,nb,nn,se,fi"
+BOL,Bolivia,America,"es-BO,qu,ay"
+BRA,Brazil,America,"pt-BR,es,en,fr"
+COL,Colombia,America,es-CO
+SWE,Sweden,Europe,"sv-SE,se,sma,fi-SE"
+TUR,Turkey,Europe,"tr-TR,ku,diq,az,av"
+CHN,China,Asia,"zh-CN,yue,wuu,dta,ug,za"
+BAR,Barbados,America,en-BB
+DOM,Dominican Republic,America,es-DO
+ECU,Ecuador,America,es-EC
+FIN,Finland,Europe,"fi-FI,sv-FI,smn"
+GUA,Guatemala,America,es-GT
+MEX,Mexico,America,es-MX
+PER,Peru,America,"es-PE,qu,ay"
+ESA,El Salvador,America,es-SV
+INA,Indonesia,Asia,"id,en,nl,jv"
+THA,Thailand,Asia,"th,en"
+PHI,Philippines,Asia,"tl,en-PH,fil"
+DEN,Denmark,Europe,"da-DK,en,fo,de-DK"
+EGY,Egypt,Africa,"ar-EG,en,fr"
+ALG,Algeria,Africa,ar-DZ
+ZIM,Zimbabwe,Africa,"en-ZW,sn,nr,nd"
+LUX,Luxembourg,Europe,"lb,de-LU,fr-LU"
+PAK,Pakistan,Asia,"ur-PK,en-PK,pa,sd,ps,brh"
+ISR,Israel,Asia,"he,ar-IL,en-IL,"
+EST,Estonia,Europe,"et,ru"
+MAR,Morocco,Africa,"ar-MA,fr"
+HKG,Hong Kong,Asia,"zh-HK,yue,zh,en"
+IRL,Ireland,Europe,"en-IE,ga-IE"
+LIB,Libya,Africa,"ar-LY,it,en"
+SRI,Sri Lanka,Asia,"si,ta,en"
+VEN,Venezuela,America,es-VE
+MNE,Montenegro,Europe,"sr,hu,bs,sq,hr,rom"
+PAR,Paraguay,America,"es-PY,gn"
+PNG,Papua New Guinea,Oceania,"en-PG,ho,meu,tpi"
+SIN,Singapore,Asia,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
+LIE,Liechtenstein,Europe,de-LI
+GRN,Grenada,Europe,en-GD
+BAH,Bahamas,America,en-BS
+CUB,Cuba,America,es-CU
+TRI,Trinidad and Tobago,America,"en-TT,hns,fr,es,zh"
+OMA,Oman,Africa,"ar-OM,en,bal,ur"
+MLT,Malta,Europe,"mt,en-MT"
+MKD,Macedonia,Europe,"mk,sq,tr,rmm,sr"
+KGZ,Kyrgyzstan,Asia,"ky,uz,ru"
+MAS,Malaysia,Asia,"ms-MY,en,zh,ta,te,ml,pa,th"
+BDI,Burundi,Africa,"fr-BI,rn"
+MRI,Mauritius,Africa,"en-MU,bho,fr"
+PUR,Puerto Rico,America,"en-PR,es-PR"
+SAM,Samoa,Oceania,"sm,en-WS"
+KEN,Kenya,Africa,"en-KE,sw-KE"
+ARM,Armenia,Asia,hy
+NAM,Namibia,Africa,"en-NA,af,de,hz,naq"
+REU,Reunion,Africa,fr-RE
+UNK,Kosovo,Europe,"sq,sr"
+MON,Monaco,Europe,"fr-MC,en,it"
+HAI,Haiti,America,"ht,fr-HT"
+VIE,Vietnam,Europe,"vi,en,fr,zh,km"
+HON,Honduras,America,es-HN
+PAN,Panama,America,"es-PA,en"
+CRC,Costa Rica,America,"es-CR,en"
+SGP,Singapore,Asia,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
+TJK,Tajikistan,Asia,"tg,ru"
+POC,Unknown,Unknown,
+IRI,Iran,Asia,"fa-IR,ku"
+PHL,Philippines,Asia,"tl,en-PH,fil"
+MGL,Mongolia,Asia,"mn,ru"
+GUM,Guam,Oceania,"en-GU,ch-GU"
+GAB,Gabon,Africa,fr-GA
+NGR,Nigeria,Africa,"en-NG,ha,yo,ig,ff"
+GUD,Guadeloupe,America,fr-GP
+CAM,Cambodia,Asia,"km,fr,en"
+CMR,Cameroon,Africa,"en-CM,fr-CM"
+KUW,Kuwait,Asia,"ar-KW,en"
+MAD,Madagascar,Africa,"fr-MG,mg"
+AND,Andorra,Europe,ca
+DEU,Germany,Europe,de
+NLD,Netherlands,Europe,"nl-NL,fy-NL"
+NGA,Nigeria,Africa,"en-NG,ha,yo,ig,ff"
+GRC,Greece,Europe,"el-GR,en,fr"
