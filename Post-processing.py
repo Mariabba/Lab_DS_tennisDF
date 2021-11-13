@@ -33,20 +33,29 @@ print(missing_values_table(df_data))
 df_geo = pd.read_csv("data/countries.csv")
 print(df_geo.info())
 
-
+msn.matrix(df_geo)
+plt.show()
 print(missing_values_table(df_geo),"\n")
 
 null_data = df_geo[df_geo.isnull().any(axis=1)]
 print("Righe di geo con missing value \n ", null_data,"\n")
 
-#Sistempo Poc
-df_geo['country_name'] = df_geo['country_name'].replace(['Unknown'],['Pacific Oceania'])
-df_geo['continent'] = df_geo['continent'].replace(['Unknown'],['Oceania'])
-df_geo['language'] = df_geo['language'].replace(['NaN '],['En'])
+#Riscrivo la riga Poc
+df_geo = df_geo.drop([107])
+POC_row = {'country_code' : 'POC','country_name':'Pacific Oceania','continent':'Oceania', 'language' : 'En'}
+df_geo = df_geo.append(POC_row,ignore_index=True)
+
+#controllo che sia tutto okay
+null_data_1 = df_geo[df_geo.isnull().any(axis=1)]
+print("Righe di geo con missing value \n ", null_data_1,"\n")
 
 #Converto il tipo delle  colonne in stringhe
 df_geo = df_geo.convert_dtypes()
 print(df_geo.info())
+
+#risalvo il dataframe
+df_geo.to_csv("data/countries.csv",index=False)
+
 
 
 

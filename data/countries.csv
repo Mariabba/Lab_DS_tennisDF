@@ -106,8 +106,6 @@ PAN,Panama,America,"es-PA,en"
 CRC,Costa Rica,America,"es-CR,en"
 SGP,Singapore,Asia,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
 TJK,Tajikistan,Asia,"tg,ru"
-POC,Unknown,Unknown,
-IRI,Iran,Asia,"fa-IR,ku"
 PHL,Philippines,Asia,"tl,en-PH,fil"
 MGL,Mongolia,Asia,"mn,ru"
 GUM,Guam,Oceania,"en-GU,ch-GU"
@@ -123,3 +121,5 @@ DEU,Germany,Europe,de
 NLD,Netherlands,Europe,"nl-NL,fy-NL"
 NGA,Nigeria,Africa,"en-NG,ha,yo,ig,ff"
 GRC,Greece,Europe,"el-GR,en,fr"
+POC,Pacific Oceania,Oceania,En
+POC,Pacific Oceania,Oceania,En
