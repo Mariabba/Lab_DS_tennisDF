@@ -58,5 +58,37 @@ df_geo.to_csv("data/countries.csv",index=False)
 
 
 
+#Analisi Tournaments.csv
+df_trn = pd.read_csv("data/tournaments.csv")
+print(df_trn.info())
+print(missing_values_table(df_trn),"\n")
+
+
+
+#Converto il tipo delle  colonne in stringhe
+df_trn = df_trn.convert_dtypes()
+print(df_trn.info())
+
+#Fill surface
+null_data = df_trn[df_trn.isnull().any(axis=1)]
+print("Righe di geo con missing value \n ", null_data,"\n")
+
+print(df_trn.loc[[2089]])
+
+#abbiamo osservato che in tornei con nomi simili che dovrebbero essere lo stesso,
+# i materiali del surface sono diversi fra loro, quindi non possiamo concludee che le righe che sembrano essere lo
+# stesso torneo siano lo stesso materiale di surface, Quindi facciamo la mediana
+
+serie = df_trn['surface']
+print(serie.mode())
+df_trn['surface'] = df_trn['surface'].fillna(value ='Hard')
+
+print(missing_values_table(df_trn),"\n")
+
+#risalvo il dataframe
+df_trn.to_csv("data/tournaments.csv",index=False)
+
+
+
 
 
