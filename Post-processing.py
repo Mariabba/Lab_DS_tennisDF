@@ -39,15 +39,15 @@ print(missing_values_table(df_geo),"\n")
 null_data = df_geo[df_geo.isnull().any(axis=1)]
 print("Righe di geo con missing value \n ", null_data,"\n")
 
+#Sistempo Poc
+df_geo['country_name'] = df_geo['country_name'].replace(['Unknown'],['Pacific Oceania'])
+df_geo['continent'] = df_geo['continent'].replace(['Unknown'],['Oceania'])
+df_geo['language'] = df_geo['language'].replace(['NaN '],['En'])
 
 #Converto il tipo delle  colonne in stringhe
 df_geo = df_geo.convert_dtypes()
 print(df_geo.info())
 
-#Converto Poc in Pacific Ocean e ci assegno la lingua
-df_geo['country_name'] = df_geo['country_name'].replace(['nan'],['Pacific Oceania'])
-df_geo['continent'] = df_geo['continent'].replace(['Unknown'],['Oceania'])
-df_geo['language'] = df_geo['language'].replace(['NaN '],['En'])
 
-#verifico che è tutto corretto
-print(missing_values_table(df_geo),"\n")
+
+

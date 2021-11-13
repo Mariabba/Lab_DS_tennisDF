@@ -1,125 +1,125 @@
-,country_code,country_name,continent
-0,JPN,Japan,Asia
-1,RUS,Russia,Europe
-2,FRA,France,Europe
-3,AUS,Australia,Oceania
-4,CAN,Canada,America
-5,BUL,Bulgaria,Europe
-6,GBR,United Kingdom,Europe
-7,SRB,Serbia,Europe
-8,USA,United States,America
-9,ESP,Spain,Europe
-10,CZE,Czech Republic,Europe
-11,ITA,Italy,Europe
-12,GEO,Georgia,Europe
-13,SUI,Switzerland,Europe
-14,HUN,Hungary,Europe
-15,CHI,Chile,America
-16,LTU,Lithuania,Europe
-17,ARG,Argentina,America
-18,GER,Germany,Europe
-19,RSA,South Africa,Africa
-20,CRO,Croatia,Europe
-21,BEL,Belgium,Europe
-22,TUN,Tunisia,Africa
-23,LAT,Latvia,Europe
-24,BLR,Belarus,Europe
-25,IND,India,Asia
-26,POR,Portugal,Europe
-27,NZL,New Zealand,Oceania
-28,GRE,Greece,Europe
-29,SVK,Slovakia,Europe
-30,AUT,Austria,Europe
-31,KOR,South Korea,Asia
-32,ROU,Romania,Europe
-33,MDA,Moldova,Europe
-34,URU,Uruguay,America
-35,NED,Netherlands,Europe
-36,SLO,Slovenia,Europe
-37,CYP,Cyprus,Europe
-38,KAZ,Kazakhstan,Asia
-39,TPE,Taiwan,Asia
-40,UZB,Uzbekistan,Asia
-41,BIH,Bosnia and Herzegovina,Europe
-42,UKR,Ukraine,Europe
-43,POL,Poland,Europe
-44,NOR,Norway,Europe
-45,BOL,Bolivia,America
-46,BRA,Brazil,America
-47,COL,Colombia,America
-48,SWE,Sweden,Europe
-49,TUR,Turkey,Europe
-50,CHN,China,Asia
-51,BAR,Barbados,America
-52,DOM,Dominican Republic,America
-53,ECU,Ecuador,America
-54,FIN,Finland,Europe
-55,GUA,Guatemala,America
-56,MEX,Mexico,America
-57,PER,Peru,America
-58,ESA,El Salvador,America
-59,INA,Indonesia,Asia
-60,THA,Thailand,Asia
-61,PHI,Philippines,Asia
-62,DEN,Denmark,Europe
-63,EGY,Egypt,Africa
-64,ALG,Algeria,Africa
-65,ZIM,Zimbabwe,Africa
-66,LUX,Luxembourg,Europe
-67,PAK,Pakistan,Asia
-68,ISR,Israel,Asia
-69,EST,Estonia,Europe
-70,MAR,Morocco,Africa
-71,HKG,Hong Kong,Asia
-72,IRL,Ireland,Europe
-73,LIB,Libya,Africa
-74,SRI,Sri Lanka,Asia
-75,VEN,Venezuela,America
-76,MNE,Montenegro,Europe
-77,PAR,Paraguay,America
-78,PNG,Papua New Guinea,Oceania
-79,SIN,Singapore,Asia
-80,LIE,Liechtenstein,Europe
-81,GRN,Grenada,Europe
-82,BAH,Bahamas,America
-83,CUB,Cuba,America
-84,TRI,Trinidad and Tobago,America
-85,OMA,Oman,Africa
-86,MLT,Malta,Europe
-87,MKD,Macedonia,Europe
-88,KGZ,Kyrgyzstan,Asia
-89,MAS,Malaysia,Asia
-90,BDI,Burundi,Africa
-91,MRI,Mauritius,Africa
-92,PUR,Puerto Rico,America
-93,SAM,Samoa,Oceania
-94,KEN,Kenya,Africa
-95,ARM,Armenia,Asia
-96,NAM,Namibia,Africa
-97,REU,Reunion,Africa
-98,UNK,Kosovo,Europe
-99,MON,Monaco,Europe
-100,HAI,Haiti,America
-101,VIE,Vietnam,Europe
-102,HON,Honduras,America
-103,PAN,Panama,America
-104,CRC,Costa Rica,America
-105,SGP,Singapore,Asia
-106,TJK,Tajikistan,Asia
-107,POC,nan,Unknown
-108,IRI,Iran,Asia
-109,PHL,Philippines,Asia
-110,MGL,Mongolia,Asia
-111,GUM,Guam,Oceania
-112,GAB,Gabon,Africa
-113,NGR,Nigeria,Africa
-114,GUD,Guadeloupe,America
-115,CAM,Cambodia,Asia
-116,CMR,Cameroon,Africa
-117,KUW,Kuwait,Asia
-118,MAD,Madagascar,Africa
-119,AND,Andorra,Europe
-120,DEU,Germany,Europe
-121,NLD,Netherlands,Europe
-122,NGA,Nigeria,Africa
-123,GRC,Greece,Europe
+country_code,country_name,continent
+JPN,Japan,Asia
+RUS,Russia,Europe
+FRA,France,Europe
+AUS,Australia,Oceania
+CAN,Canada,America
+BUL,Bulgaria,Europe
+GBR,United Kingdom,Europe
+SRB,Serbia,Europe
+USA,United States,America
+ESP,Spain,Europe
+CZE,Czech Republic,Europe
+ITA,Italy,Europe
+GEO,Georgia,Europe
+SUI,Switzerland,Europe
+HUN,Hungary,Europe
+CHI,Chile,America
+LTU,Lithuania,Europe
+ARG,Argentina,America
+GER,Germany,Europe
+RSA,South Africa,Africa
+CRO,Croatia,Europe
+BEL,Belgium,Europe
+TUN,Tunisia,Africa
+LAT,Latvia,Europe
+BLR,Belarus,Europe
+IND,India,Asia
+POR,Portugal,Europe
+NZL,New Zealand,Oceania
+GRE,Greece,Europe
+SVK,Slovakia,Europe
+AUT,Austria,Europe
+KOR,South Korea,Asia
+ROU,Romania,Europe
+MDA,Moldova,Europe
+URU,Uruguay,America
+NED,Netherlands,Europe
+SLO,Slovenia,Europe
+CYP,Cyprus,Europe
+KAZ,Kazakhstan,Asia
+TPE,Taiwan,Asia
+UZB,Uzbekistan,Asia
+BIH,Bosnia and Herzegovina,Europe
+UKR,Ukraine,Europe
+POL,Poland,Europe
+NOR,Norway,Europe
+BOL,Bolivia,America
+BRA,Brazil,America
+COL,Colombia,America
+SWE,Sweden,Europe
+TUR,Turkey,Europe
+CHN,China,Asia
+BAR,Barbados,America
+DOM,Dominican Republic,America
+ECU,Ecuador,America
+FIN,Finland,Europe
+GUA,Guatemala,America
+MEX,Mexico,America
+PER,Peru,America
+ESA,El Salvador,America
+INA,Indonesia,Asia
+THA,Thailand,Asia
+PHI,Philippines,Asia
+DEN,Denmark,Europe
+EGY,Egypt,Africa
+ALG,Algeria,Africa
+ZIM,Zimbabwe,Africa
+LUX,Luxembourg,Europe
+PAK,Pakistan,Asia
+ISR,Israel,Asia
+EST,Estonia,Europe
+MAR,Morocco,Africa
+HKG,Hong Kong,Asia
+IRL,Ireland,Europe
+LIB,Libya,Africa
+SRI,Sri Lanka,Asia
+VEN,Venezuela,America
+MNE,Montenegro,Europe
+PAR,Paraguay,America
+PNG,Papua New Guinea,Oceania
+SIN,Singapore,Asia
+LIE,Liechtenstein,Europe
+GRN,Grenada,Europe
+BAH,Bahamas,America
+CUB,Cuba,America
+TRI,Trinidad and Tobago,America
+OMA,Oman,Africa
+MLT,Malta,Europe
+MKD,Macedonia,Europe
+KGZ,Kyrgyzstan,Asia
+MAS,Malaysia,Asia
+BDI,Burundi,Africa
+MRI,Mauritius,Africa
+PUR,Puerto Rico,America
+SAM,Samoa,Oceania
+KEN,Kenya,Africa
+ARM,Armenia,Asia
+NAM,Namibia,Africa
+REU,Reunion,Africa
+UNK,Kosovo,Europe
+MON,Monaco,Europe
+HAI,Haiti,America
+VIE,Vietnam,Europe
+HON,Honduras,America
+PAN,Panama,America
+CRC,Costa Rica,America
+SGP,Singapore,Asia
+TJK,Tajikistan,Asia
+POC,Unknown,Unknown
+IRI,Iran,Asia
+PHL,Philippines,Asia
+MGL,Mongolia,Asia
+GUM,Guam,Oceania
+GAB,Gabon,Africa
+NGR,Nigeria,Africa
+GUD,Guadeloupe,America
+CAM,Cambodia,Asia
+CMR,Cameroon,Africa
+KUW,Kuwait,Asia
+MAD,Madagascar,Africa
+AND,Andorra,Europe
+DEU,Germany,Europe
+NLD,Netherlands,Europe
+NGA,Nigeria,Africa
+GRC,Greece,Europe
