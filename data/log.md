@@ -1,4 +1,5 @@
+- `data/tournaments.csv` has ['tourney_id', 'tourney_name', 'surface', 'draw_size', 'tourney_level', 'date_id', 'tourney_spectators', 'tourney_revenue'].
 - `data/work/players_with_g.csv` is with `gender`.
 - `data/players.csv` is with `yob` (year of birth) and without `age`.
 - `data/countries.csv` is with `language` (language **codes**) based on `country_name`.
-- `data/dates.csv` has ['date_id', 'day', 'month', 'quarter', 'year']. 'date_id' == 'tourney_date' in Tournaments.
+- `data/dates.csv` has ['date_id', 'day', 'month', 'quarter', 'year'].
