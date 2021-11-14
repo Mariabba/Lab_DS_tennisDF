@@ -29,4 +29,14 @@ print("Righe di players con missing value \n ", null_player,"\n")
 #elimino ht
 print("Elimino ht")
 df_pla = df_pla.drop(['ht'], axis = 1)
+
+
+#Converto il tipo delle  colonne in stringhe
+df_pla = df_pla.convert_dtypes()
 print(df_pla.info())
+
+#Tratto gender
+
+#Trattp hand
+
+#Tratto yob

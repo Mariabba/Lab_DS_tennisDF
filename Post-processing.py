@@ -63,8 +63,6 @@ df_trn = pd.read_csv("data/tournaments.csv")
 print(df_trn.info())
 print(missing_values_table(df_trn),"\n")
 
-
-
 #Converto il tipo delle  colonne in stringhe
 df_trn = df_trn.convert_dtypes()
 print(df_trn.info())
