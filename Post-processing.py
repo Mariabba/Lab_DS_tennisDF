@@ -13,13 +13,13 @@ def missing_values_table(df):
     mis_val_table_ren_columns = mis_val_table_ren_columns[
         mis_val_table_ren_columns.iloc[:, 1] != 0].sort_values(
         '% of Total Values', ascending=False).round(1)
-    print("Il Dataframe ha " + str(df.shape[1]) + " colonne.\n"
-                                                  "Ci sono " + str(mis_val_table_ren_columns.shape[0]) +
-          " colonne che hanno missing value.")
+    print(" Dataframe has " + str(df.shape[1]) + " columns.\n"
+                                                  "There are " + str(mis_val_table_ren_columns.shape[0]) +
+          " columns with missing value.")
     return mis_val_table_ren_columns
 
 
-# Analisi Data.csv
+""" Analisi Data.csv """
 df_data = pd.read_csv("data/dates.csv")
 print(df_data.info())
 print(df_data.head())
@@ -29,7 +29,7 @@ plt.show()
 print(missing_values_table(df_data))
 
 
-#Analisi Geo.csv
+"""Analisi Geo.csv"""
 df_geo = pd.read_csv("data/countries.csv")
 print(df_geo.info())
 
@@ -58,7 +58,7 @@ df_geo.to_csv("data/countries.csv",index=False)
 
 
 
-#Analisi Tournaments.csv
+"""Analisi Tournaments.csv"""
 df_trn = pd.read_csv("data/tournaments.csv")
 print(df_trn.info())
 print(missing_values_table(df_trn),"\n")

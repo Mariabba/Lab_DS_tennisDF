@@ -34,6 +34,7 @@ df_pla = df_pla.drop(['ht'], axis = 1)
 #Converto il tipo delle  colonne in stringhe
 df_pla = df_pla.convert_dtypes()
 print(df_pla.info())
+print(missing_values_table(df_pla),"\n")
 
 #Tratto gender
 
