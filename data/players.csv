@@ -31,7 +31,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20181231,201540,Kristina Mladenovic,R,184,FRA,F,1993-05-20
 20181231,211279,Harriet Dart,R,,GBR,F,1996-08-03
 20181231,211880,Priscilla Hon,R,,AUS,F,1998-05-15
-20181231,201545,Anastasija Sevastova,R,,LAT,F,1990-04-20
+20181231,201545,Anastasija Sevastova,R,169,LAT,F,1990-04-20
 20181231,201611,Daria Gavrilova,R,166,AUS,F,1994-03-11
 20181231,201520,Petra Kvitova,L,183,CZE,F,1990-03-15
 20181231,203389,Danielle Rose Collins,R,178,USA,F,1993-12-19
@@ -45,13 +45,13 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20181231,201709,Yulia Putintseva,R,163,KAZ,F,1995-01-13
 20181231,213631,Marie Bouzkova,R,180,CZE,F,1998-07-26
 20181231,201325,Samantha Stosur,R,172,AUS,F,1984-04-08
-20181231,201548,Ajla Tomljanovic,R,,AUS,F,1993-05-13
+20181231,201548,Ajla Tomljanovic,R,180,AUS,F,1993-05-13
 20181231,211701,Katerina Siniakova,R,174,CZE,F,1996-05-16
 20181231,202427,Johanna Konta,R,180,GBR,F,1991-05-24
 20181231,201585,Sloane Stephens,R,170,USA,F,1993-03-26
 20181231,202428,Kiki Bertens,R,182,NED,F,1991-12-17
 20181231,210722,Elise Mertens,R,179,BEL,F,1995-11-23
-20181231,202499,Donna Vekic,R,,CRO,F,1996-07-04
+20181231,202499,Donna Vekic,R,179,CRO,F,1996-07-04
 20181231,201517,Magdalena Rybarikova,R,180,SVK,F,1988-10-12
 20181231,205925,Aliaksandra Sasnovich,R,,BLR,F,1994-03-28
 20181231,215713,Anastasia Potapova,R,,RUS,F,2001-04-03
@@ -68,10 +68,10 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20181231,134329,Blake Ellis,U,,AUS,M,1999-01-11
 20181231,111153,Christopher Eubanks,R,,USA,M,1996-05-11
 20181231,105614,Bradley Klahn,L,190,USA,M,1990-08-27
-20181231,216146,Marta Kostyuk,R,,UKR,F,2002-07-02
+20181231,216146,Marta Kostyuk,R,175,UKR,F,2002-07-02
 20181231,201586,Heather Watson,R,170,GBR,F,1992-05-26
 20181231,202424,Conny Perrin,R,,SUI,F,1991-01-01
-20181231,203530,Viktorija Golubic,R,,SUI,F,1992-10-23
+20181231,203530,Viktorija Golubic,R,169,SUI,F,1992-10-23
 20181231,206362,Naiktha Bains,R,,AUS,F,1997-12-22
 20181231,211684,Magdalena Frech,R,,POL,F,1997-12-20
 20181231,211095,Bernarda Pera,L,,USA,F,1994-12-09
@@ -276,7 +276,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,201483,Madison Brengle,R,,USA,F,1990-04-10
 20190114,201595,Misaki Doi,L,159,JPN,F,1991-05-06
 20190114,202663,Magda Linette,R,171,POL,F,1992-02-19
-20190114,201696,Laura Siegemund,R,,GER,F,1988-03-12
+20190114,201696,Laura Siegemund,R,168,GER,F,1988-03-12
 20190114,201458,Victoria Azarenka,R,180,BLR,F,1989-08-07
 20190114,202492,Qiang Wang,R,172,CHN,F,1992-01-21
 20190114,211539,Fiona Ferro,R,170,FRA,F,1997-03-17
@@ -294,7 +294,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,214149,Viktoria Kuzmova,R,,SVK,F,1998-05-16
 20190114,201593,Irina Camelia Begu,R,181,ROU,F,1990-09-02
 20190114,202505,Belinda Bencic,R,175,SUI,F,1997-03-15
-20190114,216153,Amanda Anisimova,R,,USA,F,2001-09-04
+20190114,216153,Amanda Anisimova,R,180,USA,F,2001-09-04
 20190114,201512,Monica Niculescu,R,168,ROU,F,1987-10-03
 20190114,211107,Katie Boulter,R,180,GBR,F,1996-08-07
 20190114,201505,Ekaterina Makarova,L,178,RUS,F,1988-06-15
@@ -305,7 +305,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,206292,Astra Sharma,R,,AUS,F,1995-09-17
 20190114,206289,Maria Sakkari,R,172,GRE,F,1995-07-31
 20190114,201345,Maria Sharapova,R,,RUS,F,1987-04-27
-20190114,202490,Rebecca Peterson,R,,SWE,F,1995-08-12
+20190114,202490,Rebecca Peterson,R,173,SWE,F,1995-08-12
 20190114,201514,Sorana Cirstea,R,176,ROU,F,1990-04-14
 20190114,201596,Johanna Larsson,R,174,SWE,F,1988-08-25
 20190114,214304,Vera Lapko,R,,BLR,F,1998-10-04
@@ -436,7 +436,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,211843,Anhelina Kalinina,R,,UKR,F,1997-02-12
 20190114,203325,Martina Di Giuseppe,U,,ITA,F,1991-02-17
 20190114,211222,Jamie Loeb,R,,USA,F,1995-03-14
-20190114,214643,Ludmilla Samsonova,R,,RUS,F,1998-11-16
+20190114,214643,Ludmilla Samsonova,R,180,RUS,F,1998-11-16
 20190114,215832,Gabriella Da Silva Fick,R,,AUS,F,2000-08-28
 20190114,201613,Arina Rodionova,R,,RUS,F,1989-12-22
 20190114,211901,Aliona Bolsova,R,,MDA,F,1997-11-11
@@ -472,7 +472,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,203564,Chloe Paquet,R,,FRA,F,1994-07-07
 20190114,214981,Elena Rybakina,R,184,KAZ,F,1999-06-22
 20190114,202579,Giulia Gatto Monticone,R,,ITA,F,1987-11-26
-20190114,203354,Martina Trevisan,L,,ITA,F,1993-11-09
+20190114,203354,Martina Trevisan,L,160,ITA,F,1993-11-09
 20190114,213941,Anastasia Zarytska,U,,UKR,F,1998-01-13
 20190114,201674,Sabina Sharipova,R,,UZB,F,1994-09-10
 20190114,213544,Jana Fett,R,,CRO,F,1996-11-08
@@ -490,7 +490,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,202916,Georgina Garcia Perez,U,,ESP,F,1992-05-20
 20190114,214541,Fanny Stollar,R,172,HUN,F,1998-11-17
 20190114,202508,Yuxuan Zhang,R,,CHN,F,1994-08-25
-20190114,203575,Danka Kovinic,R,,MNE,F,1994-11-24
+20190114,203575,Danka Kovinic,R,169,MNE,F,1994-11-24
 20190114,203578,Fangzhou Liu,R,,CHN,F,1995-12-18
 20190114,202457,Bibiane Schoofs,R,170,NED,F,1988-05-21
 20190114,215314,En Shuo Liang,U,,TPE,F,2000-10-07
@@ -498,7 +498,7 @@ tourney_date,player_id,name,hand,ht,country_id,gender,yob
 20190114,214694,Karman Thandi,U,,IND,F,1998-06-21
 20190114,202489,Carina Witthoeft,R,,GER,F,1995-02-22
 20190114,201616,Lauren Davis,R,157,USA,F,1993-10-15
-20190114,215219,Kaja Juvan,R,,SLO,F,2000-11-30
+20190114,215219,Kaja Juvan,R,170,SLO,F,2000-11-30
 20190204,106398,Pedro Cachin,R,,ARG,M,1995-04-18
 20190204,205734,Thiago Seyboth Wild,R,,BRA,M,2000-03-15
 20190204,106198,Hugo Dellien,R,,BOL,M,1993-06-22
