@@ -2,6 +2,7 @@ import pandas as pd
 import missingno as msn
 import matplotlib.pyplot as plt
 import seaborn as sns
+import gender_guesser.detector as gender
 
 
 def missing_values_table(df):
@@ -18,26 +19,39 @@ def missing_values_table(df):
           " colonne che hanno missing value.")
     return mis_val_table_ren_columns
 
+
 df_pla = pd.read_csv("data/players.csv")
 print(df_pla.info())
-print(missing_values_table(df_pla),"\n")
+print(missing_values_table(df_pla), "\n")
 
 null_player = df_pla[df_pla.isnull().any(axis=1)]
-print("Righe di players con missing value \n ", null_player,"\n")
+print("Righe di players con missing value \n ", null_player, "\n")
 
-
-#elimino ht
+# elimino ht
 print("Elimino ht")
-df_pla = df_pla.drop(['ht'], axis = 1)
+df_pla = df_pla.drop(['ht'], axis=1)
 
-
-#Converto il tipo delle  colonne in stringhe
+# Converto il tipo delle  colonne in stringhe
 df_pla = df_pla.convert_dtypes()
 print(df_pla.info())
+print(missing_values_table(df_pla), "\n")
+
+# Tratto gender
+print(df_pla[df_pla['gender'].isnull()])
+df_pla.at[
+    [2, 27, 62, 63, 102, 160, 189, 200, 201, 208, 244, 337, 344, 526, 550, 558, 791, 827, 838, 839, 854, 873, 897, 1034,
+     1036, 4499, 4693, 5905], 'gender'] = 'M'
+
+df_pla.at[[1897, 3180], 'gender'] = 'F'
+
+print(missing_values_table(df_pla), "\n")
+
+# Trattp hand : decidiamo di fare la moda e fill i 33 missing value
+as_ser= df_pla['hand']
+print("Mode of hand",as_ser.mode())
+
+df_pla['hand'] = df_pla['hand'].fillna(value ='U')
+
 print(missing_values_table(df_pla),"\n")
 
-#Tratto gender
-
-#Trattp hand
-
-#Tratto yob
+# Tratto yob

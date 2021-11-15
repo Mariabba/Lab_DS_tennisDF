@@ -26,7 +26,8 @@ print(df['country_name'].unique())
 
 df.to_csv("data/work/countries_corrected.csv", index=False)
 
-###Save
+"""
+###Saverio per correggere altezza
 df_tennis = pd.read_csv("data/inputs/tennis.csv", low_memory=False)
 
 cols_winner = ["winner_hand", "winner_ht"]
@@ -34,3 +35,4 @@ cols_winner = ["winner_hand", "winner_ht"]
 df_tennis.loc[:, cols_winner, ] = df_tennis.groupby('winner_id')[cols_winner].bfill()
 
 df_tennis.to_csv("data/work/tennis_adj.csv", index=False)
+"""
