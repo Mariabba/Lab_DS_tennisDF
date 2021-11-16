@@ -36,3 +36,28 @@ df_tennis.loc[:, cols_winner, ] = df_tennis.groupby('winner_id')[cols_winner].bf
 
 df_tennis.to_csv("data/work/tennis_adj.csv", index=False)
 """
+
+
+
+
+# aggiusto in tennis i loser rank e winner rank (con save)
+df_tennis = pd.read_csv("data/inputs/tennis.csv")
+print(df_tennis.info())
+
+cols_rank_winner = ["winner_rank", "winner_rank_points"]
+cols_rank_loser = ["loser_rank", "loser_rank_points"]
+
+
+df_tennis.loc[:, cols_rank_winner] = df_tennis.sort_values(by="tourney_date").groupby('winner_id')[
+    cols_rank_winner].bfill()
+df_tennis.loc[:, cols_rank_winner] = df_tennis.sort_values(by="tourney_date").groupby('winner_id')[
+    cols_rank_winner].ffill()
+df_tennis.loc[:, cols_rank_loser] = df_tennis.sort_values(by="tourney_date").groupby('loser_id')[
+    cols_rank_loser].bfill()
+df_tennis.loc[:, cols_rank_loser] = df_tennis.sort_values(by="tourney_date").groupby('loser_id')[
+    cols_rank_loser].ffill()
+
+print(df_tennis[["tourney_level", "winner_rank", "winner_rank_points"]].groupby("tourney_level").agg(
+    {'winner_rank': ['mean', 'size'], 'winner_rank_points': ['mean', 'size']}).sort_values(by=("winner_rank", "mean")))
+
+df_tennis["winner_rank"] = df_tennis[["winner_rank", "tourney_level"]].fillna(value=mean_rank_level["winner_rank", "mean"])["winner_rank"]

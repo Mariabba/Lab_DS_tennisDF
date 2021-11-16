@@ -131,11 +131,12 @@ print(missing_values_table(df_pla),"\n")
 # Tratto yob
 print(df_pla[df_pla['yob'].isnull()])
 
-df_pla= df_pla.fillna(value = 'NaN')
+df_pla= df_pla.fillna(value = 'Unknown')
 
 print(missing_values_table(df_pla), "\n")
 
 #risalvo il dataframe
+print(df_pla.info())
 df_pla.to_csv("data/players.csv",index=False)
 
 
