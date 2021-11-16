@@ -22,7 +22,7 @@ def extract_header(mainfile: Path, table: str) -> list:
     if table == "player_loser":
         return [header[14]] + header[16:21] + [header[5]]
     if table == "match":
-        return ["match_id"] + [header[0]] + header[6:8] + [header[14]] + header[21:47]
+        return ["match_id"] + [header[0]] + header[5:8] + [header[14]] + header[21:47]
 
 
 def extract_table(
