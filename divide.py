@@ -58,7 +58,8 @@ def extract_table(
                         # add only the columns that are required in table
                         if row_key in header:
                             # start of value-wise transformations
-                            pass
+                            if value and (row_key[:2] == "w_" or row_key[:2] == "l_"):
+                                value = int(float(value))
                             to_app = f"{to_app},{value}"
                     # row-wise transformations start here
                     pass
