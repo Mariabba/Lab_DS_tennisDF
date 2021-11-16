@@ -87,6 +87,58 @@ print(missing_values_table(df_trn),"\n")
 df_trn.to_csv("data/tournaments.csv",index=False)
 
 
+"""Analisi players.csv"""
 
+df_pla = pd.read_csv("data/players.csv")
+print(df_pla.info())
+print(missing_values_table(df_pla), "\n")
+
+null_player = df_pla[df_pla.isnull().any(axis=1)]
+print("Righe di players con missing value \n ", null_player, "\n")
+
+# elimino ht
+print("Elimino ht")
+df_pla = df_pla.drop(['ht'], axis=1)
+
+# Converto il tipo delle  colonne in stringhe
+df_pla = df_pla.convert_dtypes()
+print(df_pla.info())
+print(missing_values_table(df_pla), "\n")
+
+# Tratto gender
+#questa prima linea stampa le rows senza gender
+
+#print(df_pla[df_pla['gender'].isnull()])
+
+#identifico quali sono i nomi e ci assegno M o F
+
+df_pla.at[
+    [2, 27, 62, 63, 102, 160, 189, 200, 201, 208, 244, 337, 344, 526, 550, 558, 791, 827, 838, 839, 854, 873, 897, 1034,
+     1036, 4499, 4693, 5905], 'gender'] = 'M'
+
+df_pla.at[[1897, 3180], 'gender'] = 'F'
+
+print(missing_values_table(df_pla), "\n")
+
+# Trattp hand : decidiamo di fare la moda e fill i 33 missing value
+as_ser= df_pla['hand']
+print("Mode of hand",as_ser.mode())
+
+df_pla['hand'] = df_pla['hand'].fillna(value ='U')
+
+print(missing_values_table(df_pla),"\n")
+
+# Tratto yob
+print(df_pla[df_pla['yob'].isnull()])
+
+df_pla= df_pla.fillna(value = 'NaN')
+
+print(missing_values_table(df_pla), "\n")
+
+#risalvo il dataframe
+df_pla.to_csv("data/players.csv",index=False)
+
+
+"""Analisi matches.csv"""
 
 
