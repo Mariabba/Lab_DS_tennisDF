@@ -59,5 +59,3 @@ df_mtc['score'] = df_mtc['score'].convert_dtypes()
 df_mtc['round'] = df_mtc['round'].convert_dtypes()
 print(df_mtc.info())
 
-#Aggiusto winner rank, loser rank ecc - guarda in pre procssing
-print(missing_values_table(df_mtc), "\n")

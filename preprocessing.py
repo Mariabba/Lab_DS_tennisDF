@@ -61,4 +61,4 @@ df_tennis.loc[:, "loser_rank_points"] = df_tennis.groupby(['tourney_level'])['lo
 
 print(missing_values_table(df_tennis), "\n")
 
-df.to_csv("data/work/tennis_corrected.csv", index=False)
+df_tennis.to_csv("data/work/tennis_corrected.csv", index=False)
