@@ -135,6 +135,13 @@ df_pla= df_pla.fillna(value = 'Unknown')
 
 print(missing_values_table(df_pla), "\n")
 
+# Analisi del name
+# sto analizzando se ci sono nomi che iniziano con formalismi
+
+str = 'Mr', 'Miss', 'Ms', 'master', 'mr', 'ms', 'miss'
+results = df_pla['name'].str.startswith(str)
+print("Ci sono nomi che inizano con formalismi? :", results.unique())
+
 #risalvo il dataframe
 print(df_pla.info())
 df_pla.to_csv("data/players.csv",index=False)
