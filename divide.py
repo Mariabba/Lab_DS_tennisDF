@@ -73,7 +73,7 @@ def extract_table(
 
 
 # let's create the tables schemas
-mainfile = Path("data/work/tennis_adj.csv")
+mainfile = Path("data/work/tennis_corrected.csv")
 len_mainfile = 186073
 paths = {}
 paths["tournament"] = Path("data/tournaments.csv")
