@@ -18,6 +18,7 @@ def missing_values_table(df):
           " colonne che hanno missing value.")
     return mis_val_table_ren_columns
 
+
 """ Analisi Data.csv """
 df_data = pd.read_csv("data/dates.csv")
 print(df_data.info())
@@ -42,6 +43,16 @@ print("Righe di geo con missing value \n ", null_data, "\n")
 df_geo = df_geo.drop([107])
 POC_row = {'country_code': 'POC', 'country_name': 'Pacific Oceania', 'continent': 'Oceania', 'language': 'En'}
 df_geo = df_geo.append(POC_row, ignore_index=True)
+
+#Rinomino il country code del kosovo che è sbagliato
+df_geo= df_geo.replace(to_replace ='UNK',value = 'RKS')
+
+#aggiungo la riga UNK per i codici errati che ci potrebbero essere in altre tabelle
+
+UNK_row = {'country_code': 'UNK', 'country_name': 'Unknown', 'continent': 'Unknown', 'language': 'Unknown'}
+df_geo = df_geo.append(UNK_row, ignore_index=True)
+
+print(df_geo[120:])
 
 # controllo che sia tutto okay
 null_data_1 = df_geo[df_geo.isnull().any(axis=1)]
@@ -81,7 +92,6 @@ print(missing_values_table(df_trn), "\n")
 
 # risalvo il csv
 df_trn.to_csv("data/tournaments.csv", index=False)
-
 
 """Analisi players.csv"""
 df_pla = pd.read_csv("data/players.csv")
@@ -136,15 +146,32 @@ str = 'Mr', 'Miss', 'Ms', 'master', 'mr', 'ms', 'miss'
 results = df_pla['name'].str.startswith(str)
 print("Ci sono nomi che inizano con formalismi? :", results.unique())
 
+# Tratto country_code  che non compaiono in countries.csv ma ci sono in players
+df_pla = df_pla.rename(columns={'country_id': 'country_code'}) #rinomino country_id in country_code
+df_treat = df_pla.merge(df_geo[['country_code', 'country_name']], on='country_code', how='left') #merge con country_code
+print(df_treat.head())
+
+ # ora so che ci sono 68 codici che non compaiono in countries
+null = df_treat[['country_name', 'country_code']][df_treat[['country_name', 'country_code']].isnull().any(axis=1)]
+print(null)
+
+print("colonne da riempire con UNK ", null['country_code'].unique())
+
+df_pla = df_pla.replace(to_replace=['QAT', 'TTO', 'LBN', 'AZE', 'BRN', 'JAM', 'GHA', 'JOR', 'MRN', 'SYR', 'UAE', 'AHO'
+    , 'BEN', 'ERI', 'ITF', 'COD', 'LBA', 'TKM', 'BER', 'SMR', 'ANT', 'TOG', 'VIN', 'BOT',
+                                    'ZAM', 'SAU', 'BGR', 'LVA', 'CRI', 'BAN'], value='UNK') #rimpiazzo con UNK
+
 # risalvo il csv
 print(df_pla.info())
 df_pla.to_csv("data/players.csv", index=False)
 
 """Analisi matches.csv"""
 
-df_mtc = pd.read_csv("data/matches.csv")
+df_mtc = pd.read_csv("data/matches.csv", low_memory = False)
 print(df_mtc.info())
-#print(missing_values_table(df_mtc), "\n")
+
+df_mtc = df_mtc.convert_dtypes()
+# print(missing_values_table(df_mtc), "\n")
 
 # Riempio score & minutes 681
 df_mtc['score'] = df_mtc['score'].fillna(value='Unknown')
@@ -173,7 +200,7 @@ df_mtc['w_ace'] = df_mtc['w_ace'].fillna(value=-1)
 df_mtc['w_bpSaved'] = df_mtc['w_bpSaved'].fillna(value=-1)
 df_mtc['w_SvGms'] = df_mtc['w_SvGms'].fillna(value=-1)
 
-#print(missing_values_table(df_mtc), "\n")
+# print(missing_values_table(df_mtc), "\n")
 
 
 # Converto il tipo delle  colonne in stringhe
@@ -184,5 +211,3 @@ print(df_mtc.info())
 
 # risalvo il dataframe
 df_mtc.to_csv("data/matches.csv", index=False)
-
-

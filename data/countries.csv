@@ -97,7 +97,7 @@ KEN,Kenya,Africa,"en-KE,sw-KE"
 ARM,Armenia,Asia,hy
 NAM,Namibia,Africa,"en-NA,af,de,hz,naq"
 REU,Reunion,Africa,fr-RE
-UNK,Kosovo,Europe,"sq,sr"
+RKS,Kosovo,Europe,"sq,sr"
 MON,Monaco,Europe,"fr-MC,en,it"
 HAI,Haiti,America,"ht,fr-HT"
 VIE,Vietnam,Europe,"vi,en,fr,zh,km"
@@ -123,3 +123,4 @@ NLD,Netherlands,Europe,"nl-NL,fy-NL"
 NGA,Nigeria,Africa,"en-NG,ha,yo,ig,ff"
 GRC,Greece,Europe,"el-GR,en,fr"
 POC,Pacific Oceania,Oceania,En
+UNK,Unknown,Unknown,Unknown

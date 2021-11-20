@@ -22,7 +22,7 @@ def extract_header(mainfile: Path, table: str) -> list:
     if table == "player_loser":
         return [header[14]] + header[16:21] + [header[5]]
     if table == "match":
-        return ["match_id"] + [header[0]] + header[5:8] + [header[14]] + header[21:47]
+        return ["match_id"] + [header[0]] + header[6:8] + [header[14]] + header[21:47]
 
 
 def extract_table(
@@ -229,7 +229,7 @@ def assign_yob(players: Path):
         )
     with open(players) as source:
         reader = csv.DictReader(source)
-        columns = [c for c in reader.fieldnames if c != "age"] + ["yob"]
+        columns = [c for c in reader.fieldnames if c not in ("age", "tourney_date")] + ["yob"]
         with open(target_file, mode="w") as target:
             writer = csv.DictWriter(target, fieldnames=columns)
             writer.writeheader()
@@ -246,6 +246,7 @@ def assign_yob(players: Path):
                         - datetime.timedelta(days=my_days)
                     )
                 del row["age"]
+                del row["tourney_date"]
                 writer.writerow(row)
     console.log(f"Wrote year of birth `yob` to {target_file} and deleted `age`.")
 

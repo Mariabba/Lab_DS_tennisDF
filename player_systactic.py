@@ -23,45 +23,35 @@ df_pla = pd.read_csv("data/players.csv")
 print(df_pla.info())
 print(missing_values_table(df_pla), "\n")
 
-null_player = df_pla[df_pla.isnull().any(axis=1)]
-print("Righe di players con missing value \n ", null_player, "\n")
-
-# elimino ht
-print("Elimino ht")
-df_pla = df_pla.drop(['ht'], axis=1)
-
-# Converto il tipo delle  colonne in stringhe
-df_pla = df_pla.convert_dtypes()
+df_pla = df_pla.rename(columns={'country_id': 'country_code'})
 print(df_pla.info())
-print(missing_values_table(df_pla), "\n")
 
-df_pla.at[
-    [2, 27, 62, 63, 102, 160, 189, 200, 201, 208, 244, 337, 344, 526, 550, 558, 791, 827, 838, 839, 854, 873, 897, 1034,
-     1036, 4499, 4693, 5905], 'gender'] = 'M'
+"""Analisi countries.csv"""
+df_geo = pd.read_csv("data/countries.csv")
+print(df_geo.info())
 
-df_pla.at[[1897, 3180], 'gender'] = 'F'
 
-print(missing_values_table(df_pla), "\n")
 
-# Trattp hand : decidiamo di fare la moda e fill i 33 missing value
-as_ser = df_pla['hand']
-print("Mode of hand", as_ser.mode())
 
-df_pla['hand'] = df_pla['hand'].fillna(value='U')
+# Tratto country_code  che non compaiono in countries.csv ma ci sono in players
+df_treat = df_pla.merge(df_geo[['country_code', 'country_name']], on='country_code', how='left')
+print(df_treat.head())
 
-print(missing_values_table(df_pla), "\n")
+print(missing_values_table(df_treat), "\n")
+null = df_treat[['country_name', 'country_code']][df_treat[['country_name', 'country_code']].isnull().any(axis=1)]
+print(null)
 
-# Tratto yob
-print(df_pla[df_pla['yob'].isnull()])
+print("colonne da riempire con UNK ", null['country_code'].unique())
 
-df_pla = df_pla.fillna(value='Unknown')
+df_pla = df_pla.replace(to_replace=['QAT', 'TTO', 'LBN', 'AZE', 'BRN', 'JAM', 'GHA', 'JOR', 'MRN', 'SYR', 'UAE', 'AHO'
+    , 'BEN', 'ERI', 'ITF', 'COD', 'LBA', 'TKM', 'BER', 'SMR', 'ANT', 'TOG', 'VIN', 'BOT',
+                                    'ZAM', 'SAU', 'BGR', 'LVA', 'CRI', 'BAN'], value='UNK')
 
-print(missing_values_table(df_pla), "\n")
 
-# Analisi del name
 
-# sto analizzando se ci sono nomi che iniziano con formalismi
+#aggiungo la riga UNK per i codici errati a countries
 
-str = 'Mr', 'Miss', 'Ms', 'master', 'mr', 'ms', 'miss'
-results = df_pla['name'].str.startswith(str)
-print("Ci sono nomi che inizano con formalismi? :", results.unique())
+UNK_row = {'country_code': 'UNK', 'country_name': 'Unknown', 'continent': 'Unknown', 'language': 'Unknown'}
+df_geo = df_geo.append(UNK_row, ignore_index=True)
+
+print(df_geo[120:])
