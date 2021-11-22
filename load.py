@@ -12,14 +12,14 @@ def open_conn():
     username = "Group_4"
     password = "6VEKJ00D"
     connectionString = (
-            "DRIVER={ODBC Driver 17 for SQL Server};SERVER="
-            + server
-            + ";DATABASE="
-            + database
-            + ";UID="
-            + username
-            + ";PWD="
-            + password
+        "DRIVER={ODBC Driver 17 for SQL Server};SERVER="
+        + server
+        + ";DATABASE="
+        + database
+        + ";UID="
+        + username
+        + ";PWD="
+        + password
     )
     cn = pyodbc.connect(connectionString)
     return cn, cn.cursor()
@@ -38,9 +38,39 @@ def get_header_types(name: str):
     elif name == "Player":
         return ["int", "str", "str", "str", "str", "str"]
     elif name == "Match":
-        return ["int", "str", "int", "int", "int", "str", "str", "str", "int", "int", "int", "int", "int", "int", "int",
-                "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "float", "float",
-                "float", "float"]
+        return [
+            "int",
+            "str",
+            "int",
+            "int",
+            "int",
+            "str",
+            "str",
+            "str",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "float",
+            "float",
+            "float",
+            "float",
+        ]
     elif name == "Tournament":
         return ["str", "str", "str", "int", "str", "int", "int", "float"]
     else:
@@ -81,6 +111,9 @@ def load_table(name: str, my_path: Path, csv_len: int):
             if commit_counter == 100:
                 cn.commit()
                 commit_counter = 0
+        # if there are "leftover" rows, commit them too.
+        if commit_counter > 0:
+            cn.commit()
     # 4. close connection
     close_conn(cn, cursor)
 
