@@ -51,13 +51,13 @@ df_tennis = pd.read_csv("data/inputs/tennis.csv")
 print(missing_values_table(df_tennis), "\n")
 
 df_tennis.loc[:, "winner_rank"] = df_tennis.groupby(['tourney_level'])['winner_rank'].transform(
-    lambda x: x.fillna(x.mean()))
+    lambda x: x.fillna(round(x.mean())))
 df_tennis.loc[:, "winner_rank_points"] = df_tennis.groupby(['tourney_level'])['winner_rank_points'].transform(
-    lambda x: x.fillna(x.mean()))
+    lambda x: x.fillna(round(x.mean())))
 df_tennis.loc[:, "loser_rank"] = df_tennis.groupby(['tourney_level'])['loser_rank'].transform(
-    lambda x: x.fillna(x.mean()))
+    lambda x: x.fillna(round(x.mean())))
 df_tennis.loc[:, "loser_rank_points"] = df_tennis.groupby(['tourney_level'])['loser_rank_points'].transform(
-    lambda x: x.fillna(x.mean()))
+    lambda x: x.fillna(round(x.mean())))
 
 print(missing_values_table(df_tennis), "\n")
 

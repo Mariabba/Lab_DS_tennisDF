@@ -162,6 +162,8 @@ df_pla = df_pla.replace(to_replace=['QAT', 'TTO', 'LBN', 'AZE', 'BRN', 'JAM', 'G
                                     'ZAM', 'SAU', 'BGR', 'LVA', 'CRI', 'BAN'], value='UNK') #rimpiazzo con UNK
 
 # risalvo il csv
+df_pla = df_pla.convert_dtypes()
+
 print(df_pla.info())
 df_pla.to_csv("data/players.csv", index=False)
 
