@@ -42,7 +42,8 @@ various tables from the .csv les, establishing schema relations as necessary.
 
 
 
-# Introduction Part 2 (SISS Part)
+# Introduction Part 2 
+##(SISS Part)
 In Part 2 of the project you are required to solve some problems on the database you
 created in Part 1. Solve the exercises using Sequel Server Integration Services (SSIS) with
 computation on client side (i.e., do not use any sql command in the nodes, only standard
@@ -63,7 +64,8 @@ For each year, the name of the tournament with more matches played.
 
 
 
-# Introduction Part 3 (SASS Part + MDX Queries + PowerBI dashboard)
+# Introduction Part 3 
+## (SASS Part + MDX Queries + PowerBI dashboard)
 
 In Part 3 of the project you are required to answer some business questions on a datacube
 that you will create on the database you prepared. Document how you build your datacube in
