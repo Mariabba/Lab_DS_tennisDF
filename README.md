@@ -43,7 +43,7 @@ various tables from the .csv les, establishing schema relations as necessary.
 
 
 # Introduction Part 2 
-##(SISS Part)
+## (SISS Part)
 In Part 2 of the project you are required to solve some problems on the database you
 created in Part 1. Solve the exercises using Sequel Server Integration Services (SSIS) with
 computation on client side (i.e., do not use any sql command in the nodes, only standard
